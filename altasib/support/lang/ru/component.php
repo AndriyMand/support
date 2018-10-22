@@ -1,15 +1,15 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgenió Pedan                    #
+#   Developer: EvgeniÑƒ Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
 #   Copyright (c) 2006-2016 ALTASIB             #
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_MODULE_NOT_INSTALL"] = "Ìîäóëü Òåõ. ïîääåðæêà íå óñòàíîâëåí";
-$MESS['ALTASIB_SUPPORT_CMP_TICKET_NOT_FOUND'] = 'Îáðàùåíèå íå íàéäåíî èëè äîñòóï ê íåìó çàïðåùåí';
-$MESS['ALTASIB_SUPPORT_CMP_CREATE_ERROR'] = 'Ó âàñ íåò ïðàâ íà ñîçäàíèå îáðàùåíèÿ';
-$MESS['ALTASIB_SUPPORT_PAGE_NAME'] = 'Òåõíè÷åñêàÿ ïîääåðæêà';
+$MESS["ALTASIB_SUPPORT_MODULE_NOT_INSTALL"] = "ÐœÐ¾Ð´ÑƒÐ»ÑŒ Ð¢ÐµÑ…. Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ° Ð½Ðµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½";
+$MESS['ALTASIB_SUPPORT_CMP_TICKET_NOT_FOUND'] = 'ÐžÐ±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ðµ Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ Ð¸Ð»Ð¸ Ð´Ð¾ÑÑ‚ÑƒÐ¿ Ðº Ð½ÐµÐ¼Ñƒ Ð·Ð°Ð¿Ñ€ÐµÑ‰ÐµÐ½';
+$MESS['ALTASIB_SUPPORT_CMP_CREATE_ERROR'] = 'Ð£ Ð²Ð°Ñ Ð½ÐµÑ‚ Ð¿Ñ€Ð°Ð² Ð½Ð° ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ðµ Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_PAGE_NAME'] = 'Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°';
 ?>

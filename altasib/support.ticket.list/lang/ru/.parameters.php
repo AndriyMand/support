@@ -1,14 +1,14 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgenió Pedan                    #
+#   Developer: EvgeniÑƒ Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
 #   Copyright (c) 2006-2010 ALTASIB             #
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_MODULE_NOT_INSTALL"] = "Ìîäóëü Òåõíè÷åñêàÿ ïîääåðæêà íå óñòàíîâëåí";
-$MESS["ALTASIB_SUPPORT_TL_P_SHOW_FILTER"] = "Îòîáðàæàòü ôèëüòð";
-$MESS["ALTASIB_SUPPORT_TL_P_NUM_TP"] = "Êîëè÷åñòâî îáðàùåíèé íà ñòðàíèöå";
+$MESS["ALTASIB_SUPPORT_MODULE_NOT_INSTALL"] = "ÐœÐ¾Ð´ÑƒÐ»ÑŒ Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ° Ð½Ðµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½";
+$MESS["ALTASIB_SUPPORT_TL_P_SHOW_FILTER"] = "ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°Ñ‚ÑŒ Ñ„Ð¸Ð»ÑŒÑ‚Ñ€";
+$MESS["ALTASIB_SUPPORT_TL_P_NUM_TP"] = "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ð¹ Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ";
 ?>

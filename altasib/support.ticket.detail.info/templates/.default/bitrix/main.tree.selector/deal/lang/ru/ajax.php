@@ -1,5 +1,5 @@
 <?
-$MESS['ALTASIB_DEAL_CHANGE'] = 'Âûáðàòü';
-//$MESS['ALTASIB_DEAL_CANCEL'] = 'Âûáðàòü';
-$MESS['ALTASIB_DEAL_WAIT'] = 'Çàãðóçêà'
+$MESS['ALTASIB_DEAL_CHANGE'] = 'Ð’Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ';
+//$MESS['ALTASIB_DEAL_CANCEL'] = 'Ð’Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ';
+$MESS['ALTASIB_DEAL_WAIT'] = 'Ð—Ð°Ð³Ñ€ÑƒÐ·ÐºÐ°'
 ?>

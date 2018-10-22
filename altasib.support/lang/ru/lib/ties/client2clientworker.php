@@ -8,9 +8,9 @@
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_C2CW_ENTITY_USER_ID_FIELD']          = 'Êëèåíò';
-$MESS['ALTASIB_SUPPORT_C2CW_ENTITY_WORKER_USER_ID_FIELD']   = 'Ñîòðóäíèê êëèåíòà';
-$MESS["ALTASIB_SUPPORT_C2CW_ENTITY_R_VIEW_FIELD"] = "Ïðîñìîòð";
-$MESS["ALTASIB_SUPPORT_C2CW_ENTITY_R_CREATE_FIELD"] = "Ñîçäàíèå îáðàùåíèÿ";
-$MESS["ALTASIB_SUPPORT_C2CW_ENTITY_R_ANSWER_FIELD"] = "Îòâåò";
+$MESS['ALTASIB_SUPPORT_C2CW_ENTITY_USER_ID_FIELD']          = 'ÐšÐ»Ð¸ÐµÐ½Ñ‚';
+$MESS['ALTASIB_SUPPORT_C2CW_ENTITY_WORKER_USER_ID_FIELD']   = 'Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸Ðº ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð°';
+$MESS["ALTASIB_SUPPORT_C2CW_ENTITY_R_VIEW_FIELD"] = "ÐŸÑ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€";
+$MESS["ALTASIB_SUPPORT_C2CW_ENTITY_R_CREATE_FIELD"] = "Ð¡Ð¾Ð·Ð´Ð°Ð½Ð¸Ðµ Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ";
+$MESS["ALTASIB_SUPPORT_C2CW_ENTITY_R_ANSWER_FIELD"] = "ÐžÑ‚Ð²ÐµÑ‚";
 ?>

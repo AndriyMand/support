@@ -6,6 +6,6 @@
  * @copyright 2006-2018 ALTASIB
  */
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_WORKERS_LIST_W"] = "Сотрудник";
-$MESS["ALTASIB_SUPPORT_SETTINGS_WORKERS_TITLE"] = "Список сотрудников технической поддержки";
-$MESS["ALTASIB_SUPPORT_SETTINGS_WORKERS_LIST_NAV_TITLE"] = "Сотрудники";
+$MESS["ALTASIB_SUPPORT_SETTINGS_WORKERS_LIST_W"] = "РЎРѕС‚СЂСѓРґРЅРёРє";
+$MESS["ALTASIB_SUPPORT_SETTINGS_WORKERS_TITLE"] = "РЎРїРёСЃРѕРє СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ С‚РµС…РЅРёС‡РµСЃРєРѕР№ РїРѕРґРґРµСЂР¶РєРё";
+$MESS["ALTASIB_SUPPORT_SETTINGS_WORKERS_LIST_NAV_TITLE"] = "РЎРѕС‚СЂСѓРґРЅРёРєРё";

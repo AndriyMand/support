@@ -12,6 +12,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
 
 use ALTASIB\Support;
 use Bitrix\Main;
+use Bitrix\Main\Localization\Loc;
 
 if (!Main\Loader::includeModule("altasib.support")) {
     ShowError("ALTASIB_SUPPORT_MODULE_NOT_INSTALL");
@@ -184,6 +185,8 @@ if ($arParams["ID"] > 0) {
         }
 
         $arResult["MESSAGES"] = Array();
+        $arResult['LOGGED_MESSAGES'] = array();
+        $arResult['NOT_LOGGED_MESSAGES'] = array();
         $CCTP = new CTextParser();
         $CCTP->maxStringLen = 50;
         $CCTP->allow = Support\Tools::getAllowTags();
@@ -234,6 +237,12 @@ if ($arParams["ID"] > 0) {
 
         while ($arMessage = $result->Fetch()) {
             $arResult["MESSAGES"][] = $arMessage;
+            
+            if ($arMessage['IS_LOG'] == 'N') {
+	            $arResult['NOT_LOGGED_MESSAGES'][] = $arMessage;
+            } else {
+	            $arResult['LOGGED_MESSAGES'][] = $arMessage;
+            }
         }
         $arResult["MESSAGES"] = array_reverse($arResult["MESSAGES"]);
 
@@ -242,6 +251,8 @@ if ($arParams["ID"] > 0) {
          */
 
         $arResult['FAVORITE_MESSAGES'] = array();
+        $arResult['LOGGED_FAVORITE_MESSAGES'] = array();
+        $arResult['NOT_LOGGED_FAVORITE_MESSAGES'] = array();
         $obFav = \ALTASIB\Support\FavoriteTable::getList(array(
             'filter' => array(
                 'TICKET_ID' => $arParams['ID'],
@@ -249,11 +260,19 @@ if ($arParams["ID"] > 0) {
             )
         ));
         while ($favorite = $obFav->fetch()) {
-            $arResult['FAVORITE_MESSAGES'][] = array_merge(array('FAVORITE' => 'Y'),
+        	$arFavMessage = array_merge(array('FAVORITE' => 'Y'),
                 \ALTASIB\Support\TicketMessageTable::getRow(array(
                     'filter' => array('ID' => $favorite['MESSAGE_ID']),
                     'select' => $selectMessage
                 )));
+        
+        	$arResult['FAVORITE_MESSAGES'][] = $arFavMessage;
+            
+            if ($arFavMessage['IS_LOG'] == 'N') {
+            	$arResult['NOT_LOGGED_FAVORITE_MESSAGES'][] = $arFavMessage;
+            } else {
+            	$arResult['LOGGED_FAVORITE_MESSAGES'][] = $arFavMessage;
+            }
         }
 
         $addCnt = 0;
@@ -376,7 +395,267 @@ if ($arParams["ID"] > 0) {
             }
         }
     }
+    
+    $userId = $USER->getId();
+    $responsibleId = $arTicket['OWNER_USER_ID'];
+    $arResult['OWNER_USER_ID'] = $responsibleId;
+   
+    $categoryDB = ALTASIB\Support\CategoryTable::getList();
+    $categoryArray = array();
+    while ($category = $categoryDB->fetch()) {
+        $categoryArray[$category['ID']] = $category['DESCRIPTION'];
+    }
+    
+    $isSectionAdmin = 0;
+    if ($categoryArray[$arTicket['CATEGORY_ID']] == 'IT') {
+        
+        $isSectionAdmin = ( in_array( 19, CUser::GetUserGroup($userId) ) );
+        
+    } elseif ($categoryArray[$arTicket['CATEGORY_ID']] == 'AXO') {
+        
+        $isSectionAdmin = ( in_array( 20, CUser::GetUserGroup($userId) ) );
+        
+    } elseif ($categoryArray[$arTicket['CATEGORY_ID']] == 'HR') {
+        
+        $isSectionAdmin = ( in_array( 21, CUser::GetUserGroup($userId) ) );
+        
+    }
+    
+    $isInSection = 0;
+    if ($categoryArray[$arTicket['CATEGORY_ID']] == 'IT') {
+        
+        $isInSection = ( in_array( 16, CUser::GetUserGroup($userId) ) || in_array( 19, CUser::GetUserGroup($userId) ) );
+        
+    } elseif ($categoryArray[$arTicket['CATEGORY_ID']] == 'AXO') {
+        
+        $isInSection = ( in_array( 17, CUser::GetUserGroup($userId) ) || in_array( 20, CUser::GetUserGroup($userId) ) );
+        
+    } elseif ($categoryArray[$arTicket['CATEGORY_ID']] == 'HR') {
+        
+        $isInSection = ( in_array( 18, CUser::GetUserGroup($userId) ) || in_array( 21, CUser::GetUserGroup($userId) ) );
+    }
+    
+    $arResult['isInSection']    = $isInSection;
+    $arResult['isSectionAdmin'] = $isSectionAdmin;
+    
+    $arResult['USER_IS_OWNER'] = ($userId == $arResult['OWNER_USER_ID']);
+    
+    
+    
+//     echo '<pre>';
+//     print_r($_POST);
+//     echo '</pre>';
 
+//     print_r($arResult['isSectionAdmin']);
+//     echo '<br>';
+//     print_r($arTicket['CATEGORY_ID']);
+//     echo '<br>';
+//     print_r($categoryArray);
+//     echo '<br>';
+//     print_r($arResult['isSectionAdmin']);
+//     echo '</pre>';
+
+    $arResult['rate_1'] = '';
+    $arResult['rate_2'] = '';
+    $arResult['rate_3'] = '';
+    
+    if (isset($_GET['change-rate']) && $arResult['USER_IS_OWNER'] && in_array($_GET['change-rate'], array(1,2,3))) {
+    		$result = Support\TicketTable::update($arTicket["ID"],array('MARK_VALUE'=>$_GET['change-rate']));
+    		if ($result->isSuccess()) {
+    			$arTicket['MARK_VALUE'] = $_GET['change-rate'];
+    			
+    			Support\TicketMessageTable::add(Array(
+    			    'CREATED_USER_ID' => $userId,
+    			    'TICKET_ID' => $arTicket['ID'],
+    			    'MESSAGE' => "Изменена оценка. Текущая - {$_GET['change-rate']}",
+    			    'IS_LOG' => 'Y'
+			    ));
+    		}
+    }
+    
+    if (!empty($arTicket['MARK_VALUE'])) {
+    	switch ($arTicket['MARK_VALUE']) {
+    		case 1:
+    			$arResult['rate_1'] = 'checked';
+    			break;
+    		case 2:
+    			$arResult['rate_2'] = 'checked';
+    			break;
+    		case 3:
+    			$arResult['rate_3'] = 'checked';
+    			break;
+    	}
+    }
+    
+
+    $arResult['EXTENDED_MENU'] = 0;
+    if ($arResult['TICKET_INFO']['RESPONSIBLE_USER_ID'] == $userId || $isSectionAdmin) {
+        $arResult['EXTENDED_MENU'] = 1;
+    }
+    
+    
+    $departmentStructure = CIntranetUtils::GetStructure();
+    $userDepartmentId = array_shift(CIntranetUtils::GetUserDepartments($responsibleId));
+    $userHead = $departmentStructure['DATA'][$userDepartmentId]['UF_HEAD'];
+    
+//     echo "<h1>userId = $userId</h1>";
+//     echo "<h1>responsibleId = $responsibleId</h1>";
+//     echo "<h1>userHead = $userHead</h1>";
+
+//     echo '<pre>'; print_r($_GET); echo '</pre>';
+
+    $statusCompletedId = 3;
+    $arResult['IS_CLOSED_STATUS'] = $arTicket['STATUS_ID'] == $statusCompletedId ? 1 : 0;
+    if (isset($_POST['close-ticket']) && ( $arResult['USER_IS_OWNER'] || $arResult['EXTENDED_MENU'] ) && !$arResult['IS_CLOSED_STATUS']) {
+        if ($_POST['close-ticket'] == 1) {
+		    $result = Support\TicketTable::update($arTicket["ID"],array('STATUS_ID'=>$statusCompletedId));
+		    if ($result->isSuccess()) {
+		    	$arResult['IS_CLOSED_STATUS'] = 1;
+		    	
+		    	$mark = "[list=1]
+[*]<a href='/support/ticket/{$arTicket['ID']}/?change-rate=1'>Так себе</a>
+[*]<a href='/support/ticket/{$arTicket['ID']}/?change-rate=2'>Нормальный</a>
+[*]<a href='/support/ticket/{$arTicket['ID']}/?change-rate=3'>Хороший</a>
+[/list]";
+		    	
+		    	$notifyHeadRes = \CIMNotify::add(array(
+		    			'FROM_USER_ID' => $arTicket['RESPONSIBLE_USER_ID'],
+		    			'TO_USER_ID' => $arTicket['OWNER_USER_ID'],
+		    			"NOTIFY_TYPE" => IM_NOTIFY_FROM,
+		    			"NOTIFY_MODULE" => "altasib.support",
+		    			"NOTIFY_EVENT" => 'support_new',
+		    			"NOTIFY_ANSWER" => "Y",
+		    			"NOTIFY_TAG" => "ALTASIB|SUPPORT|TICKET|" . $arTicket['ID'],
+		    			'NOTIFY_MESSAGE' => "Дайте оценку к тикету <a href='/support/ticket/{$arTicket['ID']}/'>#{$arTicket['ID']}</a> : {$mark} ",
+    			        'NOTIFY_MESSAGE_OUT' => "Дайте оценку к тикету <a href='/support/ticket/{$arTicket['ID']}/'>#{$arTicket['ID']}</a> : {$mark} ",
+    			        "NOTIFY_BUTTONS" => $buttons,
+		    	));
+		    }
+    	}
+    }
+    
+    $arResult['CAN_CONFIRM'] = 0;
+    if ($userHead == $userId && $categoryArray[$arTicket['CATEGORY_ID']] == 'AXO' && $arTicket['IS_CONFIRMED'] == 0) {
+    	
+        $arResult['CAN_CONFIRM'] = 1;
+    	
+    	if (isset($_GET['confirm'])) {
+    		if ($_GET['confirm'] == 1) {
+    			$result = Support\TicketTable::update($arTicket['ID'], array(
+    					'IS_CONFIRMED' => 1,
+    			));
+    			$arResult['CAN_CONFIRM'] = 0;
+    			
+    			$group = CGroup::GetListEx(Array(),Array(),0,0,Array('*'));
+    			$groupsArray = array();
+    			while($record = $group->fetch() ) {
+    			    $groupsArray[$record['ID']][] = $record['USER_USER_ID'];
+    			}
+    			
+//     			echo '<pre>'; print_r($groupsArray[17]); echo '</pre>';
+    			$notifyRes = [];
+    			foreach ($groupsArray[17] as $cuserId) {
+
+    				$message = array(
+    			        'FROM_USER_ID' => $arTicket['OWNER_USER_ID'],
+    			        'TO_USER_ID' => $cuserId,
+    			        "NOTIFY_TYPE" => IM_NOTIFY_FROM,
+    			        "NOTIFY_MODULE" => "altasib.support",
+    			        "NOTIFY_EVENT" => 'support_new',
+    			        "NOTIFY_ANSWER" => "Y",
+    			        "NOTIFY_TAG" => "ALTASIB|SUPPORT|TICKET|" . $arTicket['ID'],
+    			        'NOTIFY_MESSAGE' => "Новое обращение #{$arTicket['ID']}. Тема: <a href='/support/ticket/{$arTicket['ID']}/'>{$arTicket['TITLE']}</a>. Текст обращения: {$arTicket['MESSAGE']} ",
+    			        'NOTIFY_MESSAGE_OUT' => "Новое обращение #{$arTicket['ID']}. Тема: <a href='/support/ticket/{$arTicket['ID']}/'>{$arTicket['TITLE']}</a>. Текст обращения: {$arTicket['MESSAGE']} ",
+    			    );
+    				
+//     				echo '<pre>'; print_r($message); echo '</pre>';
+    				
+    			    $notifyRes[] = \CIMNotify::add($message);
+    			}
+    			
+//     			echo '<pre>'; print_r($notifyRes); echo '</pre>';
+    			
+    		}
+    		
+    		if ($_GET['confirm'] == 0) {
+    			$result = Support\TicketTable::update($arTicket['ID'], array(
+    					'IS_CONFIRMED' => -1,
+    			));
+    			$arResult['CAN_CONFIRM'] = 0;
+    			
+    			$message = array(
+    					'FROM_USER_ID' => $USER->getId(),
+    					'TO_USER_ID' => $arTicket['OWNER_USER_ID'],
+    					"NOTIFY_TYPE" => IM_NOTIFY_FROM,
+    					"NOTIFY_MODULE" => "altasib.support",
+    					"NOTIFY_EVENT" => 'support_new',
+    					"NOTIFY_ANSWER" => "Y",
+    					"NOTIFY_TAG" => "ALTASIB|SUPPORT|TICKET|" . $arTicket['ID'],
+    					'NOTIFY_MESSAGE' => "Обращение <a href='/support/ticket/{$arTicket['ID']}/'>{$arTicket['TITLE']}</a> отклонено",
+    					'NOTIFY_MESSAGE_OUT' => "Обращение <a href='/support/ticket/{$arTicket['ID']}/'>{$arTicket['TITLE']}</a> отклонено",
+    			);
+    			$notifyRes = \CIMNotify::add($message);
+    			
+    		}
+    	}
+    	
+    	
+    }
+    
+    $filter = Array();
+    $usersDB = CUser::GetList(($by = "NAME"), ($order = "asc"), $filter);
+    while($user = $usersDB->fetch())
+    {
+        $arResult['ALL_USERS'][$user['ID']] = ($user['NAME'] || $user['LAST_NAME']) ? $user['NAME'] . ' ' . $user['LAST_NAME'] : (($user['LOGIN']) ? $user['LOGIN'] : ((($user['EMAIL']) ? $user['EMAIL'] : 'Сотрудник#' . $user['ID'])));
+    }
+    
+    $arResult['HAS_GROUP'] = $arTicket['GROUP_ID'];
+    $arResult['TIKET'] = $arTicket;
+    
+//     echo '<pre>';
+//     print_r($arResult['TIKET']);
+//     echo '</pre>'; die;
+    
+    if (!empty($_POST['task_responsible']) && $arTicket['GROUP_ID'] && Main\Loader::includeModule("tasks")) {
+        
+                    $taskTitle = "Техподдержка Тикет #" . $arTicket['ID'];
+                    $arFields = Array(
+                        "TITLE" => $taskTitle,
+                        "DESCRIPTION" => "Тикет - <a href='https://{$_SERVER['SERVER_NAME']}/support/ticket/{$arTicket['ID']}/'>$taskTitle</a><br>{$_POST['task_description']}",
+                        "CREATED_BY" => $userId,
+                        "RESPONSIBLE_ID" => $_POST['task_responsible'],
+                        "GROUP_ID" => $arTicket['GROUP_ID'],
+                        );
+                    
+                    $obTask = new CTasks;
+                    $taskID = $obTask->Add($arFields);
+                    
+
+                    if ($taskID) {
+                        $notifyHeadRes = \CIMNotify::add(array(
+                            'FROM_USER_ID' => $userId,
+                            'TO_USER_ID' => $_POST['task_responsible'],
+                            "NOTIFY_TYPE" => IM_NOTIFY_FROM,
+                            "NOTIFY_MODULE" => "altasib.support",
+                            "NOTIFY_EVENT" => 'support_new',
+                            "NOTIFY_ANSWER" => "Y",
+                            "NOTIFY_TAG" => "ALTASIB|SUPPORT|TICKET|TASK|" . $arTicket['ID'],
+                            'NOTIFY_MESSAGE' => "Создано задание <a href='/workgroups/group/{$arTicket['GROUP_ID']}/tasks/task/view/$taskID/'>$taskTitle</a>",
+                            'NOTIFY_MESSAGE_OUT' => "Создано задание <a href='/workgroups/group/{$arTicket['GROUP_ID']}/tasks/task/view/$taskID/'>$taskTitle</a>",
+                            "NOTIFY_BUTTONS" => $buttons,
+                        ));
+                    }
+                    
+                    $res1 = Support\Tools::taskPlanner($taskID, $_POST['task_responsible']);
+                    $res2 = Support\TicketTable::update($arTicket['ID'], array('TASK_ID' => $taskID));
+                    
+//                     echo '<pre>';
+//                     var_dump($res1);
+//                     var_dump($res2);
+//                     echo '</pre>';
+    }
+    
+    
     $this->IncludeComponentTemplate();
 
     $APPLICATION->SetTitle(GetMessage('ALTASIB_SUPPORT_TICKET_TITLE',

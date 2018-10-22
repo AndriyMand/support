@@ -8,10 +8,10 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_TITLE"] = "Ïðèâÿçêè ðàáîòíèêîâ ê êëèåíòàì";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_TITLE"] = "ÐŸÑ€Ð¸Ð²ÑÐ·ÐºÐ¸ Ñ€Ð°Ð±Ð¾Ñ‚Ð½Ð¸ÐºÐ¾Ð² Ðº ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð°Ð¼";
 
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_LIST_CLIENT"] = "Êëèåíò";
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_LIST_WORKER"] = "Ñîòðóäíèê";
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_LIST_RIGHT"] = "Ïðàâà";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_LIST_CLIENT"] = "ÐšÐ»Ð¸ÐµÐ½Ñ‚";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_LIST_WORKER"] = "Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸Ðº";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_LIST_RIGHT"] = "ÐŸÑ€Ð°Ð²Ð°";
 
 ?>

@@ -1,7 +1,7 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgenió Pedan                    #
+#   Developer: Evgeniï¿½ Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
 #   Copyright (c) 2006-2016 ALTASIB             #
@@ -117,6 +117,7 @@ if($componentPage == 'ticket_edit' || $componentPage == 'get_file')
         $arParams["HAVE_CHANGE_RESPONSIBLE"] = false;
         $arParams["HAVE_CHANGE_ASSISTANTS"] = false;
         $arParams["HAVE_CHANGE_CATEGORY"] = false;
+        $arParams["HAVE_CHANGE_SOURCE"] = false;
         $arParams["HAVE_CHANGE_PRIORITY"] = false;
     }
     $arParams["HAVE_ANSWER"] = false;

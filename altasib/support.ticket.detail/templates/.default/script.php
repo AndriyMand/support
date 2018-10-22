@@ -51,6 +51,33 @@ CUtil::InitJSCore(array('popup'));
     
 BX.ready(function() {    
 
+// 	 $('.rate-star').on('click',function(e){
+
+// 		 	console.log($(this).val());
+// 			return false;
+		 
+// 			BX.ajax({
+// 	            url:supportVar.CURRENT_URL,
+// 	            data:{"AJAX_CALL" : "Y","AJAX_ACTION": "STATUS","CID" : id,"sessid":supportVar.bsmsessid},
+// 	            dataType: 'json',
+// 	            method: 'POST',
+// 	            onsuccess: function(data)
+// 	            {
+// 	                if(data.status)
+// 	                {
+// 	                    BX('support-change-status').innerHTML = BX('status-info-'+id).innerHTML;
+// 	                    //BX.hide(BX('status-popup'));
+// 						AltasibSupport.PopupMenu.MenuItemSel(BX('status-info-'+id), 'support-change-status-popup');
+// 	                }
+// 	                else
+// 	                    alert(data.error);
+// 	            },
+// 	            onfailure: function()
+// 	            {
+// 	            }
+// 	        });                                    
+// 	});	
+
     $('#support-change-responsible').on('click',function(e){
 		$('body').keydown(function(eventObject){
 			if (eventObject.which == 27)

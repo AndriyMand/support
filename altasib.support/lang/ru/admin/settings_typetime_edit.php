@@ -8,26 +8,26 @@
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_TAB_MAIN'] = 'Îñíîâíûå ïàðàìåòðû';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_TAB_MAIN_TITLE'] = 'Îñíîâíûå ïàðàìåòðû òèïà âðåìåíè';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_TAB_MAIN'] = 'ÐžÑÐ½Ð¾Ð²Ð½Ñ‹Ðµ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_TAB_MAIN_TITLE'] = 'ÐžÑÐ½Ð¾Ð²Ð½Ñ‹Ðµ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ Ñ‚Ð¸Ð¿Ð° Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸';
 
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_TAB_COST'] = 'Ñòîèìîñòü âðåìåíè';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_TAB_COST'] = 'Ð¡Ñ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸';
 $MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_TAB_COST_TITLE'] = '';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_COST'] = 'Ñòîèìîñòü';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_DATE_START'] = 'Äàòà íà÷àëà';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_DATE_END'] = 'Äàòà çàâåðøåíèÿ';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_COST_LIST'] = 'Ñïèñîê öåí';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_COST_ADD'] = 'Äîáàâèòü öåíó';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_COST'] = 'Ð¡Ñ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_DATE_START'] = 'Ð”Ð°Ñ‚Ð° Ð½Ð°Ñ‡Ð°Ð»Ð°';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_DATE_END'] = 'Ð”Ð°Ñ‚Ð° Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_COST_LIST'] = 'Ð¡Ð¿Ð¸ÑÐ¾Ðº Ñ†ÐµÐ½';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_COST_ADD'] = 'Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ñ†ÐµÐ½Ñƒ';
 
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_CONTEXT_LIST'] = 'Ñïèñîê òèïîâ';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_CONTEXT_ADD'] = 'Äîáàâèòü òèï';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_CONTEXT_SETTINGS'] = 'Íàñòðîèòü';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_CONTEXT_SETTINGS_TITLE'] = 'Íàñòðîèòü îòîáðàæåíèå ôîðìû ðåäàêòèðîâàíèÿ';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_CONTEXT_LIST'] = 'Ð¡Ð¿Ð¸ÑÐ¾Ðº Ñ‚Ð¸Ð¿Ð¾Ð²';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_CONTEXT_ADD'] = 'Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ñ‚Ð¸Ð¿';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_CONTEXT_SETTINGS'] = 'ÐÐ°ÑÑ‚Ñ€Ð¾Ð¸Ñ‚ÑŒ';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_CONTEXT_SETTINGS_TITLE'] = 'ÐÐ°ÑÑ‚Ñ€Ð¾Ð¸Ñ‚ÑŒ Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ Ñ„Ð¾Ñ€Ð¼Ñ‹ Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ';
 
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_NAME'] = 'Íàçâàíèå';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_DEFAULT'] = 'Ïî óìîë÷àíèþ';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_REQUIRED_FIELDS'] = 'Ïîëÿ îòìå÷åííûå * îáÿçàòåëüíû äëÿ çàïîëíåíèÿ';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_NAME'] = 'ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_EDIT_FORM_DEFAULT'] = 'ÐŸÐ¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_REQUIRED_FIELDS'] = 'ÐŸÐ¾Ð»Ñ Ð¾Ñ‚Ð¼ÐµÑ‡ÐµÐ½Ð½Ñ‹Ðµ * Ð¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹ Ð´Ð»Ñ Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ';
 
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_TITLE'] = 'Ôîðìà äîáàâëåíèÿ òèïà âðåìåíè';
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_TITLE_EDIT'] = 'Ôîðìà ðåäàêòèðîâàíèÿ òèïà âðåìåíè';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_TITLE'] = 'Ð¤Ð¾Ñ€Ð¼Ð° Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ñ‚Ð¸Ð¿Ð° Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸';
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_TITLE_EDIT'] = 'Ð¤Ð¾Ñ€Ð¼Ð° Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ Ñ‚Ð¸Ð¿Ð° Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸';
 ?>

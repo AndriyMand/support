@@ -2,5 +2,5 @@
 $MESS["SONET_GROUP_TABS_LAST"] = "Letzte";
 $MESS["SONET_GROUP_TABS_MY"] = "Meine Gruppen";
 $MESS["SONET_GROUP_TABS_SEARCH"] = "Suchen";
-$MESS["SONET_GROUP_BUTTON_CLOSE"] = "Schließen";
+$MESS["SONET_GROUP_BUTTON_CLOSE"] = "SchlieÐ¯en";
 ?>

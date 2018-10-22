@@ -26,6 +26,10 @@ BX.ready(function() {
 		AltasibSupport.PopupMenu.Show(this);
 		return false
 		});	
+	$('#support-change-source').on('click',function(e){
+		AltasibSupport.PopupMenu.Show(this);
+		return false
+		});	
 	$('#support-change-priority').on('click',function(e){
 		AltasibSupport.PopupMenu.Show(this);
 		return false

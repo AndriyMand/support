@@ -53,6 +53,35 @@
     }
 
 <?endif;?>
+
+<?if($arParams['HAVE_CHANGE_SOURCE']):?>
+function changeSource(id)
+{
+    AltasibSupport.PopupMenu.Wait(BX('source-info-'+id), 'support-change-source-popup');
+	BX.ajax({
+        url:supportVar.CURRENT_URL,
+        data:{"AJAX_CALL" : "Y","AJAX_ACTION": "SOURCE","CID" : id,"sessid":supportVar.bsmsessid},
+        dataType: 'json',
+        method: 'POST',
+        onsuccess: function(data)
+        {
+            if(data.status)
+            {
+                BX('support-change-source').innerHTML = BX('source-info-'+id).innerHTML;
+				AltasibSupport.PopupMenu.MenuItemSel(BX('source-info-'+id), 'support-change-source-popup');
+            }
+            else
+                alert(data.error);
+        },
+        onfailure: function()
+        {
+        }
+    }
+    );                                    
+}
+
+<?endif;?>
+
 <?if($arParams['HAVE_CHANGE_STATUS']):?>
     function changeStatus(id)
     {
@@ -108,7 +137,7 @@ function supportGetListProject()
 			else
 			{
 				$('.sel_project_id_st').chosen({
-					no_results_text: 'Проект не найден. <a href="" onClick="AltasibSupportReport.Projects.PromptAddProject()">Добавить новый?</a>',
+					no_results_text: 'пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. <a href="" onClick="AltasibSupportReport.Projects.PromptAddProject()">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ?</a>',
 					allow_single_deselect: true,
 					search_contains: true
 				});

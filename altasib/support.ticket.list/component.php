@@ -37,6 +37,8 @@ if ($arParams['Right']->getRole() == 'D') {
     $APPLICATION->AuthForm('');
 }
 
+$arParams['EXTENDED_FILTER'] = ($arParams["ROLE"] >= 'W');
+
 $arParams["HAS_CREATE"] = $arParams['SUPPORT_TEAM'] = $arParams['Right']->isSupportTeam();
 
 $arResult = Array();
@@ -47,6 +49,7 @@ $filter = $f['filter'];
 if ($f['HAS_CREATE']) {
     $arParams["HAS_CREATE"] = true;
 }
+
 
 $grid_options = new CGridOptions($arParams["GRID_ID"]);
 $aNav = $grid_options->GetNavParams(array("nPageSize" => $arParams["NUM_TICKETS"]));
@@ -420,6 +423,104 @@ if ($arParams["SHOW_FILTER"]) {
     }
 }
 
+/* Auspex */
+
+// echo '<pre>';
+// print_r($_GET);
+// echo '</pre>';
+
+$userId = $USER->GetID();
+
+if (!empty($_GET['btn-filter'])) {
+    switch ((int)$_GET['btn-filter']) {
+        case 1:
+            $gridFilter['RESPONSIBLE_USER_ID'] = $userId;
+            break;
+        case 2:
+            $gridFilter['RESPONSIBLE_USER_ID'] = -1;
+            break;
+        case 3:
+            $gridFilter['IS_CLOSE'] = 'N';
+            break;
+        case 4:
+            $gridFilter = null;
+            break;
+        case 5:
+            $gridFilter['IS_CLOSE'] = 'Y';
+            break;
+    }
+}
+
+$gridFilter['IS_CONFIRMED'] = 1;
+
+
+$categoryDB = ALTASIB\Support\CategoryTable::getList();
+$categoryArray = array();
+while ($category = $categoryDB->fetch()) {
+	$categoryArray[$category['DESCRIPTION']][] = $category['ID'];
+}
+
+$ahoTiketCategoryID = !empty($categoryArray['AXO']) ? $categoryArray['AXO'][0] : 0;
+$ahoSection = 2;
+
+// $arResult["CATEGORY_ARRAY"] = $categoryArray;
+
+$arResult["SECTION"]      = $arParams['section'];
+$arResult["AHO_SECTION"]  = $ahoSection;
+$arResult["AHO_CATEGORY"] = $ahoTiketCategoryID;
+
+
+$isInSection = 0;
+if (!empty($arParams['section'])) {
+	switch ((int)$arParams['section']) {
+		case 1:
+			if (!empty($categoryArray['IT'])) {
+				$gridFilter['CATEGORY_ID'] = $categoryArray['IT'];
+			}
+			break;
+		case 2:
+			if (!empty($categoryArray['AXO'])) {
+				$gridFilter['CATEGORY_ID'] = $categoryArray['AXO'];
+			}
+			break;
+		case 3:
+			if (!empty($categoryArray['HR'])) {
+				$gridFilter['CATEGORY_ID'] = $categoryArray['HR'];
+			}
+			break;
+	}
+	
+	if ($arParams['section'] == 1) {
+	    
+	    $isInSection = ( in_array( 16, CUser::GetUserGroup($userId) ) || in_array( 19, CUser::GetUserGroup($userId) ) );
+	    
+	} elseif ($arParams['section'] == 2) {
+	    
+	    $isInSection = ( in_array( 17, CUser::GetUserGroup($userId) ) || in_array( 20, CUser::GetUserGroup($userId) ) );
+	    
+	} elseif ($arParams['section'] == 3) {
+	    
+	    $isInSection = ( in_array( 18, CUser::GetUserGroup($userId) ) || in_array( 21, CUser::GetUserGroup($userId) ) );
+	}
+	
+}
+
+
+
+$arResult['isInSection'] = $isInSection;
+
+// echo '<pre>';
+// print_r($arResult['isInSection']);
+// echo '</pre>';
+
+/* Auspex */
+$inCrmGroup = 0;
+$inCrmGroup = ( in_array( 18, CUser::GetUserGroup($USER->GetID()) ) );
+
+if ($inCrmGroup) {
+	$arParams["HAS_CREATE"] = 0;
+}
+
 $request = Main\Context::getCurrent()->getRequest();
 
 if (!empty($request["clear_filter"]) && $arParams['SHOW_FILTER']) {
@@ -468,6 +569,7 @@ if (count($aSort['sort']) == 1) {
 }
 $arResult["SORT"] = $aSort["sort"];
 $arResult["SORT_VARS"] = $aSort["vars"];
+
 
 if ($arParams['Right']->getRole() == ALTASIB\Support\Rights::SUPPORT) {
     $memberFilter = array('USER_ID' => $USER->GetID());
@@ -535,6 +637,7 @@ if ($arParams['Right']->getRole() == ALTASIB\Support\Rights::CUSTOMER && count($
     $filter = array('LOGIC' => 'OR', $filter, $s2F);
 }
 
+
 $parametrs = array(
     'order' => $order,
     'filter' => $filter,
@@ -585,7 +688,15 @@ if (IsModuleInstalled('socialnetwork')) {
 $data = Support\TicketTable::getList($parametrs);
 $result = new CDBResult($data);
 $result->NavStart($limit);
+
+
+
 while ($arTicket = $result->fetch()) {
+    
+//     echo '<pre>';
+//     print_r(array_filter($arTicket));
+//     echo '</pre>';
+    
     $arTicket['COLOR'] = Support\TicketTable::LAMP_GRAY;
     if ($arTicket['LAST_MESSAGE_BY_SUPPORT'] == 'Y') {
         if ($arParams['IS_SUPPORT_TEAM']) {

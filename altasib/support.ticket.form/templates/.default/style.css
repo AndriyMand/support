@@ -1,10 +1,11 @@
 .altasib_ticketnform 
 {
-    background:#f8f8f8;
-	color: #535c69;
-	padding: 15px;
-	font-size: 13px;
+    /*background:#f8f8f8;
 	border: 1px solid #eee;
+	color: #535c69;*/
+	padding: 15px;
+	/*font-size: 13px;*/
+	position: relative;
 }
 .ticketn
 {
@@ -13,7 +14,7 @@
 .altasib_ticketnform .support-form-note {
     border: 1px solid;
     border-color: #ced0d1 #d1d4d6 #d3d6d8 #d1d5d6;
-    border-radius: 2px;
+    border-radius: 20px;
     -moz-box-shadow: 0 1px 2px rgba(229,229,229,0.8) inset;
     -webkit-box-shadow: 0 1px 2px rgba(229,229,229,0.8) inset;
     box-shadow: 0 1px 2px rgba(229,229,229,0.8) inset;
@@ -56,24 +57,28 @@ a.altasib-form-tab span
 {
 	
 /*	border-bottom: 1px dashed #A8BDD1!important;
-	transition: border-bottom-color 0.2s linear 0s;*/    
-	text-transform: uppercase;
+	transition: border-bottom-color 0.2s linear 0s; 
+	text-transform: uppercase;  
+	font-weight: bold;*/ 
 	font-size: 12px;
-	font-weight: bold;
 }
 a.altasib-form-tab, a.altasib-form-tab:visited
 {
 	display: inline-block;
-	border: 1px solid #E1E1E1;
+	/*border: 1px solid #E1E1E1;
+	background-color: #EEF2F4;*/
 	line-height: 24px;
 	padding: 7px;
 	text-decoration: none !important;
 	transition: background-color 0.2s linear 0s;
 	width: 185px;
-	background-color: #EEF2F4;
 	color:#939EA5!important;
 	border-radius: 2px;
 	margin-bottom: 3px;
+	border-radius: 15px;
+}
+a.altasib-form-tab.btn-params{
+	float: right;
 }
 
 a.altasib-form-tab:hover{
@@ -106,34 +111,27 @@ a.altasib-form-tab:hover [class^="icon-"]{
 
 .altasib_ticketnform .altasib-support-button {
     display: inline-block !important;
-    height: 39px;
-    line-height: 40px;    
-    min-width: 95px;
+    line-height: 40px;
     position: relative !important;
     vertical-align: middle !important;
-	color: #fff !important;
+	color: #2e2e2e !important;
 	text-decoration: none !important;
 
-    background-color: rgba(47, 199, 247, 1);
+    background-color: #f9ae00;
     border-radius: 2px;
-    color: #fff;
-    display: inline-block;
     font-size: 12px;
     font-weight: bold;
     height: 40px;
-    line-height: 40px;
     margin: 10px 20px 10px 0;
     min-width: 185px;
     padding: 0 10px;
     text-align: center;
-    text-transform: uppercase;
     transition: background-color 0.3s linear 0s !important;
-    vertical-align: middle;	
 	border-bottom: 0px !important;
 	cursor: pointer;
 }
 .altasib_ticketnform .altasib-support-button:hover {
-    background-color: #009cf1;
+    background-color: #FFCB2F;
     color: #fff;
 	text-decoration: none;
 	border-bottom: 0px !important;
@@ -178,16 +176,30 @@ a.altasib-form-tab:hover [class^="icon-"]{
 	margin-top: 20px;
 	text-decoration: none;	
 }
-#altasib-support-submit-form-and-go
-{
+#altasib-support-submit-form-and-go{
 	display: inline-block;
 	margin-right: 20px;
 	margin-top: 20px;
 	text-decoration: none;	
+	color: #cdc9c9;
 }
 .addTicket-owner_chosen, .addTicket-select, .form_type_time {
   /*  width: 300px;*/
 }
+.to_list_wrap {
+	padding: 15px 30px;
+    background: #fff;
+    margin-top: 20px;
+	letter-spacing: 0.05em;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	color: #273580;
+	box-shadow: 0px 0px 10px #BBBBBB;
+    -moz-box-shadow: 0px 0px 10px #BBBBBB;
+    -webkit-box-shadow: 0px 0px 10px #BBBBBB;
+}
+.to_list_wrap a {color: #273580;}
+.to_list_wrap .back-arrow{font-size: 18px;font-family: monospace;}
 .altasib-param-form-inner .chosen-single
 {
     -moz-user-select: none;
@@ -267,8 +279,7 @@ input{
 	height: 30px;
 	padding: 3px 5px;
 	color: #555;
-    min-width: 80%;	
-    margin: 5px 0px;	
+    width: 100%;	
 }
 .altasib_ticketnform div.lastPadding
 {
@@ -279,3 +290,107 @@ input{
 	color: #ab1212;
 	font-weight: bold;
 }
+
+#content-table {position: relative; padding-top: 20px;}
+#content-table .page-header {padding: 0 334px 0 0; margin: 0;}
+
+#workarea-content {background-color: transparent !important;}
+.dop_title_block_div {height: auto;}
+#content-table .pagetitle-wrap {background-color: #fff !important; padding: 0 25px;
+	box-shadow: 0px 0px 10px #BBBBBB;
+    -moz-box-shadow: 0px 0px 10px #BBBBBB;
+    -webkit-box-shadow: 0px 0px 10px #BBBBBB;
+	margin-left: 15px;
+    margin-right: 16px;}
+#workarea-content .workarea-content-paddings{padding-top: 0;}
+.head_wrap_t {background-color: #fff !important;    margin-bottom: 15px;
+	box-shadow: 0px 0px 10px #BBBBBB;
+    -moz-box-shadow: 0px 0px 10px #BBBBBB;
+    -webkit-box-shadow: 0px 0px 10px #BBBBBB;}
+.discus_block {background-color: #fff; padding: 0 15px 0 25px;
+	box-shadow: 0px 0px 10px #BBBBBB;
+    -moz-box-shadow: 0px 0px 10px #BBBBBB;
+    -webkit-box-shadow: 0px 0px 10px #BBBBBB;}
+.discus_block  .nav-tabs{ border-bottom: 1px solid #f8f8f8;}
+.discus_block .nav-tabs li { margin-right: 30px;}
+.discus_block .nav-tabs>li>a{
+	color: #2e2e2e;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	padding: 13px 15px;
+}
+.discus_block .nav-tabs>li.active>a, .discus_block .nav-tabs>li.active>a:focus, .discus_block .nav-tabs>li.active>a:hover {
+	color: #555;
+	border: none;
+	border-bottom: 2px solid #F9AE00;
+}
+.tab-content {margin-top: 10px;}
+.feed-avatar, .com_avatar {position: absolute;top: 15px; }
+.feed-cont, .com_wrap, .send_btns, #altasib-param-form {padding-left: 70px;}
+.author-mess {background: none;}
+.disc-icon {background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACcUExURUdwTCIfHyIfHyIfHyIfHwAAAAAAAAAAACIfHwAAACIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHwAAACIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfHyIfH5F72eAAAAAzdFJOUwDzKyb6Tx+kOtryF+CwUx9E58hhkhSY0nWgtIFBCdipbCB47RtN4oLrSlw8javAAmjOWJFH8eEAAAB/SURBVAgdBcCFccIAAADAj7viTt2LZP/dOFh8rOLpfRkBXy/N22uVz4Nn6MsWCOs1h+EbIAwi1xGA+VJzBuCnttpLiqcsS4vEInbrJUWaZWmRqGKnNQD7o/vxAmDzq4sPAHnQOW/p2gj554z/v80wTduwPZUzlOMu75t6GHcVHkx/CHFUP2roAAAAAElFTkSuQmCC");}
+.active > .disc-icon {background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACTUExURUdwTP/BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BTx3UXtgAAAAwdFJOUwDzK3ba+k8eOqSQF/KB4LBE58hrIJgU0lIltNhBqVYo7U3iG+tKYGOeXAihq8AKzoYN5HcAAAB+SURBVAgdBcEDgsRAAACwlDO11jpb/f/rLoFdty/Wx+0d8HI/PDw1sU4yGNsDkPYZv9MHQJocLTMA9dawABB7+4sy31RVyEu7wt+ozENVhbzUFK4ZAJez2xmA91ooPgFiEiwnNrcj4vMbP99f07qe0sO1fUU7d3Ec+mnuGvwD6sYHvtCR6joAAAAASUVORK5CYII=");}
+.his-icon {background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAMAAABBwMRzAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAByUExURUdwTCoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKj/IIIcAAAAldFJOUwAG6+MufoHxqQqYAw2i90Ipvs1qm4wVsktNtu07F9ZueI+8/EQYPnrAAAAAdUlEQVQI112OOQKDMBADB2N7bXNDQu47+/8vpsBFQJ0KaQYArsGonE8sqfZ6aXwqNUQAvO5qoHAaAPpPA/MEOD0Cr3YGK0BRHoDxTe4kYfIy+i+2vQFOsUZ1iNRBHhVJwJohAnT3btn3MWvkf3iu+LDx+/f/AeeYBxW3eCnRAAAAAElFTkSuQmCC");}
+.active > .his-icon {background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAMAAABBwMRzAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABsUExURUdwTP/BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT//BT1jqhWsAAAAjdFJOUwAGq+sufoHxmQrjqb5rAw2i90IpzRWyS03tO7YX1niPRIqNSCTseQAAAHNJREFUCNdVjjcCwzAQw+ConGRJ7k7v9/8/ZrCGmBsHggCA68Go3M5s6b56GXxoNUUAvIYeaJwmgFkHWAvg9AS8xhWsAE17BJZM7QSheFn8GzveAadYo5ojfZLSEQSsyRFgekzbfo5Vo/LhufuHz97v3/8H15UG8BmZ/MgAAAAASUVORK5CYII=");}
+#altasib_sidebar_resizer{ width: 35px; visibility: hidden;}
+#altasib_sidebar_resizer #sidebar-btn{display: none !important;}
+#altasib_sidebar {
+	width: 300px;
+	background: none !important;
+}
+#altasib_sidebar #altasib-sidebar-float-block {
+	position: absolute;
+    top: 20px;
+    width: 273px;
+	background: #fff;
+	box-shadow: 0px 0px 10px #BBBBBB;
+    -moz-box-shadow: 0px 0px 10px #BBBBBB;
+    -webkit-box-shadow: 0px 0px 10px #BBBBBB;
+}
+#sidebar-block #support-detail-info .section{
+	color: #273580;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 14px;
+    text-align: left;
+	padding-left: 44px !important;
+}
+#sidebar-block #support-detail-info .section:before{
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABCUExURUdwTBkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygxkygwOAuhEAAAAVdFJOUwDYBMxgKnXuvGUgDwtdQE9v7dAvtccjkykAAABzSURBVAjXXc/bDoIwAIPhDxjswCag7v1f1QsWE71smrZ/Yc4p9pjyDKzTEspewjKtsMYNsMWVedqwh4ptmuUFcm+wZCnAfu4QklggPV9Qol7h3R9Q+/CPW5c48q0fI3/3X/0a/fd+O9vY/+cb/PXL//vvA88MA+xamYdNAAAAAElFTkSuQmCC");
+	position: absolute;
+    left: 23px;
+}
+#support-detail-main > #ticket_add {
+	box-shadow: 0px 0px 10px #BBBBBB;
+    -moz-box-shadow: 0px 0px 10px #BBBBBB;
+    -webkit-box-shadow: 0px 0px 10px #BBBBBB;
+	margin-right: 50px;
+	background: #fff;
+	padding: 0 14px;
+}
+#support-detail-main > #ticket_add .altasib_ticketnform{
+	padding-top: 0;
+}
+#support-detail-main > #ticket_add .dop_title_block_form{
+	background: #f8f8f8;
+    border: none;
+    padding: 15px 30px;
+    display: block;
+	margin: 0 -29px 12px -29px;
+    width: auto;
+	color: #2e2e2e;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+}
+.col_prop {float: left;width: 15%;}
+.col_info {float: left;width: 62%; margin-bottom: 22px;}
+.clear_col {clear: both; display: flex;}
+.prop-name {color: #a59f9f;}
+.altasib_ticketnform .prop_wrap {padding: 0 30px 0 0; }
+.prop_wrap select {width: 100%; margin-bottom: 4px;}
+.prop_wrap input {width: 100%;}
+.add_item_btns {text-align: center;}

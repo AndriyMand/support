@@ -8,79 +8,79 @@
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_TICKET'] = 'Изменения в обращении ##ID#';
-$MESS['ALTASIB_SUPPORT_EVENT_NEW_TICKET_LINE'] = 'Новое обращение ##ID#';
-$MESS['ALTASIB_SUPPORT_EVENT_NEW_TICKET'] = 'Новое обращение ##ID#
-        Тема: #TITLE#
-        Текст обращения
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_TICKET'] = 'РР·РјРµРЅРµРЅРёСЏ РІ РѕР±СЂР°С‰РµРЅРёРё ##ID#';
+$MESS['ALTASIB_SUPPORT_EVENT_NEW_TICKET_LINE'] = 'РќРѕРІРѕРµ РѕР±СЂР°С‰РµРЅРёРµ ##ID#';
+$MESS['ALTASIB_SUPPORT_EVENT_NEW_TICKET'] = 'РќРѕРІРѕРµ РѕР±СЂР°С‰РµРЅРёРµ ##ID#
+        РўРµРјР°: #TITLE#
+        РўРµРєСЃС‚ РѕР±СЂР°С‰РµРЅРёСЏ
         #MESSAGE#
         
         <a href="#URL#">#URL#</a>';
 
-$MESS['ALTASIB_SUPPORT_EVENT_NEW_MESSAGE_CLIENT'] = 'Изменения в обращении <a href="#URL#">##ID#</a>
-        Тема: <b>#TITLE#</b>
-        Текст сообщения
+$MESS['ALTASIB_SUPPORT_EVENT_NEW_MESSAGE_CLIENT'] = 'РР·РјРµРЅРµРЅРёСЏ РІ РѕР±СЂР°С‰РµРЅРёРё <a href="#URL#">##ID#</a>
+        РўРµРјР°: <b>#TITLE#</b>
+        РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ
         
         #MESSAGE#
         
         <a href="#URL#">#URL#</a>';  
         
-$MESS['ALTASIB_SUPPORT_EVENT_NEW_MESSAGE_SUPPORT'] = 'Изменения в обращении <a href="#URL#">##ID#</a>
-        Тема: <b>#TITLE#</b>
-        Текст сообщения
+$MESS['ALTASIB_SUPPORT_EVENT_NEW_MESSAGE_SUPPORT'] = 'РР·РјРµРЅРµРЅРёСЏ РІ РѕР±СЂР°С‰РµРЅРёРё <a href="#URL#">##ID#</a>
+        РўРµРјР°: <b>#TITLE#</b>
+        РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ
         #CLOSE_TXT#
         #MESSAGE#
         
         <a href="#URL#">#URL#</a>';       
 
-$MESS['ALTASIB_SUPPORT_EVENT_NEW_MESSAGE_SUPPORT_OUT'] = 'Изменения в обращении ##ID#
-        Тема: #TITLE#
-        Текст сообщения
+$MESS['ALTASIB_SUPPORT_EVENT_NEW_MESSAGE_SUPPORT_OUT'] = 'РР·РјРµРЅРµРЅРёСЏ РІ РѕР±СЂР°С‰РµРЅРёРё ##ID#
+        РўРµРјР°: #TITLE#
+        РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ
         #MESSAGE#
         #URL#';
                 
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_CATEGORY_LOG'] = 'Изменена категория. Текущая - #CATEGORY#';        
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_CATEGORY'] = 'В обращении <a href="#URL#">##ID#</a> изменена категория. Текущая - #CATEGORY#';               
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_CATEGORY_MAIL'] = 'В обращении [url=#URL#]##ID#[/url] изменена категория. Текущая - #CATEGORY#';
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_CATEGORY_LOG'] = 'РР·РјРµРЅРµРЅР° РєР°С‚РµРіРѕСЂРёСЏ. РўРµРєСѓС‰Р°СЏ - #CATEGORY#';        
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_CATEGORY'] = 'Р’ РѕР±СЂР°С‰РµРЅРёРё <a href="#URL#">##ID#</a> РёР·РјРµРЅРµРЅР° РєР°С‚РµРіРѕСЂРёСЏ. РўРµРєСѓС‰Р°СЏ - #CATEGORY#';               
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_CATEGORY_MAIL'] = 'Р’ РѕР±СЂР°С‰РµРЅРёРё [url=#URL#]##ID#[/url] РёР·РјРµРЅРµРЅР° РєР°С‚РµРіРѕСЂРёСЏ. РўРµРєСѓС‰Р°СЏ - #CATEGORY#';
 
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_STATUS_LOG'] = 'Изменен статус. Текущий - #STATUS#';
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_STATUS'] = 'В обращении <a href="#URL#">##ID#</a> изменен статус. Текущий - #STATUS#';               
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_STATUS_MAIL'] = 'В обращении [url=#URL#]##ID#[/url] изменен статус. Текущий - #STATUS#';
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_STATUS_LOG'] = 'РР·РјРµРЅРµРЅ СЃС‚Р°С‚СѓСЃ. РўРµРєСѓС‰РёР№ - #STATUS#';
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_STATUS'] = 'Р’ РѕР±СЂР°С‰РµРЅРёРё <a href="#URL#">##ID#</a> РёР·РјРµРЅРµРЅ СЃС‚Р°С‚СѓСЃ. РўРµРєСѓС‰РёР№ - #STATUS#';               
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_STATUS_MAIL'] = 'Р’ РѕР±СЂР°С‰РµРЅРёРё [url=#URL#]##ID#[/url] РёР·РјРµРЅРµРЅ СЃС‚Р°С‚СѓСЃ. РўРµРєСѓС‰РёР№ - #STATUS#';
 
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY_LOG'] = 'Изменен приоритет. Текущий - #PRIORITY#';
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY'] = 'В обращении <a href="#URL#">##ID#</a> изменен приоритет. Текущий - #PRIORITY#';               
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY_MAIL'] = 'В обращении [url=#URL#]##ID#[/url] изменен приоритет. Текущий - #PRIORITY#';
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY_UP'] = 'У обращения <a href="#URL#">##ID#</a> повышен приоритет. Текущий - #PRIORITY#';               
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY_MAIL_UP'] = 'У обращения [url=#URL#]##ID#[/url] повышен приоритет. Текущий - #PRIORITY#';
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY_LOG'] = 'РР·РјРµРЅРµРЅ РїСЂРёРѕСЂРёС‚РµС‚. РўРµРєСѓС‰РёР№ - #PRIORITY#';
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY'] = 'Р’ РѕР±СЂР°С‰РµРЅРёРё <a href="#URL#">##ID#</a> РёР·РјРµРЅРµРЅ РїСЂРёРѕСЂРёС‚РµС‚. РўРµРєСѓС‰РёР№ - #PRIORITY#';               
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY_MAIL'] = 'Р’ РѕР±СЂР°С‰РµРЅРёРё [url=#URL#]##ID#[/url] РёР·РјРµРЅРµРЅ РїСЂРёРѕСЂРёС‚РµС‚. РўРµРєСѓС‰РёР№ - #PRIORITY#';
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY_UP'] = 'РЈ РѕР±СЂР°С‰РµРЅРёСЏ <a href="#URL#">##ID#</a> РїРѕРІС‹С€РµРЅ РїСЂРёРѕСЂРёС‚РµС‚. РўРµРєСѓС‰РёР№ - #PRIORITY#';               
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_PRIORITY_MAIL_UP'] = 'РЈ РѕР±СЂР°С‰РµРЅРёСЏ [url=#URL#]##ID#[/url] РїРѕРІС‹С€РµРЅ РїСЂРёРѕСЂРёС‚РµС‚. РўРµРєСѓС‰РёР№ - #PRIORITY#';
 
 
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_RESPONSIBLE_LOG'] = 'Изменен ответственный. Текущий - #RESPONSIBLE_TEXT#';
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_RESPONSIBLE'] = 'В обращении <a href="#URL#">##ID#</a> изменен ответственный. Текущий - #RESPONSIBLE_TEXT#';               
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_RESPONSIBLE_MAIL'] = 'В обращении [url=#URL#]##ID#[/url] изменен ответственный. Текущий - #RESPONSIBLE_TEXT#';
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_RESPONSIBLE_LOG'] = 'РР·РјРµРЅРµРЅ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№. РўРµРєСѓС‰РёР№ - #RESPONSIBLE_TEXT#';
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_RESPONSIBLE'] = 'Р’ РѕР±СЂР°С‰РµРЅРёРё <a href="#URL#">##ID#</a> РёР·РјРµРЅРµРЅ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№. РўРµРєСѓС‰РёР№ - #RESPONSIBLE_TEXT#';               
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_RESPONSIBLE_MAIL'] = 'Р’ РѕР±СЂР°С‰РµРЅРёРё [url=#URL#]##ID#[/url] РёР·РјРµРЅРµРЅ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№. РўРµРєСѓС‰РёР№ - #RESPONSIBLE_TEXT#';
 
-$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_RESPONSIBLE_SUPPORT'] = 'Вы назначены ответственным в обращении <a href="#URL#">##ID# - #TITLE#</a>
-Текст обращения:
+$MESS['ALTASIB_SUPPORT_EVENT_CHANGE_RESPONSIBLE_SUPPORT'] = 'Р’С‹ РЅР°Р·РЅР°С‡РµРЅС‹ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Рј РІ РѕР±СЂР°С‰РµРЅРёРё <a href="#URL#">##ID# - #TITLE#</a>
+РўРµРєСЃС‚ РѕР±СЂР°С‰РµРЅРёСЏ:
 #MESSAGE#
 ';
 
-$MESS['ALTASIB_SUPPORT_EVENT_EXPIRE_TITLE_SUPPORT'] = 'Напоминание о необходимости ответа в обращении ##TICKET_ID#';
-$MESS['ALTASIB_SUPPORT_EVENT_EXPIRE_SUPPORT'] = 'Обращение <a href="#URL#">##TICKET_ID# - #TITLE#</a> будет просрочено - #EXPIRATION_DATE# (осталось: #REMAINED_TIME#)
-Текст сообщения требующее ответа:
+$MESS['ALTASIB_SUPPORT_EVENT_EXPIRE_TITLE_SUPPORT'] = 'РќР°РїРѕРјРёРЅР°РЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РѕС‚РІРµС‚Р° РІ РѕР±СЂР°С‰РµРЅРёРё ##TICKET_ID#';
+$MESS['ALTASIB_SUPPORT_EVENT_EXPIRE_SUPPORT'] = 'РћР±СЂР°С‰РµРЅРёРµ <a href="#URL#">##TICKET_ID# - #TITLE#</a> Р±СѓРґРµС‚ РїСЂРѕСЃСЂРѕС‡РµРЅРѕ - #EXPIRATION_DATE# (РѕСЃС‚Р°Р»РѕСЃСЊ: #REMAINED_TIME#)
+РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ С‚СЂРµР±СѓСЋС‰РµРµ РѕС‚РІРµС‚Р°:
 #MESSAGE#
 ';
 
-$MESS['ALTASIB_SUPPORT_EVENT_FILES'] = 'Прикрепленные файлы:';
-$MESS['ALTASIB_SUPPORT_EVENT_CLOSE'] = '<b>Обращение закрыто клиентом</b>';
-$MESS['ALTASIB_SUPPORT_EVENT_UF'] = '<p><b>Дополнительная информация:</b></p>';
+$MESS['ALTASIB_SUPPORT_EVENT_FILES'] = 'РџСЂРёРєСЂРµРїР»РµРЅРЅС‹Рµ С„Р°Р№Р»С‹:';
+$MESS['ALTASIB_SUPPORT_EVENT_CLOSE'] = '<b>РћР±СЂР°С‰РµРЅРёРµ Р·Р°РєСЂС‹С‚Рѕ РєР»РёРµРЅС‚РѕРј</b>';
+$MESS['ALTASIB_SUPPORT_EVENT_UF'] = '<p><b>Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ:</b></p>';
 
-$MESS['ALTASIB_SUPPORT_EVENT_ADD_MEMBER_TITLE'] = 'Вы добавлены как соисполнитель в обращение';
-$MESS['ALTASIB_SUPPORT_EVENT_ADD_MEMBER'] = 'Вы добавлены как соисполнитель в обращении <a href="#URL#">##ID#</a>
-        Тема: <b>#TITLE#</b>
-        Текст обращения
+$MESS['ALTASIB_SUPPORT_EVENT_ADD_MEMBER_TITLE'] = 'Р’С‹ РґРѕР±Р°РІР»РµРЅС‹ РєР°Рє СЃРѕРёСЃРїРѕР»РЅРёС‚РµР»СЊ РІ РѕР±СЂР°С‰РµРЅРёРµ';
+$MESS['ALTASIB_SUPPORT_EVENT_ADD_MEMBER'] = 'Р’С‹ РґРѕР±Р°РІР»РµРЅС‹ РєР°Рє СЃРѕРёСЃРїРѕР»РЅРёС‚РµР»СЊ РІ РѕР±СЂР°С‰РµРЅРёРё <a href="#URL#">##ID#</a>
+        РўРµРјР°: <b>#TITLE#</b>
+        РўРµРєСЃС‚ РѕР±СЂР°С‰РµРЅРёСЏ
         
         #MESSAGE#
         
         <a href="#URL#">#URL#</a>';
         
-$MESS['ALTASIB_SUPPORT_EVENT_SET_DEFERRED_LOG'] = 'Обращение было отложено';         
+$MESS['ALTASIB_SUPPORT_EVENT_SET_DEFERRED_LOG'] = 'РћР±СЂР°С‰РµРЅРёРµ Р±С‹Р»Рѕ РѕС‚Р»РѕР¶РµРЅРѕ';         
 ?>

@@ -8,12 +8,12 @@
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_SLA_ENTITY_NAME_FIELD'] = 'Íàçâàíèå';
-$MESS['ALTASIB_SUPPORT_SLA_ENTITY_DESCRIPTION_FIELD'] = 'Îïèñàíèå';
-$MESS['ALTASIB_SUPPORT_SLA_ENTITY_SORT_FIELD'] = 'Ñîðòèðîâêà';
-$MESS['ALTASIB_SUPPORT_SLA_ENTITY_RESPONSE_TIME_FIELD'] = 'Âðåìÿ ðåàêöèè íà ñîîáùåíèå';
-$MESS['ALTASIB_SUPPORT_SLA_ENTITY_NOTICE_TIME_FIELD'] = 'Çà ñêîëüêî äî îêîí÷àíèÿ âðåìåíè ðåàêöèè âûñûëàòü íàïîìèíàíèå';
-$MESS['ALTASIB_SUPPORT_SLA_ENTITY_DATE_CREATE_FIELD'] = 'Äàòà ñîçäàíèÿ';
-$MESS['ALTASIB_SUPPORT_SLA_ENTITY_CREATED_USER_ID_FIELD'] = 'Ñîçäàë';
-$MESS['ALTASIB_SUPPORT_SLA_ENTITY_MODIFIED_USER_ID_FIELD'] = 'Èçìåíèë';
+$MESS['ALTASIB_SUPPORT_SLA_ENTITY_NAME_FIELD'] = 'ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ';
+$MESS['ALTASIB_SUPPORT_SLA_ENTITY_DESCRIPTION_FIELD'] = 'ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ';
+$MESS['ALTASIB_SUPPORT_SLA_ENTITY_SORT_FIELD'] = 'Ð¡Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ°';
+$MESS['ALTASIB_SUPPORT_SLA_ENTITY_RESPONSE_TIME_FIELD'] = 'Ð’Ñ€ÐµÐ¼Ñ Ñ€ÐµÐ°ÐºÑ†Ð¸Ð¸ Ð½Ð° ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ';
+$MESS['ALTASIB_SUPPORT_SLA_ENTITY_NOTICE_TIME_FIELD'] = 'Ð—Ð° ÑÐºÐ¾Ð»ÑŒÐºÐ¾ Ð´Ð¾ Ð¾ÐºÐ¾Ð½Ñ‡Ð°Ð½Ð¸Ñ Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸ Ñ€ÐµÐ°ÐºÑ†Ð¸Ð¸ Ð²Ñ‹ÑÑ‹Ð»Ð°Ñ‚ÑŒ Ð½Ð°Ð¿Ð¾Ð¼Ð¸Ð½Ð°Ð½Ð¸Ðµ';
+$MESS['ALTASIB_SUPPORT_SLA_ENTITY_DATE_CREATE_FIELD'] = 'Ð”Ð°Ñ‚Ð° ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_SLA_ENTITY_CREATED_USER_ID_FIELD'] = 'Ð¡Ð¾Ð·Ð´Ð°Ð»';
+$MESS['ALTASIB_SUPPORT_SLA_ENTITY_MODIFIED_USER_ID_FIELD'] = 'Ð˜Ð·Ð¼ÐµÐ½Ð¸Ð»';
 ?>

@@ -56,43 +56,51 @@ function getMessageSupport($arMessage,$arParams,$Ticket, $lastDate)
 											<div class="ticket-fav" onclick="alSupDetail.messageDelFav(<?=$arMessage['ID']?>)" title="<?=GetMessage('ALTASIB_SUPPORT_DEL_FAVORITE')?>"><i class="icon-star"> </i></div>
 										<?endif;?>									
 									
-										<div class="feed-com-info">
-											<?if($arMessage['IS_LOG']=='N'):?>
-												<?if(strlen($arMessage['AUTHOR']['AVATAR'])==0):?>
-												<div class="feed-com-avatar feed-com-avatar-N"><img src="/bitrix/images/1.gif" width="30" height="30"></div>
-												<?else:?>
-												<div class="feed-com-avatar feed-com-avatar-Y"><img src="<?=$arMessage['AUTHOR']['AVATAR'];?>" width="30" height="30"></div>
-												<?endif;?>
-
-												<?if(strlen($arMessage['AUTHOR']['URL'])==0):?>
-													<span class="feed-com-name feed-author-name feed-author-name-1"><?=$arMessage['AUTHOR']['NAME']?></span>
-												<?else:?>
-													<a class="feed-com-name feed-author-name feed-author-name-1" href="<?=$arMessage['AUTHOR']['URL']?>"><?=$arMessage['AUTHOR']['NAME']?></a>
-												<?endif;?>
-											<?endif;?>
-								
-											<div class="feed-com-informers">
-												<span class="feed-time"><?=$arMessage['POST_DATE']?></span>
-												<?if($arMessage['IS_HIDDEN']=='Y'):?>
-												<span class="is-hidden-text"><?=GetMessage('ALTASIB_SUPPORT_IS_HIDDEN');?></span>
-												<?endif;?>
-												<?if($arMessage['IS_LOG']=='Y'):?>
-												<span class="is-log-text"><?=GetMessage('ALTASIB_SUPPORT_IS_LOG').' '.$arMessage['CREATED_USER_SHORT_NAME'];?></span>
-												<?endif;?>
-												
-												<a name="mess<?=$arMessage['ID']?>"></a>                                            
-											</div>
-										</div>
+										<div class="feed-wrap">
+                                            <div class="feed-avatar">
+                                                <?if($arMessage['IS_LOG']=='N'):?>
+    												<?if(strlen($arMessage['AUTHOR']['AVATAR'])==0):?>
+    												<div class="feed-com-avatar feed-com-avatar-N"><img src="/bitrix/images/1.gif" width="40" height="40"></div>
+    												<?else:?>
+    												<div class="feed-com-avatar feed-com-avatar-Y"><img src="<?=$arMessage['AUTHOR']['AVATAR'];?>" width="40" height="40"></div>
+    												<?endif;?>
+    											<?endif;?>
+                                            </div>
+                                            <div class="feed-cont">
+                                                <div class="feed-com-info">
+        											<?if($arMessage['IS_LOG']=='N'):?>        
+        												<?if(strlen($arMessage['AUTHOR']['URL'])==0):?>
+        													<span class="feed-com-name feed-author-name feed-author-name-1"><?=$arMessage['AUTHOR']['NAME']?><p>Сотрудник техподдержки</p></span>
+        												<?else:?>
+        													<a class="feed-com-name feed-author-name feed-author-name-1" href="<?=$arMessage['AUTHOR']['URL']?>"><?=$arMessage['AUTHOR']['NAME']?><p>Сотрудник техподдержки</p></a>
+        												<?endif;?>
+        											<?endif;?>
+        								
+        											<div class="feed-com-informers">
+        												<span class="feed-time"><?=$arMessage['POST_DATE']?></span>
+        												<?if($arMessage['IS_HIDDEN']=='Y'):?>
+        												<span class="is-hidden-text"><?=GetMessage('ALTASIB_SUPPORT_IS_HIDDEN');?></span>
+        												<?endif;?>
+        												<?if($arMessage['IS_LOG']=='Y'):?>
+        												<span class="is-log-text"><?=GetMessage('ALTASIB_SUPPORT_IS_LOG').' '.$arMessage['CREATED_USER_SHORT_NAME'];?></span>
+        												<?endif;?>
+        												
+        												<a name="mess<?=$arMessage['ID']?>"></a>                                            
+        											</div>
+        										</div>
+                                                
+                                                <div class="feed-com-text">
+                                    				<div class="feed-com-text-inner">
+                                    					<div class="feed-com-text-inner-inner">
+        													<div><?=$arMessage['MESSAGE']?></div>
+                                    					</div>
+                                    				</div>
+                                    			</div>
+                                            </div>
+                                        </div>
                                         
                                        <a onclick="prompt('Link Message','http://<?=$_SERVER['HTTP_HOST'].$APPLICATION->GetCurPageParam('message='.$arMessage['ID'],array('message'));?>#mess<?=$arMessage['ID']?>')" href="javascript:void(0)" class="ticketID_promt">#<?=$arMessage['ID']?></a>
-
-                            			<div class="feed-com-text">
-                            				<div class="feed-com-text-inner">
-                            					<div class="feed-com-text-inner-inner">
-													<div><?=$arMessage['MESSAGE']?></div>
-                            					</div>
-                            				</div>
-                            			</div>
+                            			
                                         <?if($arMessage['IS_LOG']=='N'):?>
                                         <div class="altasib-support-adm-act">
                                             <?if(($arMessage['pull_type']=='W' || (!isset($arMessage['pull_type']) && $arParams['ROLE']=='W'))):?>

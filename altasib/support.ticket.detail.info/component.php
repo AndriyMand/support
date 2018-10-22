@@ -73,11 +73,35 @@ if ($arParams["ID"] > 0) {
         $arResult["CATEGORY"] = array();
         $arResult["STATUS"] = array();
         $arResult["PRIORITY"] = array();
+        
+        $arResult["SECTION_ID"] = $arTicket["SECTION_ID"];
+        
+        $sectionRelation = array(
+            1 => 'IT',
+            2 => 'AXO',
+            3 => 'HR',
+        );
+        
+        switch ($arTicket["SECTION_ID"]) {
+        	case 1:
+        		$arParams["HAVE_CHANGE_SOURCE"] = ( $USER->IsAdmin() || in_array( 19, CUser::GetUserGroup($USER->GetID()) ) );
+        		break;
+        	case 2:
+        		$arParams["HAVE_CHANGE_SOURCE"] = ( $USER->IsAdmin() || in_array( 20, CUser::GetUserGroup($USER->GetID()) ) );
+        		break;
+        	case 3:
+        		$arParams["HAVE_CHANGE_SOURCE"] = ( $USER->IsAdmin() || in_array( 21, CUser::GetUserGroup($USER->GetID()) ) );
+        		break;
+        }
+        
+//         $arParams["HAVE_CHANGE_SOURCE"] = 0;
 
         if ($arParams['Right']->allow('CHANGE_CATEGORY')) {
-            $obCategory = Support\CategoryTable::getList();
+            $obCategory = Support\CategoryTable::getList(array('order' => array('NAME' => 'asc')));
             while ($arCategory = $obCategory->fetch()) {
-                $arResult["CATEGORY"][$arCategory["ID"]] = $arCategory;
+                if ($sectionRelation[$arTicket["SECTION_ID"]] == $arCategory["DESCRIPTION"]) {
+                    $arResult["CATEGORY"][$arCategory["ID"]] = $arCategory;
+                }
             }
         }
         if ($arParams['Right']->allow('CHANGE_STATUS')) {
@@ -105,6 +129,21 @@ if ($arParams["ID"] > 0) {
         if (!IsModuleInstalled('intranet')) {
             $arParams['SUPPORT_TEAM'] = Support\Tools::getSupportTeam();
         }
+        
+        $arResult['SOURCE_ARRAY'] = array();
+        
+        $arSelect = Array("ID","NAME");
+        $arFilter = Array("IBLOCK_ID" => 12);
+        $db = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
+        while ($record = $db->fetch())
+        {
+        	if ($record['NAME'] == 'Портал') {
+        		$arResult['SELECTED_SOURCE'] = $record['ID'];
+        	}
+        
+        	$arResult['SOURCE_ARRAY'][$record['ID']] = $record['NAME'];
+        }
+        
         $this->IncludeComponentTemplate();
     }
 }

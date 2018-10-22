@@ -262,6 +262,27 @@ class TicketTable extends Entity\DataManager
             'COMMENT' => array(
                 'data_type' => 'string',
             ),
+        		
+        	'IS_CONFIRMED' => array(
+        		'data_type' => 'integer',
+        	),
+        		
+        	'MARK_VALUE' => array(
+        		'data_type' => 'integer',
+        	),
+        		
+        	'SECTION_ID' => array(
+        		'data_type' => 'integer',
+        	),
+            
+            'SOURCE_ID' => array(
+                'data_type' => 'integer',
+            ),
+            
+            'ADDRESS_NAME' => array(
+                'data_type' => 'string',
+            ),
+            
         );
         return $map;
     }

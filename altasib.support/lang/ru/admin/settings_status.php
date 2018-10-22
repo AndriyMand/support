@@ -6,10 +6,10 @@
  * @copyright 2006-2018 ALTASIB
  */
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_LIST_NAME"] = "Название";
-$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_LIST_SORT"] = "Индекс сортировки";
+$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_LIST_NAME"] = "РќР°Р·РІР°РЅРёРµ";
+$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_LIST_SORT"] = "РРЅРґРµРєСЃ СЃРѕСЂС‚РёСЂРѕРІРєРё";
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_CONTEXT_ADD"] = "Добавить статус";
+$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_CONTEXT_ADD"] = "Р”РѕР±Р°РІРёС‚СЊ СЃС‚Р°С‚СѓСЃ";
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_TITLE"] = "Список статусов обращения";
-$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_NAV_TITLE"] = "Статусы";
+$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_TITLE"] = "РЎРїРёСЃРѕРє СЃС‚Р°С‚СѓСЃРѕРІ РѕР±СЂР°С‰РµРЅРёСЏ";
+$MESS["ALTASIB_SUPPORT_SETTINGS_STATUS_NAV_TITLE"] = "РЎС‚Р°С‚СѓСЃС‹";

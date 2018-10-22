@@ -8,6 +8,6 @@
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_TICKET_MESSAGE_ENTITY_TICKET_ID_FIELD'] = 'Ïðèâÿçêà ê òèêåòó';
-$MESS['ALTASIB_SUPPORT_TICKET_MESSAGE_ENTITY_MESSAGE_FIELD'] = 'Òåêñò ñîîáùåíèÿ';
+$MESS['ALTASIB_SUPPORT_TICKET_MESSAGE_ENTITY_TICKET_ID_FIELD'] = 'ÐŸÑ€Ð¸Ð²ÑÐ·ÐºÐ° Ðº Ñ‚Ð¸ÐºÐµÑ‚Ñƒ';
+$MESS['ALTASIB_SUPPORT_TICKET_MESSAGE_ENTITY_MESSAGE_FIELD'] = 'Ð¢ÐµÐºÑÑ‚ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ';
 ?>

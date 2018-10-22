@@ -8,8 +8,8 @@
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_SETTINGS'] = 'Íàñòðîèòü';
-$MESS['ALTASIB_SUPPORT_BACK'] = 'Íàçàä ê ñïèñêó';
-$MESS["ALTASIB_SUPPORT_REQUIRED_FIELDS"] = "Ïîëÿ îáÿçàòåëüíûå äëÿ çàïîëíåíèÿ";
-$MESS["ALTASIB_SUPPORT_MODULE_NAME"] = "Òåõíè÷åñêàÿ ïîääåðæêà";
+$MESS['ALTASIB_SUPPORT_SETTINGS'] = 'ÐÐ°ÑÑ‚Ñ€Ð¾Ð¸Ñ‚ÑŒ';
+$MESS['ALTASIB_SUPPORT_BACK'] = 'ÐÐ°Ð·Ð°Ð´ Ðº ÑÐ¿Ð¸ÑÐºÑƒ';
+$MESS["ALTASIB_SUPPORT_REQUIRED_FIELDS"] = "ÐŸÐ¾Ð»Ñ Ð¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ð´Ð»Ñ Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ";
+$MESS["ALTASIB_SUPPORT_MODULE_NAME"] = "Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°";
 ?>

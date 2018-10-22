@@ -8,43 +8,43 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_CREATE"] = "Создать";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT"] = "Отправить";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_AND_GO"] = "Отправить и перейти в список";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_CREATE"] = "РЎРѕР·РґР°С‚СЊ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT"] = "РћС‚РїСЂР°РІРёС‚СЊ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_AND_GO"] = "РћС‚РїСЂР°РІРёС‚СЊ Рё РїРµСЂРµР№С‚Рё РІ СЃРїРёСЃРѕРє";
 
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_NAME"] = "Заголовок обращения";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_MESSAGE"] = "Текст сообщения";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CATEGORY"] = "Категория";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY"] = "Приоритет";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_NAME"] = "Р—Р°РіРѕР»РѕРІРѕРє РѕР±СЂР°С‰РµРЅРёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_MESSAGE"] = "РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CATEGORY"] = "РљР°С‚РµРіРѕСЂРёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY"] = "РџСЂРёРѕСЂРёС‚РµС‚";
 
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA'] = 'Ваш уровень поддержки #SLA_NAME#. Максимальное время реакции на обращение #SLA_TIME# ч.';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_RATE'] = 'Оценка ответов';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA'] = 'Р’Р°С€ СѓСЂРѕРІРµРЅСЊ РїРѕРґРґРµСЂР¶РєРё #SLA_NAME#. РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ РІСЂРµРјСЏ СЂРµР°РєС†РёРё РЅР° РѕР±СЂР°С‰РµРЅРёРµ #SLA_TIME# С‡.';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_RATE'] = 'РћС†РµРЅРєР° РѕС‚РІРµС‚РѕРІ';
 
-/*$MESS["ALTASIB_SUPPORT_EDIT_FORM_STATUS"] = "Статус";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CREATED"] = "Создано";
+/*$MESS["ALTASIB_SUPPORT_EDIT_FORM_STATUS"] = "РЎС‚Р°С‚СѓСЃ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CREATED"] = "РЎРѕР·РґР°РЅРѕ";
 
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_RESPONSIBLE"] = "Ответстенный";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_OWNER"] = "От";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_ADDITIONAL"] = "Дополнительная информация";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_TT"] = "Текст обращения";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_DISCUSSION"] = "Обсуждение";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_DATE_CREATE"] = "Время";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_DOWNLOAD"] = "Скачать";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_RESPONSIBLE"] = "РћС‚РІРµС‚СЃС‚РµРЅРЅС‹Р№";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_OWNER"] = "РћС‚";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_ADDITIONAL"] = "Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_TT"] = "РўРµРєСЃС‚ РѕР±СЂР°С‰РµРЅРёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_DISCUSSION"] = "РћР±СЃСѓР¶РґРµРЅРёРµ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_DATE_CREATE"] = "Р’СЂРµРјСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_DOWNLOAD"] = "РЎРєР°С‡Р°С‚СЊ";
 */
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_ADD_MESSAGE"] = "Добавить сообщение";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_ADD_MESSAGE"] = "Р”РѕР±Р°РІРёС‚СЊ СЃРѕРѕР±С‰РµРЅРёРµ";
 
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY_EMPTY"] = "не указан";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_FILE"] = "Прикрепить файлы";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY_EMPTY"] = "РЅРµ СѓРєР°Р·Р°РЅ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_FILE"] = "РџСЂРёРєСЂРµРїРёС‚СЊ С„Р°Р№Р»С‹";
 
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CAPTCHA_TITLE"] = "Защита от автоматического заполнения";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CAPTCHA_PROMPT"] = "Введите слово с картинки";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CAPTCHA_TITLE"] = "Р—Р°С‰РёС‚Р° РѕС‚ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРѕРіРѕ Р·Р°РїРѕР»РЅРµРЅРёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CAPTCHA_PROMPT"] = "Р’РІРµРґРёС‚Рµ СЃР»РѕРІРѕ СЃ РєР°СЂС‚РёРЅРєРё";
 
 
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CLOSE"] = "Закрыть обращение";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_OPEN"] = "Открыть обращение";
-$MESS["ALTASIB_SUPPORT_EDIT_REQUIRED"] = '- Поля отмеченные <span class="starrequired">*</span> обязательны для заполенения';
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CLOSE"] = "Р—Р°РєСЂС‹С‚СЊ РѕР±СЂР°С‰РµРЅРёРµ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_OPEN"] = "РћС‚РєСЂС‹С‚СЊ РѕР±СЂР°С‰РµРЅРёРµ";
+$MESS["ALTASIB_SUPPORT_EDIT_REQUIRED"] = '- РџРѕР»СЏ РѕС‚РјРµС‡РµРЅРЅС‹Рµ <span class="starrequired">*</span> РѕР±СЏР·Р°С‚РµР»СЊРЅС‹ РґР»СЏ Р·Р°РїРѕР»РµРЅРµРЅРёСЏ';
 
-$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME'] = 'Затраченное время';
-$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_H'] = 'Часы';
-$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_M'] = 'Минуты';
+$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME'] = 'Р—Р°С‚СЂР°С‡РµРЅРЅРѕРµ РІСЂРµРјСЏ';
+$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_H'] = 'Р§Р°СЃС‹';
+$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_M'] = 'РњРёРЅСѓС‚С‹';
 ?>

@@ -1,6 +1,6 @@
 <?
-$MESS["SONET_GROUP_TABS_LAST"] = "Îñòàíí³";
-$MESS["SONET_GROUP_TABS_MY"] = "Ìî¿ ãðóïè";
-$MESS["SONET_GROUP_TABS_SEARCH"] = "Ïîøóê";
-$MESS["SONET_GROUP_BUTTON_CLOSE"] = "Çàêðèòè";
+$MESS["SONET_GROUP_TABS_LAST"] = "ÐžÑÑ‚Ð°Ð½Ð½Ñ–";
+$MESS["SONET_GROUP_TABS_MY"] = "ÐœÐ¾Ñ— Ð³Ñ€ÑƒÐ¿Ð¸";
+$MESS["SONET_GROUP_TABS_SEARCH"] = "ÐŸÐ¾ÑˆÑƒÐº";
+$MESS["SONET_GROUP_BUTTON_CLOSE"] = "Ð—Ð°ÐºÑ€Ð¸Ñ‚Ð¸";
 ?>

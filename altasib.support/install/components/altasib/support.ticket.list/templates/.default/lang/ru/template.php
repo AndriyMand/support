@@ -8,43 +8,43 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_STL_T_CREATE_TICKET"] = "Ñîçäàòü îáðàùåíèå";
+$MESS["ALTASIB_STL_T_CREATE_TICKET"] = "Ð¡Ð¾Ð·Ð´Ð°Ñ‚ÑŒ Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ðµ";
 
 
 //filter
-$MESS["ALTASIB_STL_T_FILTER"] = "Ôèëüòð";
-$MESS["ALTASIB_STL_T_FILTER_CLOSE"] = "Çàêðûòî/îòêðûòî";
-$MESS["ALTASIB_STL_T_FILTER_CLOSE_ALL"] = "(Âñå)";
-$MESS["ALTASIB_STL_T_FILTER_CLOSE_N"] = "îòêðûòî";
-$MESS["ALTASIB_STL_T_FILTER_CLOSE_Y"] = "çàêðûòî";
-$MESS["ALTASIB_STL_T_FILTER_NAME"] = "Çàãîëîâîê";
-$MESS["ALTASIB_STL_T_FILTER_MESSAGE_EX"] = "Òåêñò îáðàùåíèÿ/ñîîáùåíèÿ";
-$MESS["ALTASIB_STL_T_FILTER_MESSAGE"] = "Òåêñò ñîîáùåíèÿ";
-$MESS["ALTASIB_STL_T_FILTER_TICKET_MESSAGE"] = "Òåêñò îáðàùåíèÿ";
-$MESS['ALTASIB_STL_T_FILTER_CATEGORY'] = 'Êàòåãîðèÿ';
-$MESS['ALTASIB_STL_T_FILTER_OWNER_USER_ID'] = 'Àâòîð';
-$MESS["ALTASIB_STL_T_FILTER_GO"] = "Íàéòè";
-$MESS["ALTASIB_STL_T_FILTER_CANCEL"] = "Îòìåíèòü";
+$MESS["ALTASIB_STL_T_FILTER"] = "Ð¤Ð¸Ð»ÑŒÑ‚Ñ€";
+$MESS["ALTASIB_STL_T_FILTER_CLOSE"] = "Ð—Ð°ÐºÑ€Ñ‹Ñ‚Ð¾/Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¾";
+$MESS["ALTASIB_STL_T_FILTER_CLOSE_ALL"] = "(Ð’ÑÐµ)";
+$MESS["ALTASIB_STL_T_FILTER_CLOSE_N"] = "Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¾";
+$MESS["ALTASIB_STL_T_FILTER_CLOSE_Y"] = "Ð·Ð°ÐºÑ€Ñ‹Ñ‚Ð¾";
+$MESS["ALTASIB_STL_T_FILTER_NAME"] = "Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº";
+$MESS["ALTASIB_STL_T_FILTER_MESSAGE_EX"] = "Ð¢ÐµÐºÑÑ‚ Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ/ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ";
+$MESS["ALTASIB_STL_T_FILTER_MESSAGE"] = "Ð¢ÐµÐºÑÑ‚ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ";
+$MESS["ALTASIB_STL_T_FILTER_TICKET_MESSAGE"] = "Ð¢ÐµÐºÑÑ‚ Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ";
+$MESS['ALTASIB_STL_T_FILTER_CATEGORY'] = 'ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ';
+$MESS['ALTASIB_STL_T_FILTER_OWNER_USER_ID'] = 'ÐÐ²Ñ‚Ð¾Ñ€';
+$MESS["ALTASIB_STL_T_FILTER_GO"] = "ÐÐ°Ð¹Ñ‚Ð¸";
+$MESS["ALTASIB_STL_T_FILTER_CANCEL"] = "ÐžÑ‚Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ";
 
-$MESS["ALTASIB_STL_T_LIST_ALL"] = 'Âñåãî';
-$MESS["ALTASIB_STL_T_LIST_#"] = '¹';
-$MESS["ALTASIB_STL_T_LIST_TITLE"] = 'Çàãîëîâîê';
-$MESS["ALTASIB_STL_T_LIST_CATEGORY"] = 'Êàòåãîðèÿ';
-$MESS["ALTASIB_STL_T_LIST_STATUS"] = 'Ñòàòóñ';
-$MESS["ALTASIB_STL_T_LIST_LAST_MESSAGE"] = 'Ïîñëåäíèé îòâåò';
-$MESS["ALTASIB_STL_T_LIST_MESSAGES"] = 'Ñîîáùåíèé';
-$MESS["ALTASIB_STL_T_LIST_OWNER"] = 'Îò';
-$MESS["ALTASIB_STL_T_LIST_RESPONSIBLE"] = 'Îòâåòñòâåííûé';
-$MESS["ALTASIB_STL_T_LIST_REPLY"] = 'Îòâåòèòü';
+$MESS["ALTASIB_STL_T_LIST_ALL"] = 'Ð’ÑÐµÐ³Ð¾';
+$MESS["ALTASIB_STL_T_LIST_#"] = 'â„–';
+$MESS["ALTASIB_STL_T_LIST_TITLE"] = 'Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº';
+$MESS["ALTASIB_STL_T_LIST_CATEGORY"] = 'ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ';
+$MESS["ALTASIB_STL_T_LIST_STATUS"] = 'Ð¡Ñ‚Ð°Ñ‚ÑƒÑ';
+$MESS["ALTASIB_STL_T_LIST_LAST_MESSAGE"] = 'ÐŸÐ¾ÑÐ»ÐµÐ´Ð½Ð¸Ð¹ Ð¾Ñ‚Ð²ÐµÑ‚';
+$MESS["ALTASIB_STL_T_LIST_MESSAGES"] = 'Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ð¹';
+$MESS["ALTASIB_STL_T_LIST_OWNER"] = 'ÐžÑ‚';
+$MESS["ALTASIB_STL_T_LIST_RESPONSIBLE"] = 'ÐžÑ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÐµÐ½Ð½Ñ‹Ð¹';
+$MESS["ALTASIB_STL_T_LIST_REPLY"] = 'ÐžÑ‚Ð²ÐµÑ‚Ð¸Ñ‚ÑŒ';
 
-$MESS['ALTASIB_STL_T_LIST_IS_CLOSE'] = 'Çàêðûòî';
-$MESS['ALTASIB_STL_T_LIST_IS_OPEN'] = 'Îòêðûòî';
-$MESS['ALTASIB_SUPPORT_LIST_IS_OVERDUE'] = 'ïðîñðî÷åíî!';
+$MESS['ALTASIB_STL_T_LIST_IS_CLOSE'] = 'Ð—Ð°ÐºÑ€Ñ‹Ñ‚Ð¾';
+$MESS['ALTASIB_STL_T_LIST_IS_OPEN'] = 'ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ð¾';
+$MESS['ALTASIB_SUPPORT_LIST_IS_OVERDUE'] = 'Ð¿Ñ€Ð¾ÑÑ€Ð¾Ñ‡ÐµÐ½Ð¾!';
 
-$MESS['ALTASIB_SUPPORT_LIST_LAST_MESSAGE_SUPPORT'] = 'ïîñëåäíèé ðàç â îáðàùåíèå ïèñàë ñîòðóäíèê òåõïîääåðæêè';
-$MESS['ALTASIB_SUPPORT_LIST_LAST_MESSAGE_CLIENT_SUP'] = 'ïîñëåäíèé ðàç â îáðàùåíèå ïèñàë êëèåíò òåõïîääåðæêè';
-$MESS['ALTASIB_SUPPORT_LIST_LAST_MESSAGE_CLIENT'] = 'ïîñëåäíèé ðàç â îáðàùåíèå ïèñàëè âû ëèáî âàø ñîòðóäíèê';
-$MESS['ALTASIB_SUPPORT_LIST_IS_DEFERRED'] = 'îáðàùåíèå îòëîæåíî';
-$MESS['ALTASIB_SUPPORT_LIST_LAST_MESSAGE_CLOSE'] = 'îáðàùåíèå çàêðûòî';
+$MESS['ALTASIB_SUPPORT_LIST_LAST_MESSAGE_SUPPORT'] = 'Ð¿Ð¾ÑÐ»ÐµÐ´Ð½Ð¸Ð¹ Ñ€Ð°Ð· Ð² Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ðµ Ð¿Ð¸ÑÐ°Ð» ÑÐ¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸Ðº Ñ‚ÐµÑ…Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ¸';
+$MESS['ALTASIB_SUPPORT_LIST_LAST_MESSAGE_CLIENT_SUP'] = 'Ð¿Ð¾ÑÐ»ÐµÐ´Ð½Ð¸Ð¹ Ñ€Ð°Ð· Ð² Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ðµ Ð¿Ð¸ÑÐ°Ð» ÐºÐ»Ð¸ÐµÐ½Ñ‚ Ñ‚ÐµÑ…Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ¸';
+$MESS['ALTASIB_SUPPORT_LIST_LAST_MESSAGE_CLIENT'] = 'Ð¿Ð¾ÑÐ»ÐµÐ´Ð½Ð¸Ð¹ Ñ€Ð°Ð· Ð² Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ðµ Ð¿Ð¸ÑÐ°Ð»Ð¸ Ð²Ñ‹ Ð»Ð¸Ð±Ð¾ Ð²Ð°Ñˆ ÑÐ¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸Ðº';
+$MESS['ALTASIB_SUPPORT_LIST_IS_DEFERRED'] = 'Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ðµ Ð¾Ñ‚Ð»Ð¾Ð¶ÐµÐ½Ð¾';
+$MESS['ALTASIB_SUPPORT_LIST_LAST_MESSAGE_CLOSE'] = 'Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ðµ Ð·Ð°ÐºÑ€Ñ‹Ñ‚Ð¾';
 
 ?>

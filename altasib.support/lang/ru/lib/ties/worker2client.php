@@ -8,14 +8,14 @@
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_USER_ID_FIELD']           = 'Ñîòðóäíèê';
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_CLIENT_USER_ID_FIELD']    = 'Êëèåíò';
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_CATEGORY_ID_FIELD']            = 'Êàòåãîðèÿ';
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_VIEW_FIELD']            = 'Ïðîñìîòð';
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_ANSWER_FIELD']          = 'Îòâåò';
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_R_FIELD'] = 'Èçìåíåíèå îòâåòñòâåííîãî';
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_A_FIELD'] = 'Èçìåíåíèå ñîèñïîëíèòåëåé';
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_S_FIELD'] = 'Èçìåíåíèå ñòàòóñà';
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_P_FIELD'] = 'Èçìåíåíèå ïðèîðèòåòà';
-$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_C_FIELD'] = 'Èçìåíåíèå êàòåãîðèè';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_USER_ID_FIELD']           = 'Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸Ðº';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_CLIENT_USER_ID_FIELD']    = 'ÐšÐ»Ð¸ÐµÐ½Ñ‚';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_CATEGORY_ID_FIELD']            = 'ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_VIEW_FIELD']            = 'ÐŸÑ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_ANSWER_FIELD']          = 'ÐžÑ‚Ð²ÐµÑ‚';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_R_FIELD'] = 'Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÐµÐ½Ð½Ð¾Ð³Ð¾';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_A_FIELD'] = 'Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ ÑÐ¾Ð¸ÑÐ¿Ð¾Ð»Ð½Ð¸Ñ‚ÐµÐ»ÐµÐ¹';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_S_FIELD'] = 'Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ ÑÑ‚Ð°Ñ‚ÑƒÑÐ°';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_P_FIELD'] = 'Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ Ð¿Ñ€Ð¸Ð¾Ñ€Ð¸Ñ‚ÐµÑ‚Ð°';
+$MESS['ALTASIB_SUPPORT_WTC_ENTITY_R_CHANGE_C_FIELD'] = 'Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸';
 ?>

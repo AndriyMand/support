@@ -9,106 +9,106 @@
 ?>
 <?
 //////////////////////
-$MESS['ALTASIB_SUPPORT_TICKET_CHANGE_ADD'] = 'Изменение в обращении';
+$MESS['ALTASIB_SUPPORT_TICKET_CHANGE_ADD'] = 'РР·РјРµРЅРµРЅРёРµ РІ РѕР±СЂР°С‰РµРЅРёРё';
 $MESS['ALTASIB_SUPPORT_TICKET_CHANGE_DESC'] = '
-#TICKET_ID# - ID обращения
-#TICKET_TITLE# - Заголовок обращения
-#TICKET_MESSAGE# - Текст обращения
-#TICKET_DATE_CREATE# - дата создания 
-#TICKET_CATEGORY# - категория обращения
-#TICKET_STATUS# - статус обращения
-#TICKET_PRIORITY# - критичность обращения
-#TICKET_SLA# - уровень поддержки
+#TICKET_ID# - ID РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_TITLE# - Р—Р°РіРѕР»РѕРІРѕРє РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_MESSAGE# - РўРµРєСЃС‚ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_DATE_CREATE# - РґР°С‚Р° СЃРѕР·РґР°РЅРёСЏ 
+#TICKET_CATEGORY# - РєР°С‚РµРіРѕСЂРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_STATUS# - СЃС‚Р°С‚СѓСЃ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_PRIORITY# - РєСЂРёС‚РёС‡РЅРѕСЃС‚СЊ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_SLA# - СѓСЂРѕРІРµРЅСЊ РїРѕРґРґРµСЂР¶РєРё
 
-#TICKET_OWNER_USER_ID# - ID автора обращения
-#TICKET_OWNER_USER_NAME# - имя автора обращения
-#TICKET_OWNER_USER_LOGIN# - логин автора обращения
-#TICKET_OWNER_USER_EMAIL# - email автора обращения
-#TICKET_OWNER_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_OWNER_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_OWNER_USER_ID# - ID Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_EMAIL# - email Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_OWNER_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_CREATED_USER_ID# - ID автора сообщения
-#TICKET_CREATED_USER_NAME# - имя автора сообщения
-#TICKET_CREATED_USER_LOGIN# - логин автора сообщения
-#TICKET_CREATED_USER_EMAIL# - email автора сообщения
-#TICKET_CREATED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_CREATED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_CREATED_USER_ID# - ID Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_EMAIL# - email Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_CREATED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_MODIFIED_USER_ID# - ID кто изменил
-#TICKET_MODIFIED_USER_NAME# - имя кто изменил
-#TICKET_MODIFIED_USER_LOGIN# - логин кто изменил
-#TICKET_MODIFIED_USER_EMAIL# - email кто изменил
-#TICKET_MODIFIED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_MODIFIED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_MODIFIED_USER_ID# - ID РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_NAME# - РёРјСЏ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_LOGIN# - Р»РѕРіРёРЅ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_EMAIL# - email РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_MODIFIED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#RESPONSIBLE_USER_ID# - ID ответственного за обращение
-#RESPONSIBLE_USER_NAME# - имя ответственного за обращение
-#RESPONSIBLE_USER_LOGIN# - логин ответственного за обращение
-#RESPONSIBLE_USER_EMAIL# - email ответственного за обращение
-#TICKET_RESPONSIBLE_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (логин) Фамилия Имя
+#RESPONSIBLE_USER_ID# - ID РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_NAME# - РёРјСЏ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_LOGIN# - Р»РѕРіРёРЅ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_EMAIL# - email РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#TICKET_RESPONSIBLE_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#MESSAGE# - Текст события
-#SUPPORT_EMAIL# - email тех поддержки
-#URL# - ссылка для изменения обращения
-#EMAIL# - email получателя
+#MESSAGE# - РўРµРєСЃС‚ СЃРѕР±С‹С‚РёСЏ
+#SUPPORT_EMAIL# - email С‚РµС… РїРѕРґРґРµСЂР¶РєРё
+#URL# - СЃСЃС‹Р»РєР° РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#EMAIL# - email РїРѕР»СѓС‡Р°С‚РµР»СЏ
 ';
 $MESS['ALTASIB_SUPPORT_TICKET_CHANGE_MESSAGE'] = '#MESSAGE#';
-$MESS['ALTASIB_SUPPORT_TICKET_CHANGE_SUBJECT'] = 'Изменения в обращении ##TICKET_ID#';
+$MESS['ALTASIB_SUPPORT_TICKET_CHANGE_SUBJECT'] = 'РР·РјРµРЅРµРЅРёСЏ РІ РѕР±СЂР°С‰РµРЅРёРё ##TICKET_ID#';
 
 /////////////////////
-$MESS['ALTASIB_SUPPORT_MESSAGE_ADD'] = 'Изменение в обращении';
+$MESS['ALTASIB_SUPPORT_MESSAGE_ADD'] = 'РР·РјРµРЅРµРЅРёРµ РІ РѕР±СЂР°С‰РµРЅРёРё';
 $MESS['ALTASIB_SUPPORT_MESSAGE_DESC'] = '
-#TICKET_ID# - ID обращения
-#TICKET_TITLE# - Заголовок обращения
-#TICKET_MESSAGE# - Текст обращения
-#TICKET_DATE_CREATE# - дата создания 
-#TICKET_CATEGORY# - категория обращения
-#TICKET_STATUS# - статус обращения
-#TICKET_PRIORITY# - критичность обращения
-#TICKET_SLA# - уровень поддержки
+#TICKET_ID# - ID РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_TITLE# - Р—Р°РіРѕР»РѕРІРѕРє РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_MESSAGE# - РўРµРєСЃС‚ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_DATE_CREATE# - РґР°С‚Р° СЃРѕР·РґР°РЅРёСЏ 
+#TICKET_CATEGORY# - РєР°С‚РµРіРѕСЂРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_STATUS# - СЃС‚Р°С‚СѓСЃ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_PRIORITY# - РєСЂРёС‚РёС‡РЅРѕСЃС‚СЊ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_SLA# - СѓСЂРѕРІРµРЅСЊ РїРѕРґРґРµСЂР¶РєРё
 
-#TICKET_OWNER_USER_ID# - ID автора обращения
-#TICKET_OWNER_USER_NAME# - имя автора обращения
-#TICKET_OWNER_USER_LOGIN# - логин автора обращения
-#TICKET_OWNER_USER_EMAIL# - email автора обращения
-#TICKET_OWNER_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_OWNER_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_OWNER_USER_ID# - ID Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_EMAIL# - email Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_OWNER_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_CREATED_USER_ID# - ID автора сообщения
-#TICKET_CREATED_USER_NAME# - имя автора сообщения
-#TICKET_CREATED_USER_LOGIN# - логин автора сообщения
-#TICKET_CREATED_USER_EMAIL# - email автора сообщения
-#TICKET_CREATED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_CREATED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_CREATED_USER_ID# - ID Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_EMAIL# - email Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_CREATED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_MODIFIED_USER_ID# - ID кто изменил
-#TICKET_MODIFIED_USER_NAME# - имя кто изменил
-#TICKET_MODIFIED_USER_LOGIN# - логин кто изменил
-#TICKET_MODIFIED_USER_EMAIL# - email кто изменил
-#TICKET_MODIFIED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_MODIFIED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_MODIFIED_USER_ID# - ID РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_NAME# - РёРјСЏ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_LOGIN# - Р»РѕРіРёРЅ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_EMAIL# - email РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_MODIFIED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_RESPONSIBLE_USER_ID# - ID ответственного за обращение
-#TICKET_RESPONSIBLE_USER_NAME# - имя ответственного за обращение
-#TICKET_RESPONSIBLE_USER_LOGIN# - логин ответственного за обращение
-#TICKET_RESPONSIBLE_USER_EMAIL# - email ответственного за обращение
-#TICKET_RESPONSIBLE_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_RESPONSIBLE_USER_ID# - ID РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#TICKET_RESPONSIBLE_USER_NAME# - РёРјСЏ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#TICKET_RESPONSIBLE_USER_LOGIN# - Р»РѕРіРёРЅ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#TICKET_RESPONSIBLE_USER_EMAIL# - email РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#TICKET_RESPONSIBLE_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#MESSAGE# - Текст сообщения
-#TICKET_FILES# - Список прикрепленныъ файлов
-#FILES# - Список прикрепленныъ файлов к сообщению
-#CREATED_USER_ID# - ID автора сообщения
-#CREATED_USER_NAME# - имя автора сообщения
-#CREATED_USER_LOGIN# - логин автора сообщения
-#CREATED_USER_EMAIL# - email автора сообщения
-#CREATED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#CREATED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#MESSAGE# - РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_FILES# - РЎРїРёСЃРѕРє РїСЂРёРєСЂРµРїР»РµРЅРЅС‹СЉ С„Р°Р№Р»РѕРІ
+#FILES# - РЎРїРёСЃРѕРє РїСЂРёРєСЂРµРїР»РµРЅРЅС‹СЉ С„Р°Р№Р»РѕРІ Рє СЃРѕРѕР±С‰РµРЅРёСЋ
+#CREATED_USER_ID# - ID Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_EMAIL# - email Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#CREATED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#SUPPORT_EMAIL# - email тех поддержки
-#URL# - ссылка для изменения обращения
-#EMAIL# - email получателя
+#SUPPORT_EMAIL# - email С‚РµС… РїРѕРґРґРµСЂР¶РєРё
+#URL# - СЃСЃС‹Р»РєР° РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#EMAIL# - email РїРѕР»СѓС‡Р°С‚РµР»СЏ
 ';
 $MESS['ALTASIB_SUPPORT_MESSAGE_MESSAGE'] = '<!DOCTYPE html>
 <html>
@@ -130,20 +130,20 @@ $MESS['ALTASIB_SUPPORT_MESSAGE_MESSAGE'] = '<!DOCTYPE html>
 		<tr>
 		<td  valign="top" align="left">
 		<br />
-           <div style="font-size:16px; margin: 0px 17px; border-bottom:1px solid #e4e4e4; padding-bottom:17px; text-align:center; font-weight:bold;">Добавлено сообщение в обращении ##TICKET_ID#</div>
+           <div style="font-size:16px; margin: 0px 17px; border-bottom:1px solid #e4e4e4; padding-bottom:17px; text-align:center; font-weight:bold;">Р”РѕР±Р°РІР»РµРЅРѕ СЃРѕРѕР±С‰РµРЅРёРµ РІ РѕР±СЂР°С‰РµРЅРёРё ##TICKET_ID#</div>
             <div style="padding: 10px 17px;">
-            <p>Тема: #TICKET_TITLE#</p>
-            <p>От кого: #CREATED_USER_LIST_NAME#</p>
-            <p>========ТЕКСТ СООБЩЕНИЯ=======</p>
+            <p>РўРµРјР°: #TICKET_TITLE#</p>
+            <p>РћС‚ РєРѕРіРѕ: #CREATED_USER_LIST_NAME#</p>
+            <p>========РўР•РљРЎРў РЎРћРћР‘Р©Р•РќРРЇ=======</p>
             <p>#MESSAGE#</p>
             <p>#FILES#</p>
             <p>================================</p>
             
-            <p>Статус - #TICKET_STATUS#</p>
-            <p>Категория - #TICKET_CATEGORY#</p>
-            <p>Критичность - #TICKET_PRIORITY#</p>
+            <p>РЎС‚Р°С‚СѓСЃ - #TICKET_STATUS#</p>
+            <p>РљР°С‚РµРіРѕСЂРёСЏ - #TICKET_CATEGORY#</p>
+            <p>РљСЂРёС‚РёС‡РЅРѕСЃС‚СЊ - #TICKET_PRIORITY#</p>
             
-            <p>Для просмотра и ответа в обращении воспользуйтесь ссылкой:</p>
+            <p>Р”Р»СЏ РїСЂРѕСЃРјРѕС‚СЂР° Рё РѕС‚РІРµС‚Р° РІ РѕР±СЂР°С‰РµРЅРёРё РІРѕСЃРїРѕР»СЊР·СѓР№С‚РµСЃСЊ СЃСЃС‹Р»РєРѕР№:</p>
             <p><a href="#URL#">#URL#</a></p>
 			</div>
 		</td>
@@ -159,52 +159,52 @@ $MESS['ALTASIB_SUPPORT_MESSAGE_MESSAGE'] = '<!DOCTYPE html>
 </table>
 </body>
 </html>';
-$MESS['ALTASIB_SUPPORT_MESSAGE_SUBJECT'] = 'Добавлено сообщение в обращении ##TICKET_ID#';
+$MESS['ALTASIB_SUPPORT_MESSAGE_SUBJECT'] = 'Р”РѕР±Р°РІР»РµРЅРѕ СЃРѕРѕР±С‰РµРЅРёРµ РІ РѕР±СЂР°С‰РµРЅРёРё ##TICKET_ID#';
 
 ///////////////////////////
-$MESS['ALTASIB_SUPPORT_ADD'] = 'Новое обращение';
+$MESS['ALTASIB_SUPPORT_ADD'] = 'РќРѕРІРѕРµ РѕР±СЂР°С‰РµРЅРёРµ';
 $MESS['ALTASIB_SUPPORT_DESC'] = '
-#TICKET_ID# - ID обращения
-#TICKET_TITLE# - Заголовок обращения
-#TICKET_MESSAGE# - Текст обращения
-#TICKET_DATE_CREATE# - дата создания 
-#TICKET_CATEGORY# - категория обращения
-#TICKET_STATUS# - статус обращения
-#TICKET_PRIORITY# - критичность обращения
-#TICKET_SLA# - уровень поддержки
+#TICKET_ID# - ID РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_TITLE# - Р—Р°РіРѕР»РѕРІРѕРє РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_MESSAGE# - РўРµРєСЃС‚ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_DATE_CREATE# - РґР°С‚Р° СЃРѕР·РґР°РЅРёСЏ 
+#TICKET_CATEGORY# - РєР°С‚РµРіРѕСЂРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_STATUS# - СЃС‚Р°С‚СѓСЃ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_PRIORITY# - РєСЂРёС‚РёС‡РЅРѕСЃС‚СЊ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_SLA# - СѓСЂРѕРІРµРЅСЊ РїРѕРґРґРµСЂР¶РєРё
 
-#TICKET_OWNER_USER_ID# - ID автора обращения
-#TICKET_OWNER_USER_NAME# - имя автора обращения
-#TICKET_OWNER_USER_LOGIN# - логин автора обращения
-#TICKET_OWNER_USER_EMAIL# - email автора обращения
-#TICKET_OWNER_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_OWNER_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_OWNER_USER_ID# - ID Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_EMAIL# - email Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_OWNER_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_CREATED_USER_ID# - ID автора сообщения
-#TICKET_CREATED_USER_NAME# - имя автора сообщения
-#TICKET_CREATED_USER_LOGIN# - логин автора сообщения
-#TICKET_CREATED_USER_EMAIL# - email автора сообщения
-#TICKET_CREATED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_CREATED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_CREATED_USER_ID# - ID Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_EMAIL# - email Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_CREATED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_MODIFIED_USER_ID# - ID кто изменил
-#TICKET_MODIFIED_USER_NAME# - имя кто изменил
-#TICKET_MODIFIED_USER_LOGIN# - логин кто изменил
-#TICKET_MODIFIED_USER_EMAIL# - email кто изменил
-#TICKET_MODIFIED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_MODIFIED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_MODIFIED_USER_ID# - ID РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_NAME# - РёРјСЏ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_LOGIN# - Р»РѕРіРёРЅ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_EMAIL# - email РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_MODIFIED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#RESPONSIBLE_USER_ID# - ID ответственного за обращение
-#RESPONSIBLE_USER_NAME# - имя ответственного за обращение
-#RESPONSIBLE_USER_LOGIN# - логин ответственного за обращение
-#RESPONSIBLE_USER_EMAIL# - email ответственного за обращение
-#TICKET_RESPONSIBLE_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (логин) Фамилия Имя
-#TICKET_FILES# - Список прикрепленныъ файлов
+#RESPONSIBLE_USER_ID# - ID РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_NAME# - РёРјСЏ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_LOGIN# - Р»РѕРіРёРЅ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_EMAIL# - email РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#TICKET_RESPONSIBLE_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
+#TICKET_FILES# - РЎРїРёСЃРѕРє РїСЂРёРєСЂРµРїР»РµРЅРЅС‹СЉ С„Р°Р№Р»РѕРІ
 
-#SUPPORT_EMAIL# - email тех поддержки
-#URL# - ссылка для изменения обращения
-#EMAIL# - email получателя
+#SUPPORT_EMAIL# - email С‚РµС… РїРѕРґРґРµСЂР¶РєРё
+#URL# - СЃСЃС‹Р»РєР° РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#EMAIL# - email РїРѕР»СѓС‡Р°С‚РµР»СЏ
 ';
 
 $MESS['ALTASIB_SUPPORT_MESSAGE'] = '<!DOCTYPE html>
@@ -227,21 +227,21 @@ $MESS['ALTASIB_SUPPORT_MESSAGE'] = '<!DOCTYPE html>
 		<tr>
 		<td  valign="top" align="left">
 		<br />
-           <div style="font-size:16px; margin: 0px 17px; border-bottom:1px solid #e4e4e4; padding-bottom:17px; text-align:center; font-weight:bold;">Новое обращение ##TICKET_ID#</div>
+           <div style="font-size:16px; margin: 0px 17px; border-bottom:1px solid #e4e4e4; padding-bottom:17px; text-align:center; font-weight:bold;">РќРѕРІРѕРµ РѕР±СЂР°С‰РµРЅРёРµ ##TICKET_ID#</div>
             <div style="padding: 10px 17px;">
-            <p>Тема: #TICKET_TITLE#</p>
-            <p>От кого: #TICKET_OWNER_USER_LIST_NAME#</p>
-            <p>=========ТЕКСТ ОБРАЩЕНИЯ========</p>
+            <p>РўРµРјР°: #TICKET_TITLE#</p>
+            <p>РћС‚ РєРѕРіРѕ: #TICKET_OWNER_USER_LIST_NAME#</p>
+            <p>=========РўР•РљРЎРў РћР‘Р РђР©Р•РќРРЇ========</p>
             <p>#TICKET_MESSAGE#</p>
             <p>#TICKET_FILES#</p>
             <p>================================</p>
             
-            <p>Статус - #TICKET_STATUS#</p>
-            <p>Ответственный - #TICKET_RESPONSIBLE_USER_LIST_NAME#</p>
-            <p>Категория - #TICKET_CATEGORY#</p>
-            <p>Критичность - #TICKET_PRIORITY#</p>
+            <p>РЎС‚Р°С‚СѓСЃ - #TICKET_STATUS#</p>
+            <p>РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ - #TICKET_RESPONSIBLE_USER_LIST_NAME#</p>
+            <p>РљР°С‚РµРіРѕСЂРёСЏ - #TICKET_CATEGORY#</p>
+            <p>РљСЂРёС‚РёС‡РЅРѕСЃС‚СЊ - #TICKET_PRIORITY#</p>
             
-            <p>Для просмотра и редактирования обращения воспользуйтесь ссылкой:</p>
+            <p>Р”Р»СЏ РїСЂРѕСЃРјРѕС‚СЂР° Рё СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ РІРѕСЃРїРѕР»СЊР·СѓР№С‚РµСЃСЊ СЃСЃС‹Р»РєРѕР№:</p>
             <p><a href="#URL#">#URL#</a></p>
 			</div>
 		</td>
@@ -258,63 +258,63 @@ $MESS['ALTASIB_SUPPORT_MESSAGE'] = '<!DOCTYPE html>
 </body>
 </html>';
 
-$MESS['ALTASIB_SUPPORT_SUBJECT'] = 'Новое обращение ##TICKET_ID#';
+$MESS['ALTASIB_SUPPORT_SUBJECT'] = 'РќРѕРІРѕРµ РѕР±СЂР°С‰РµРЅРёРµ ##TICKET_ID#';
 
 /////////////////////////
-$MESS['ALTASIB_SUPPORT_MESSAGE_SUPPORT_ADD'] = 'Изменение в обращении (для сотрудников)';
+$MESS['ALTASIB_SUPPORT_MESSAGE_SUPPORT_ADD'] = 'РР·РјРµРЅРµРЅРёРµ РІ РѕР±СЂР°С‰РµРЅРёРё (РґР»СЏ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ)';
 $MESS['ALTASIB_SUPPORT_MESSAGE_SUPPORT_DESC'] = '
-#TICKET_ID# - ID обращения
-#TICKET_TITLE# - Заголовок обращения
-#TICKET_MESSAGE# - Текст обращения
-#TICKET_DATE_CREATE# - дата создания 
-#TICKET_CATEGORY# - категория обращения
-#TICKET_STATUS# - статус обращения
-#TICKET_PRIORITY# - критичность обращения
-#TICKET_SLA# - уровень поддержки
+#TICKET_ID# - ID РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_TITLE# - Р—Р°РіРѕР»РѕРІРѕРє РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_MESSAGE# - РўРµРєСЃС‚ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_DATE_CREATE# - РґР°С‚Р° СЃРѕР·РґР°РЅРёСЏ 
+#TICKET_CATEGORY# - РєР°С‚РµРіРѕСЂРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_STATUS# - СЃС‚Р°С‚СѓСЃ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_PRIORITY# - РєСЂРёС‚РёС‡РЅРѕСЃС‚СЊ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_SLA# - СѓСЂРѕРІРµРЅСЊ РїРѕРґРґРµСЂР¶РєРё
 
-#TICKET_OWNER_USER_ID# - ID автора обращения
-#TICKET_OWNER_USER_NAME# - имя автора обращения
-#TICKET_OWNER_USER_LOGIN# - логин автора обращения
-#TICKET_OWNER_USER_EMAIL# - email автора обращения
-#TICKET_OWNER_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_OWNER_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_OWNER_USER_ID# - ID Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_EMAIL# - email Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_OWNER_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_CREATED_USER_ID# - ID автора сообщения
-#TICKET_CREATED_USER_NAME# - имя автора сообщения
-#TICKET_CREATED_USER_LOGIN# - логин автора сообщения
-#TICKET_CREATED_USER_EMAIL# - email автора сообщения
-#TICKET_CREATED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_CREATED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_CREATED_USER_ID# - ID Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_EMAIL# - email Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_CREATED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_MODIFIED_USER_ID# - ID кто изменил
-#TICKET_MODIFIED_USER_NAME# - имя кто изменил
-#TICKET_MODIFIED_USER_LOGIN# - логин кто изменил
-#TICKET_MODIFIED_USER_EMAIL# - email кто изменил
-#TICKET_MODIFIED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_MODIFIED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_MODIFIED_USER_ID# - ID РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_NAME# - РёРјСЏ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_LOGIN# - Р»РѕРіРёРЅ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_EMAIL# - email РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_MODIFIED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#RESPONSIBLE_USER_ID# - ID ответственного за обращение
-#RESPONSIBLE_USER_NAME# - имя ответственного за обращение
-#RESPONSIBLE_USER_LOGIN# - логин ответственного за обращение
-#RESPONSIBLE_USER_EMAIL# - email ответственного за обращение
-#TICKET_RESPONSIBLE_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (логин) Фамилия Имя
+#RESPONSIBLE_USER_ID# - ID РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_NAME# - РёРјСЏ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_LOGIN# - Р»РѕРіРёРЅ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_EMAIL# - email РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#TICKET_RESPONSIBLE_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#MESSAGE# - Текст сообщения
-#TICKET_FILES# - Список прикрепленныъ файлов
-#FILES# - Список прикрепленныъ файлов к сообщению
+#MESSAGE# - РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_FILES# - РЎРїРёСЃРѕРє РїСЂРёРєСЂРµРїР»РµРЅРЅС‹СЉ С„Р°Р№Р»РѕРІ
+#FILES# - РЎРїРёСЃРѕРє РїСЂРёРєСЂРµРїР»РµРЅРЅС‹СЉ С„Р°Р№Р»РѕРІ Рє СЃРѕРѕР±С‰РµРЅРёСЋ
 
-#CREATED_USER_ID# - ID автора сообщения
-#CREATED_USER_NAME# - имя автора сообщения
-#CREATED_USER_LOGIN# - логин автора сообщения
-#CREATED_USER_EMAIL# - email автора сообщения
-#CREATED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#CREATED_USER_LIST_NAME# -  (логин) Фамилия Имя
-#CLOSE_TXT# - Текст "Обращение закрыто клиентом"
+#CREATED_USER_ID# - ID Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_EMAIL# - email Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#CREATED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
+#CLOSE_TXT# - РўРµРєСЃС‚ "РћР±СЂР°С‰РµРЅРёРµ Р·Р°РєСЂС‹С‚Рѕ РєР»РёРµРЅС‚РѕРј"
 
-#SUPPORT_EMAIL# - email тех поддержки
-#URL# - ссылка для изменения обращения
-#EMAIL# - email получателя
+#SUPPORT_EMAIL# - email С‚РµС… РїРѕРґРґРµСЂР¶РєРё
+#URL# - СЃСЃС‹Р»РєР° РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#EMAIL# - email РїРѕР»СѓС‡Р°С‚РµР»СЏ
 ';
 $MESS['ALTASIB_SUPPORT_MESSAGE_SUPPORT_MESSAGE'] = '<!DOCTYPE html>
 <html>
@@ -336,12 +336,12 @@ $MESS['ALTASIB_SUPPORT_MESSAGE_SUPPORT_MESSAGE'] = '<!DOCTYPE html>
 		<tr>
 		<td  valign="top" align="left">
 		<br />
-		<div style="font-size:16px; margin: 0px 17px; border-bottom:1px solid #e4e4e4; padding-bottom:17px; text-align:center; font-weight:bold;">Добавлено сообщение в обращении ##TICKET_ID#</div>
+		<div style="font-size:16px; margin: 0px 17px; border-bottom:1px solid #e4e4e4; padding-bottom:17px; text-align:center; font-weight:bold;">Р”РѕР±Р°РІР»РµРЅРѕ СЃРѕРѕР±С‰РµРЅРёРµ РІ РѕР±СЂР°С‰РµРЅРёРё ##TICKET_ID#</div>
 		<font style="color: #777">
         #CLOSE_TXT#
-		<p>Тема: #TICKET_TITLE#</p>
-		<p>От кого: #CREATED_USER_LIST_NAME#</p>
-		<p>========ТЕКСТ СООБЩЕНИЯ=======</p>
+		<p>РўРµРјР°: #TICKET_TITLE#</p>
+		<p>РћС‚ РєРѕРіРѕ: #CREATED_USER_LIST_NAME#</p>
+		<p>========РўР•РљРЎРў РЎРћРћР‘Р©Р•РќРРЇ=======</p>
 		</font>
 		<p>#MESSAGE#</p>
         <p>#FILES#</p>
@@ -349,15 +349,15 @@ $MESS['ALTASIB_SUPPORT_MESSAGE_SUPPORT_MESSAGE'] = '<!DOCTYPE html>
 		<p>================================</p>
 
 		<p>
-        Автор обращения:#TICKET_OWNER_USER_LIST_NAME# <br />
-		Статус - #TICKET_STATUS#<br />
-		Ответственный - <b>#TICKET_RESPONSIBLE_USER_LIST_NAME#</b><br />
-		Категория - #TICKET_CATEGORY#<br />
-		Критичность - #TICKET_PRIORITY#</p>
+        РђРІС‚РѕСЂ РѕР±СЂР°С‰РµРЅРёСЏ:#TICKET_OWNER_USER_LIST_NAME# <br />
+		РЎС‚Р°С‚СѓСЃ - #TICKET_STATUS#<br />
+		РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ - <b>#TICKET_RESPONSIBLE_USER_LIST_NAME#</b><br />
+		РљР°С‚РµРіРѕСЂРёСЏ - #TICKET_CATEGORY#<br />
+		РљСЂРёС‚РёС‡РЅРѕСЃС‚СЊ - #TICKET_PRIORITY#</p>
                 
 		<p>(support)</p>
 		</font>
-		<p>Для просмотра и редактирования обращения воспользуйтесь ссылкой:</p>
+		<p>Р”Р»СЏ РїСЂРѕСЃРјРѕС‚СЂР° Рё СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ РІРѕСЃРїРѕР»СЊР·СѓР№С‚РµСЃСЊ СЃСЃС‹Р»РєРѕР№:</p>
 		<p><a href="#URL#">#URL#</a></p>
 		</td>
 		</tr>
@@ -372,86 +372,86 @@ $MESS['ALTASIB_SUPPORT_MESSAGE_SUPPORT_MESSAGE'] = '<!DOCTYPE html>
 </table>
 </body>
 </html>';
-$MESS['ALTASIB_SUPPORT_MESSAGE_SUPPORT_SUBJECT'] = 'Добавлено сообщение в обращении ##TICKET_ID#';
+$MESS['ALTASIB_SUPPORT_MESSAGE_SUPPORT_SUBJECT'] = 'Р”РѕР±Р°РІР»РµРЅРѕ СЃРѕРѕР±С‰РµРЅРёРµ РІ РѕР±СЂР°С‰РµРЅРёРё ##TICKET_ID#';
 
 ////////////////////
-$MESS['ALTASIB_SUPPORT_EXPIRE_NOTIFY_ADD'] = 'Напоминание о необходимости ответа';
+$MESS['ALTASIB_SUPPORT_EXPIRE_NOTIFY_ADD'] = 'РќР°РїРѕРјРёРЅР°РЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РѕС‚РІРµС‚Р°';
 $MESS['ALTASIB_SUPPORT_EXPIRE_NOTIFY_DESC'] = '
-#TICKET_ID# - ID обращения
-#TICKET_TITLE# - Заголовок обращения
-#TICKET_MESSAGE# - Текст обращения
-#TICKET_DATE_CREATE# - дата создания 
-#TICKET_CATEGORY# - категория обращения
-#TICKET_STATUS# - статус обращения
-#TICKET_PRIORITY# - критичность обращения
-#TICKET_SLA# - уровень поддержки
+#TICKET_ID# - ID РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_TITLE# - Р—Р°РіРѕР»РѕРІРѕРє РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_MESSAGE# - РўРµРєСЃС‚ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_DATE_CREATE# - РґР°С‚Р° СЃРѕР·РґР°РЅРёСЏ 
+#TICKET_CATEGORY# - РєР°С‚РµРіРѕСЂРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_STATUS# - СЃС‚Р°С‚СѓСЃ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_PRIORITY# - РєСЂРёС‚РёС‡РЅРѕСЃС‚СЊ РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_SLA# - СѓСЂРѕРІРµРЅСЊ РїРѕРґРґРµСЂР¶РєРё
 
-#TICKET_OWNER_USER_ID# - ID автора обращения
-#TICKET_OWNER_USER_NAME# - имя автора обращения
-#TICKET_OWNER_USER_LOGIN# - логин автора обращения
-#TICKET_OWNER_USER_EMAIL# - email автора обращения
-#TICKET_OWNER_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_OWNER_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_OWNER_USER_ID# - ID Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_EMAIL# - email Р°РІС‚РѕСЂР° РѕР±СЂР°С‰РµРЅРёСЏ
+#TICKET_OWNER_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_OWNER_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_CREATED_USER_ID# - ID автора сообщения
-#TICKET_CREATED_USER_NAME# - имя автора сообщения
-#TICKET_CREATED_USER_LOGIN# - логин автора сообщения
-#TICKET_CREATED_USER_EMAIL# - email автора сообщения
-#TICKET_CREATED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_CREATED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_CREATED_USER_ID# - ID Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_EMAIL# - email Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_CREATED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_CREATED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#TICKET_MODIFIED_USER_ID# - ID кто изменил
-#TICKET_MODIFIED_USER_NAME# - имя кто изменил
-#TICKET_MODIFIED_USER_LOGIN# - логин кто изменил
-#TICKET_MODIFIED_USER_EMAIL# - email кто изменил
-#TICKET_MODIFIED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_MODIFIED_USER_LIST_NAME# -  (логин) Фамилия Имя
+#TICKET_MODIFIED_USER_ID# - ID РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_NAME# - РёРјСЏ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_LOGIN# - Р»РѕРіРёРЅ РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_EMAIL# - email РєС‚Рѕ РёР·РјРµРЅРёР»
+#TICKET_MODIFIED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_MODIFIED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#RESPONSIBLE_USER_ID# - ID ответственного за обращение
-#RESPONSIBLE_USER_NAME# - имя ответственного за обращение
-#RESPONSIBLE_USER_LOGIN# - логин ответственного за обращение
-#RESPONSIBLE_USER_EMAIL# - email ответственного за обращение
-#TICKET_RESPONSIBLE_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (логин) Фамилия Имя
+#RESPONSIBLE_USER_ID# - ID РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_NAME# - РёРјСЏ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_LOGIN# - Р»РѕРіРёРЅ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#RESPONSIBLE_USER_EMAIL# - email РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РѕР±СЂР°С‰РµРЅРёРµ
+#TICKET_RESPONSIBLE_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#TICKET_RESPONSIBLE_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
 
-#MESSAGE# - Текст сообщения
-#TICKET_FILES# - Список прикрепленныъ файлов
-#FILES# - Список прикрепленныъ файлов к сообщению
+#MESSAGE# - РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ
+#TICKET_FILES# - РЎРїРёСЃРѕРє РїСЂРёРєСЂРµРїР»РµРЅРЅС‹СЉ С„Р°Р№Р»РѕРІ
+#FILES# - РЎРїРёСЃРѕРє РїСЂРёРєСЂРµРїР»РµРЅРЅС‹СЉ С„Р°Р№Р»РѕРІ Рє СЃРѕРѕР±С‰РµРЅРёСЋ
 
-#CREATED_USER_ID# - ID автора сообщения
-#CREATED_USER_NAME# - имя автора сообщения
-#CREATED_USER_LOGIN# - логин автора сообщения
-#CREATED_USER_EMAIL# - email автора сообщения
-#CREATED_USER_SHORT_NAME# - Имя Фамилия, если не заполнены логин
-#CREATED_USER_LIST_NAME# -  (логин) Фамилия Имя
-#EXPIRATION_DATE# - дата истечения времени реакции
-#REMAINED_TIME# - сколько осталось до даты истечения времени реакции 
+#CREATED_USER_ID# - ID Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_NAME# - РёРјСЏ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_LOGIN# - Р»РѕРіРёРЅ Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_EMAIL# - email Р°РІС‚РѕСЂР° СЃРѕРѕР±С‰РµРЅРёСЏ
+#CREATED_USER_SHORT_NAME# - РРјСЏ Р¤Р°РјРёР»РёСЏ, РµСЃР»Рё РЅРµ Р·Р°РїРѕР»РЅРµРЅС‹ Р»РѕРіРёРЅ
+#CREATED_USER_LIST_NAME# -  (Р»РѕРіРёРЅ) Р¤Р°РјРёР»РёСЏ РРјСЏ
+#EXPIRATION_DATE# - РґР°С‚Р° РёСЃС‚РµС‡РµРЅРёСЏ РІСЂРµРјРµРЅРё СЂРµР°РєС†РёРё
+#REMAINED_TIME# - СЃРєРѕР»СЊРєРѕ РѕСЃС‚Р°Р»РѕСЃСЊ РґРѕ РґР°С‚С‹ РёСЃС‚РµС‡РµРЅРёСЏ РІСЂРµРјРµРЅРё СЂРµР°РєС†РёРё 
 
-#SUPPORT_EMAIL# - email тех поддержки
-#URL# - ссылка для изменения обращения
-#EMAIL# - email получателя
+#SUPPORT_EMAIL# - email С‚РµС… РїРѕРґРґРµСЂР¶РєРё
+#URL# - СЃСЃС‹Р»РєР° РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ
+#EMAIL# - email РїРѕР»СѓС‡Р°С‚РµР»СЏ
 ';
-$MESS['ALTASIB_SUPPORT_EXPIRE_NOTIFY_MESSAGE'] = 'Напоминание о необходимости ответа в обращении ##TICKET_ID#.
+$MESS['ALTASIB_SUPPORT_EXPIRE_NOTIFY_MESSAGE'] = 'РќР°РїРѕРјРёРЅР°РЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РѕС‚РІРµС‚Р° РІ РѕР±СЂР°С‰РµРЅРёРё ##TICKET_ID#.
 
-Когда будет просрочено - #EXPIRATION_DATE# (осталось: #REMAINED_TIME#)
+РљРѕРіРґР° Р±СѓРґРµС‚ РїСЂРѕСЃСЂРѕС‡РµРЅРѕ - #EXPIRATION_DATE# (РѕСЃС‚Р°Р»РѕСЃСЊ: #REMAINED_TIME#)
 
->================= ИНФОРМАЦИЯ ПО ОБРАЩЕНИЮ ===========================
+>================= РРќР¤РћР РњРђР¦РРЇ РџРћ РћР‘Р РђР©Р•РќРР® ===========================
 
-Тема: #TICKET_TITLE#
-От кого: #TICKET_OWNER_USER_LIST_NAME#
+РўРµРјР°: #TICKET_TITLE#
+РћС‚ РєРѕРіРѕ: #TICKET_OWNER_USER_LIST_NAME#
 
-Уровень поддержки - #TICKET_SLA#
-Статус - #TICKET_STATUS#
-Ответственный - #TICKET_RESPONSIBLE_USER_LIST_NAME#
-Категория - #TICKET_CATEGORY#
-Критичность - #TICKET_PRIORITY#
+РЈСЂРѕРІРµРЅСЊ РїРѕРґРґРµСЂР¶РєРё - #TICKET_SLA#
+РЎС‚Р°С‚СѓСЃ - #TICKET_STATUS#
+РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ - #TICKET_RESPONSIBLE_USER_LIST_NAME#
+РљР°С‚РµРіРѕСЂРёСЏ - #TICKET_CATEGORY#
+РљСЂРёС‚РёС‡РЅРѕСЃС‚СЊ - #TICKET_PRIORITY#
 
->================ СООБЩЕНИЕ ТРЕБУЮЩЕЕ ОТВЕТА =========================
+>================ РЎРћРћР‘Р©Р•РќРР• РўР Р•Р‘РЈР®Р©Р•Р• РћРўР’Р•РўРђ =========================
 #MESSAGE#
 >=====================================================================
 
 
-Для просмотра либо ответа воспользуйтесь ссылкой:
+Р”Р»СЏ РїСЂРѕСЃРјРѕС‚СЂР° Р»РёР±Рѕ РѕС‚РІРµС‚Р° РІРѕСЃРїРѕР»СЊР·СѓР№С‚РµСЃСЊ СЃСЃС‹Р»РєРѕР№:
 #URL#';
-$MESS['ALTASIB_SUPPORT_EXPIRE_NOTIFY_SUBJECT'] = 'Напоминание о необходимости ответа в обращении ##TICKET_ID#';
+$MESS['ALTASIB_SUPPORT_EXPIRE_NOTIFY_SUBJECT'] = 'РќР°РїРѕРјРёРЅР°РЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РѕС‚РІРµС‚Р° РІ РѕР±СЂР°С‰РµРЅРёРё ##TICKET_ID#';
 ?>

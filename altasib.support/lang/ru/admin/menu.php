@@ -8,18 +8,18 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_MENU_MAIN"] = "Òåõ. ïîääåðæêà";
-$MESS["ALTASIB_SUPPORT_MENU_TICKET_LIST"] = "Ñïèñîê îáðàùåíèé";
+$MESS["ALTASIB_SUPPORT_MENU_MAIN"] = "Ð¢ÐµÑ…. Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°";
+$MESS["ALTASIB_SUPPORT_MENU_TICKET_LIST"] = "Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ð¹";
 
-$MESS["ALTASIB_SUPPORT_MENU_SETTING"] = "Íàñòðîéêè";
-$MESS["ALTASIB_SUPPORT_MENU_SETTING_FIELD"] = "Ïîëÿ";
-$MESS["ALTASIB_SUPPORT_MENU_SETTING_CATEGORY"] = "Êàòåãîðèè";
-$MESS["ALTASIB_SUPPORT_MENU_SETTING_STATUS"] = "Ñòàòóñû";
-$MESS["ALTASIB_SUPPORT_MENU_SETTING_SLA"] = "Óðîâíè ïîääåðæêè";
-$MESS["ALTASIB_SUPPORT_MENU_SETTING_CONN"] = "Ñâÿçè";
-$MESS["ALTASIB_SUPPORT_MENU_SETTING_CONN_CÑ"] = "Êëèåíò->Ñîòðóäíèêè êëèåíòà";
-$MESS["ALTASIB_SUPPORT_MENU_SETTING_CONN_EC"] = "Ñîòðóäíèê->Êëèåíò";
-$MESS["ALTASIB_SUPPORT_MENU_SETTING_TYPE_TIME"] = "Òèïû âðåìåíè";
-$MESS["ALTASIB_SUPPORT_MENU_SETTING_WORKERS"] = "Ñîòðóäíèêè òåõíè÷åñêîé ïîääåðæêè";
-$MESS['ALTASIB_SUPPORT_MENU_SETTING_QR'] = 'Áûñòðûå îòâåòû';
+$MESS["ALTASIB_SUPPORT_MENU_SETTING"] = "ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸";
+$MESS["ALTASIB_SUPPORT_MENU_SETTING_FIELD"] = "ÐŸÐ¾Ð»Ñ";
+$MESS["ALTASIB_SUPPORT_MENU_SETTING_CATEGORY"] = "ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸";
+$MESS["ALTASIB_SUPPORT_MENU_SETTING_STATUS"] = "Ð¡Ñ‚Ð°Ñ‚ÑƒÑÑ‹";
+$MESS["ALTASIB_SUPPORT_MENU_SETTING_SLA"] = "Ð£Ñ€Ð¾Ð²Ð½Ð¸ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ¸";
+$MESS["ALTASIB_SUPPORT_MENU_SETTING_CONN"] = "Ð¡Ð²ÑÐ·Ð¸";
+$MESS["ALTASIB_SUPPORT_MENU_SETTING_CONN_CÐ¡"] = "ÐšÐ»Ð¸ÐµÐ½Ñ‚->Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸ÐºÐ¸ ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð°";
+$MESS["ALTASIB_SUPPORT_MENU_SETTING_CONN_EC"] = "Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸Ðº->ÐšÐ»Ð¸ÐµÐ½Ñ‚";
+$MESS["ALTASIB_SUPPORT_MENU_SETTING_TYPE_TIME"] = "Ð¢Ð¸Ð¿Ñ‹ Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸";
+$MESS["ALTASIB_SUPPORT_MENU_SETTING_WORKERS"] = "Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸ÐºÐ¸ Ñ‚ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ¾Ð¹ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ¸";
+$MESS['ALTASIB_SUPPORT_MENU_SETTING_QR'] = 'Ð‘Ñ‹ÑÑ‚Ñ€Ñ‹Ðµ Ð¾Ñ‚Ð²ÐµÑ‚Ñ‹';
 ?>

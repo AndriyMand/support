@@ -22,37 +22,37 @@ use ALTASIB\Support;
 <div id="support-detail-info">
     <table cellspacing="0" class="info-table">
         <tr>
-                <td colspan="2" class="section" onclick="AltasibSupport.Bar.ToggleBlock('altasibSupportBar-info')" ><?=GetMessage("ALTASIB_SUPPORT_FORM_INFO_TXT")?></td>
+            <td colspan="2" class="section" onclick="AltasibSupport.Bar.ToggleBlock('altasibSupportBar-info')" ><?=GetMessage("ALTASIB_SUPPORT_FORM_INFO_TXT")?></td>
         </tr>
 		<tbody id="altasibSupportBar-info">
-        <tr>
+            <tr>
                 <?/* from: */?>
 				<td colspan = "2">
-                    <div class = "altasib-column-support-title" onclick="AltasibSupport.Bar.ToggleBlock('responsible-popup')" ><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_OWNER")?>:</div>
-					<div class = "altasib-column-support-info" style="background-color: #e2e6e9">
+					<div class="altasib-column-support-info under-bg">
 						<div class="altasib-column-support-info-td">
 							<a class="altasib-support-info-user-avatar">
                             <?$ava = Support\User::getAvatar($arResult["TICKET_INFO"]["OWNER_USER_ID"]);?>
                             <?if(strlen($ava)>0):?>
-                                <img width="30" height="30" src="<?=$ava?>">
+                                <img width="40" height="40" src="<?=$ava?>">
                             <?else:?>
-							 <img width="30" height="30" src="/bitrix/images/1.gif">
+							 <img width="40" height="40" src="/bitrix/images/1.gif">
                             <?endif;?>
 							</a>						
 							<div class="altasib-column-support-user-info">
-                                    <?if($arParams["ROLE"]>='W'):?>
-									<a href="javascript:void(0)" onclick="AltasibSupport.Bar.ToggleBlock('responsible-popup')" class="altasib-dashed"><b><?=$arResult["TICKET_INFO"]["OWNER_USER_NAME"];?> <?=$arResult["TICKET_INFO"]["OWNER_USER_LAST_NAME"];?></b></a><br /><?=$arResult["TICKET_INFO"]["OWNER_USER_LOGIN"];?>
-									<div class="altasib-column-support-more" id="responsible-popup">                
-												- <a href="<?=$arParams['TICKET_LIST_URL']?>?setFilter=Y&set_support_filter=1&OWNER_USER_ID=<?=$arResult["TICKET_INFO"]["OWNER_USER_ID"]?>&CLOSE=ALL" title="<?=GetMessage('ALTASIB_SUPPORT_USER_TICKET')?>" target="_blank"><?=GetMessage('ALTASIB_SUPPORT_USER_TICKET')?></a>
-												<?if(IsModuleInstalled('sale')):?>
-													<br />- <a href="/bitrix/admin/sale_order.php?lang=<?=LANG?>&set_filter=Y&filter_user_id=<?=$arResult["TICKET_INFO"]["OWNER_USER_ID"]?>" target="_blank"><?=GetMessage('ALTASIB_SUPPORT_USER_ORDERS')?></a>
-												<?endif;?>
-											
+                                <div class = "altasib-column-support-title" onclick="AltasibSupport.Bar.ToggleBlock('responsible-popup')" ><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_OWNER")?>:</div>
+                                <?if($arParams["ROLE"]>='W'):?>
+								<a href="javascript:void(0)" onclick="AltasibSupport.Bar.ToggleBlock('responsible-popup')" class="altasib-dashed"><b><?=$arResult["TICKET_INFO"]["OWNER_USER_NAME"];?> <?=$arResult["TICKET_INFO"]["OWNER_USER_LAST_NAME"];?></b></a><p><?=$arResult["TICKET_INFO"]["OWNER_USER_LOGIN"];?></p>
+								<div class="altasib-column-support-more" id="responsible-popup">                
+											- <a href="<?=$arParams['TICKET_LIST_URL']?>?setFilter=Y&set_support_filter=1&OWNER_USER_ID=<?=$arResult["TICKET_INFO"]["OWNER_USER_ID"]?>&CLOSE=ALL" title="<?=GetMessage('ALTASIB_SUPPORT_USER_TICKET')?>" target="_blank"><?=GetMessage('ALTASIB_SUPPORT_USER_TICKET')?></a>
+											<?if(IsModuleInstalled('sale')):?>
+												<br />- <a href="/bitrix/admin/sale_order.php?lang=<?=LANG?>&set_filter=Y&filter_user_id=<?=$arResult["TICKET_INFO"]["OWNER_USER_ID"]?>" target="_blank"><?=GetMessage('ALTASIB_SUPPORT_USER_ORDERS')?></a>
+											<?endif;?>
 										
-									</div>
-                                    <?else:?>
-                                    <a href="javascript:void(0)"><b><?=$arResult["TICKET_INFO"]["OWNER_USER_NAME"];?> <?=$arResult["TICKET_INFO"]["OWNER_USER_LAST_NAME"];?></b></a><br /><?=$arResult["TICKET_INFO"]["OWNER_USER_LOGIN"];?>
-                                    <?endif;?>
+									
+								</div>
+                                <?else:?>
+                                <a href="javascript:void(0)"><b><?=$arResult["TICKET_INFO"]["OWNER_USER_NAME"];?> <?=$arResult["TICKET_INFO"]["OWNER_USER_LAST_NAME"];?></b></a><p><?=$arResult["TICKET_INFO"]["OWNER_USER_LOGIN"];?></p>
+                                <?endif;?>
 							</div>		
 						</div>
 					</div>
@@ -63,20 +63,21 @@ use ALTASIB\Support;
                 <?if($arParams['HAVE_CHANGE_RESPONSIBLE']):?>
                     <td colspan = "2">
                         <?if(IsModuleInstalled('intranet')):?>
-						<div class = "altasib-column-support-title"><?=GetMessage("ALTASIB_SUPPORT_DETAIL_CRM_ASSIGNED_BY")?>: <a href="javascript:void(0)" id="altasib-single-user-choice"> <?=GetMessage('ALTASIB_SUPPORT_EDIT_CHANGE_T')?></a></div>
+						
 						<div class = "altasib-column-support-info">
 							<div class="altasib-column-support-info-td">
 								<a class="altasib-support-info-user-avatar">
                                 <?$ava = Support\User::getAvatar($arResult["TICKET_INFO"]["RESPONSIBLE_USER_ID"]);?>
                                 <?if(strlen($ava)>0):?>
-                                    <img id="altasib-support-resp-ava" width="30" height="30" src="<?=$ava?>">
+                                    <img id="altasib-support-resp-ava" width="40" height="40" src="<?=$ava?>">
                                 <?else:?>
-    							 <img id="altasib-support-resp-ava" width="30" height="30" src="/bitrix/images/1.gif">
+    							 <img id="altasib-support-resp-ava" width="40" height="40" src="/bitrix/images/1.gif">
                                 <?endif;?>
                                 
 								</a>						
 								<div class="altasib-column-support-user-info">						
-									<input type="hidden" name="RESPONSIBLE_ID" id="RESPONSIBLE_ID" value="<?=$arResult["TICKET_INFO"]["RESPONSIBLE_USER_ID"];?>" />
+									<div class = "altasib-column-support-title"><?=GetMessage("ALTASIB_SUPPORT_DETAIL_CRM_ASSIGNED_BY")?>: </div>
+                                    <input type="hidden" name="RESPONSIBLE_ID" id="RESPONSIBLE_ID" value="<?=$arResult["TICKET_INFO"]["RESPONSIBLE_USER_ID"];?>" />
 
 									<a href="javascript:void(0)" class="altasib-dashed" onclick="if (BX.IM) { BXIM.openMessenger( BX('RESPONSIBLE_ID').value ); return false; } else { window.open('', '', 'status=no,scrollbars=yes,resizable=yes,width=700,height=550,top='+Math.floor((screen.height - 550)/2-14)+',left='+Math.floor((screen.width - 700)/2-5)); return false; }"><b><span id="RESPONSIBLE_NAME"><?=$arResult["TICKET_INFO"]["RESPONSIBLE_USER_SHORT_NAME"]?></b></span></a><br />&nbsp;
 									<?/*<br /><a href="javascript:void(0)" id="altasib-single-user-choice"> <?=GetMessage('ALTASIB_SUPPORT_EDIT_CHANGE_T')?></a>*/?>
@@ -122,9 +123,9 @@ use ALTASIB\Support;
 								<a class="altasib-support-info-user-avatar">
                                 <?$ava = Support\User::getAvatar($arResult["TICKET_INFO"]["RESPONSIBLE_USER_ID"]);?>
                                 <?if(strlen($ava)>0):?>
-                                    <img width="30" height="30" src="<?=$ava?>">
+                                    <img width="40" height="40" src="<?=$ava?>">
                                 <?else:?>
-    							 <img width="30" height="30" src="/bitrix/images/1.gif">
+    							 <img width="40" height="40" src="/bitrix/images/1.gif">
                                 <?endif;?>
 								</a>
                                 <?=$arResult["TICKET_INFO"]["RESPONSIBLE_USER_SHORT_NAME"];?>
@@ -138,13 +139,13 @@ use ALTASIB\Support;
             <?if(IsModuleInstalled('intranet')):?>
             <?/*  more people */?>
             <td colspan="2">
-            <div class = "altasib-column-support-title"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_MEMBER");?>: <a href="#" id='add-member-choice' ><?=GetMessage('ALTASIB_SUPPORT_EDIT_EDIT_T')?></a></div>
+            <div class = "altasib-column-support-title name_head"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_MEMBER");?>: </div>
             <div class="altasib-column-support-info">
 				<div class="altasib-column-support-info-td">
 					<div id="altasib-support-ticket-members">
 					
 						<?foreach($arResult['MEMBERS'] as $member):?>
-							<div id="member_<?=$member['USER_ID']?>" class="altasib_member_list">
+							<div id="member_<?=$member['USER_ID']?>" class="altasib_member_list under-bg">
 								- <a href="javascript:void(0)" class="altasib-dashed" onclick="if (BX.IM) { BXIM.openMessenger(<?=$member['USER_ID']?>); return false; } else { window.open('', '', 'status=no,scrollbars=yes,resizable=yes,width=700,height=550,top='+Math.floor((screen.height - 550)/2-14)+',left='+Math.floor((screen.width - 700)/2-5)); return false; }"><?=$member['USER_SHORT_NAME']?></a>
 							</div>
 						<?endforeach;?>
@@ -170,7 +171,7 @@ use ALTASIB\Support;
 				<?$arrSelectetUser = array("NONE")?>
 
             <td colspan="2">
-				<div class = "altasib-column-support-title"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_MEMBER");?>: <a href="javascript:void(0)" id="support-add-member">...</a></div>
+				<div class = "altasib-column-support-title name_head"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_MEMBER");?>: <a href="javascript:void(0)" id="support-add-member" class="tree_dot"></a></div>
             <div class="altasib-column-support-info">
 				<div class="altasib-column-support-info-td">
 					<div id="altasib-support-ticket-members">
@@ -200,32 +201,166 @@ use ALTASIB\Support;
         <tr class="colum-tr">
             <td class="colum-name"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_CREATED");?>:</td>
             <td><?=$arResult["TICKET_INFO"]["DATE_CREATE"]->toString();?></td>
-        </tr>			
-        <tr class="colum-tr">
-            <td class="colum-name"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_CATEGORY");?>:</td>
-            <td>
-            <?if(!$arParams['HAVE_CHANGE_CATEGORY']):?>
-            <span id="support-change-category"><?=$arResult["TICKET_INFO"]["CATEGORY_NAME"];?></span>
-            <?else:?>
-                <div>
-                    <div id="change-category-d">
-                        <a href="javascript:void(0);" id="support-change-category" class="altasib-dashed"><?=$arResult["TICKET_INFO"]["CATEGORY_NAME"];?></a>
-                    </div>
-                    <div class="choose_p" id="support-change-category-popup" style="display: none;">                
-                        <div class="choose_popup">
+        </tr>
+        
+         <?php if ($arResult["TICKET_INFO"]["SECTION_ID"] != 2) { ?>			
+	        <tr class="colum-tr">
+	            <td class="colum-name"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_CATEGORY");?>:</td>
+	            <td>
+            
+	            <?php 
+	            
+	            $categoryDB = ALTASIB\Support\CategoryTable::getList();
+	            $categoryArray = array();
+	            while ($arCategory = $categoryDB->fetch()) {
+	            	$categoryArray[$arCategory['DESCRIPTION']][$arCategory["ID"]] = $arCategory['NAME'];
+	            }
+	            
+	            $section = '';
+	            if (!empty($arResult['TICKET_INFO']["SECTION_ID"])) {
+	            	switch ((int)$arResult['TICKET_INFO']["SECTION_ID"]) {
+	            		case 1:
+	            			$section = 'IT';
+	            			break;
+	            		case 2:
+	            			$section = 'AXO';
+	            			break;
+	            		case 3:
+	            			$section = 'HR';
+	            			break;
+	            	}
+	            }
+	            
+	            $newArray = array();
+	            $newArrayIds = array();
+	            
+	            foreach ($categoryArray[$section] as $id => $value) {
+	            	$subarray = array_map('intval', explode('.', $value));
+	            
+	            	if (is_numeric($subarray[0])) {
+	            		if (!empty($subarray[1]) && is_numeric($subarray[1]) && $subarray[1] > 0) {
+	            			if (!empty($subarray[2]) && is_numeric($subarray[2]) && $subarray[2] > 0) {
+	            			    $newArray[$subarray[0]][$subarray[1]][$subarray[2]]['header'] = trim(preg_replace('/[0-9]+./', '', $value));
+	            			    $newArrayIds[$subarray[0]][$subarray[1]][$subarray[2]]['ID'] = $id;
+	            			} else {
+	            			    $newArray[$subarray[0]][$subarray[1]]['header'] = trim(preg_replace('/[0-9]+./', '', $value));
+	            			    $newArrayIds[$subarray[0]][$subarray[1]]['ID'] = $id;
+	            			}
+	            		} else {
+	            			$newArray[$subarray[0]]['header'] = trim(preg_replace('/[0-9]+./', '', $value));
+	            			$newArrayIds[$subarray[0]]['ID'] = $id;
+	            		}
+	            
+	            	}
+	            }
+	            
+	            $categoryLevels = array_map('intval', explode('.', $arResult["TICKET_INFO"]["CATEGORY_NAME"]));
+	            $categoryLevels = array_filter($categoryLevels);
+	            $newCategoryName = '';
+	            
+	            $categoryTree = $newArray;
+	            
+	            foreach ($categoryLevels as $levelIndex) {
+	            	$newCategoryName .= $categoryTree[$levelIndex]['header'] . ' > ';
+	            	$categoryTree = $categoryTree[$levelIndex];
+	            }
+	            
+	            $arResult["TICKET_INFO"]["CATEGORY_NAME"] = rtrim(rtrim(rtrim($newCategoryName), ">"));
+	            ?>
+            
+	            <?if(!$arParams['HAVE_CHANGE_CATEGORY']):?>
+	            <span id="support-change-category"><?=$arResult["TICKET_INFO"]["CATEGORY_NAME"];?></span>
+	            <?else:?>
+	                <div>
+	                    <div id="change-category-d">
+	                        <a href="javascript:void(0);" id="support-change-category" class="altasib-dashed"><?=$arResult["TICKET_INFO"]["CATEGORY_NAME"];?></a>
+	                    </div>
+	                    <div class="choose_p" id="support-change-category-popup" style="display: none;">                
+	                        <div class="choose_popup">
+	
+								<ul class="popup_menuItem">
+	                                <?foreach($arResult["CATEGORY"] as $arCategory):?>
+										<?$ClassItem = ($arResult["TICKET_INFO"]["CATEGORY_NAME"] == $arCategory['NAME']) ? "choose_item_selected" : ""?>
+	
+	
+										<?php 
+										
+	// 									echo '<pre>';
+	// 									print_r($arResult["CATEGORY"]);
+	// 									echo '</pre>';
+										
+										
+										$categoryLevels = array_map('intval', explode('.', $arCategory['NAME']));
+										$categoryLevels = array_filter($categoryLevels);
+										$newCategoryName = '';
+										
+										$categoryTree = $newArray;
+										
+										foreach ($categoryLevels as $levelIndex) {
+											$newCategoryName .= $categoryTree[$levelIndex]['header'] . ' > ';
+											$categoryTree = $categoryTree[$levelIndex];
+										}
+										
+	// 									echo '<h3>'.$arCategory['NAME'].'</h3>';
+										
+										$arCategory['NAME'] = rtrim(rtrim(rtrim($newCategoryName), ">"));
+										
+	// 									echo '<h4>'.$arCategory['NAME'].'</h4>';
+										
+										?>
+										
+										<li class="<?=$ClassItem?>" onclick="changeCaregory(<?=$arCategory['ID']?>)" id="category-info-<?=$arCategory['ID']?>"><?=$arCategory['NAME']?></li>	
+	                                <?endforeach;?>
+								</ul>
+	                        </div>                
+	                    </div>
+	                </div>                
+	            <?endif;?>
+	            </td>
+	        </tr>
+        <?php } ?>
 
-							<ul class="popup_menuItem">
-                                <?foreach($arResult["CATEGORY"] as $arCategory):?>
-									<?$ClassItem = ($arResult["TICKET_INFO"]["CATEGORY_NAME"] == $arCategory['NAME']) ? "choose_item_selected" : ""?>
-									<li class="<?=$ClassItem?>" onclick="changeCaregory(<?=$arCategory['ID']?>)" id="category-info-<?=$arCategory['ID']?>"><?=$arCategory['NAME']?></li>	
-                                <?endforeach;?>
-							</ul>
-                        </div>                
-                    </div>
-                </div>                
+        <tr class="colum-tr">
+            <td class="colum-name">Источник обращения:</td>
+            <td class="colum-info">
+            
+	            <?if(!$arParams['HAVE_CHANGE_SOURCE']):?>
+	            <?=$arResult['SOURCE_ARRAY'][$arResult["TICKET_INFO"]["SOURCE_ID"]];?>
+	            <?else:?>
+	                <div>
+	                    <div id="change-source-d">
+	                        <a href="javascript:void(0);" id="support-change-source" class="altasib-dashed"><?=$arResult['SOURCE_ARRAY'][$arResult["TICKET_INFO"]["SOURCE_ID"]];?></a>
+	                    </div>
+	                    <div class="choose_p" id="support-change-source-popup" style="display: none;">                
+	                        <div class="choose_popup">
+	
+								<ul class="popup_menuItem">
+	                                <?foreach($arResult['SOURCE_ARRAY'] as $sectionId => $sectionName):?>
+										<?$ClassItem = ($arResult["TICKET_INFO"]["SOURCE_ID"] == $sectionId) ? "choose_item_selected" : ""?>
+	
+										<li class="<?=$ClassItem?>" onclick="changeSource(<?=$sectionId?>)" id="source-info-<?=$sectionId?>"><?=$sectionName?></li>	
+	                                <?endforeach;?>
+								</ul>
+	                        </div>                
+	                    </div>
+	                </div>                
+	            <?endif;?>
+            </td>
+        </tr>
+        
+        <?php if ($arResult["TICKET_INFO"]["SECTION_ID"] == 2) { ?>
+        <tr class="colum-tr">
+            <td class="colum-name">Адрес:</td><?/* priority */?>
+            <td class="colum-info">
+            <?if(!$arResult["TICKET_INFO"]['ADDRESS_NAME']):?>
+                <span>-</span>
+            <?else:?>
+                <div><?=$arResult["TICKET_INFO"]['ADDRESS_NAME']?></div>                
             <?endif;?>
             </td>
         </tr>
+		<?php } ?>
+		
         <tr class="colum-tr">
             <td class="colum-name"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_PRIORITY");?>:</td><?/* priority */?>
             <td class="colum-info">
@@ -291,12 +426,12 @@ use ALTASIB\Support;
 		if(trim($arResult["TICKET_INFO"]["COMMENT"])!="")
 			$comment = $arResult["TICKET_INFO"]["COMMENT"];
 		else	
-			$comment = "...";
+			$comment = "";
 		?>
         <tr>
 		
             <td colspan="2">
-				<div class = "altasib-column-support-title"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_COMMENT");?>: <a href="javascript:void(0)" id="altasib-support-ticket-comment-click">...</a></div>
+				<div class = "altasib-column-support-title name_head"><?=GetMessage("ALTASIB_SUPPORT_EDIT_FORM_COMMENT");?>: <a href="javascript:void(0)" class="tree_dot" id="altasib-support-ticket-comment-click"></a></div>
 				<div class="altasib-column-support-info">
 					<div class="altasib-column-support-info-td">
 						<div id="altasib-support-ticket-comment"><?=str_replace("\n", "<br />", $comment);?></div><span id="altasib-support-ticket-comment-edit"></span>

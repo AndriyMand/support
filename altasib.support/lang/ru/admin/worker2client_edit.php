@@ -8,16 +8,16 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_TAB_MAIN"] = "Îñíîâíûå";
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_TAB_MAIN_TITLE"] = "Îñíîâíûå ïàðàìåòðû";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_TAB_MAIN"] = "ÐžÑÐ½Ð¾Ð²Ð½Ñ‹Ðµ";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_TAB_MAIN_TITLE"] = "ÐžÑÐ½Ð¾Ð²Ð½Ñ‹Ðµ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹";
 
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_FORM_CLIENT"] = "Êëèåíò";
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_FORM_WORKER"] = "Ñîòðóäíèê";
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_FORM_RIGHT"] = "Äîñòóïíûå äåéñòâèÿ äëÿ êàòåãîðèè";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_FORM_CLIENT"] = "ÐšÐ»Ð¸ÐµÐ½Ñ‚";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_FORM_WORKER"] = "Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸Ðº";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_FORM_RIGHT"] = "Ð”Ð¾ÑÑ‚ÑƒÐ¿Ð½Ñ‹Ðµ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ Ð´Ð»Ñ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸";
 
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_CONTEX_LIST"] = "Ñïèñîê ñâÿçåé";
-$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_FORM_REQUIRED_FIELDS"] = "Ïîëÿ îáÿçàòåëüíûå äëÿ çàïîëíåíèÿ";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_CONTEX_LIST"] = "Ð¡Ð¿Ð¸ÑÐ¾Ðº ÑÐ²ÑÐ·ÐµÐ¹";
+$MESS["ALTASIB_SUPPORT_CONN_WORKER2CLIENT_FORM_REQUIRED_FIELDS"] = "ÐŸÐ¾Ð»Ñ Ð¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ð´Ð»Ñ Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ";
 
-$MESS['ALTASIB_SUPPORT_WORKER2CLIENT_TITLE'] = 'Ñîçäàíèå ïðèâÿçêè ñîòðóäíèêà ê êëèåíòó';
-$MESS['ALTASIB_SUPPORT_WORKER2CLIENT_TITLE_EDIT'] = 'Èçìåíåíèå ïðèâÿçêè ñîòðóäíèêà ê êëèåíòó';
+$MESS['ALTASIB_SUPPORT_WORKER2CLIENT_TITLE'] = 'Ð¡Ð¾Ð·Ð´Ð°Ð½Ð¸Ðµ Ð¿Ñ€Ð¸Ð²ÑÐ·ÐºÐ¸ ÑÐ¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸ÐºÐ° Ðº ÐºÐ»Ð¸ÐµÐ½Ñ‚Ñƒ';
+$MESS['ALTASIB_SUPPORT_WORKER2CLIENT_TITLE_EDIT'] = 'Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ Ð¿Ñ€Ð¸Ð²ÑÐ·ÐºÐ¸ ÑÐ¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸ÐºÐ° Ðº ÐºÐ»Ð¸ÐµÐ½Ñ‚Ñƒ';
 ?>

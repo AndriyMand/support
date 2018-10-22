@@ -1,25 +1,25 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgeniу Pedan                    #
+#   Developer: EvgeniСѓ Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
 #   Copyright (c) 2006-2010 ALTASIB             #
 #################################################
 ?>
 <?
-$MESS["I_RECEPTION_MODULE_NOT_INSTALL"] = "Модуль Интернет приемная не установлен";
-$MESS["I_RECEPTION_FORM_WRONG_CAPTCHA"] = "Неверно введено слово с картинки";
-$MESS["I_RECEPTION_FORM_WRONG_DATE"] = "Неверный формат даты";
-$MESS["I_RECEPTION_FORM_WRONG"] = "Некорректно заполнено поле: ";
-$MESS["I_RECEPTION_FORM_WRONG_NAME"] = "Некорректно заполнено поле: Название";
-$MESS["I_RECEPTION_FORM_WRONG_CATEGORY_ID"] = "Не указана категория обращения";
-$MESS["I_RECEPTION_FORM_WRONG_MESSAGE"] = "Введите текст сообщения";
+$MESS["I_RECEPTION_MODULE_NOT_INSTALL"] = "РњРѕРґСѓР»СЊ РРЅС‚РµСЂРЅРµС‚ РїСЂРёРµРјРЅР°СЏ РЅРµ СѓСЃС‚Р°РЅРѕРІР»РµРЅ";
+$MESS["I_RECEPTION_FORM_WRONG_CAPTCHA"] = "РќРµРІРµСЂРЅРѕ РІРІРµРґРµРЅРѕ СЃР»РѕРІРѕ СЃ РєР°СЂС‚РёРЅРєРё";
+$MESS["I_RECEPTION_FORM_WRONG_DATE"] = "РќРµРІРµСЂРЅС‹Р№ С„РѕСЂРјР°С‚ РґР°С‚С‹";
+$MESS["I_RECEPTION_FORM_WRONG"] = "РќРµРєРѕСЂСЂРµРєС‚РЅРѕ Р·Р°РїРѕР»РЅРµРЅРѕ РїРѕР»Рµ: ";
+$MESS["I_RECEPTION_FORM_WRONG_NAME"] = "РќРµРєРѕСЂСЂРµРєС‚РЅРѕ Р·Р°РїРѕР»РЅРµРЅРѕ РїРѕР»Рµ: РќР°Р·РІР°РЅРёРµ";
+$MESS["I_RECEPTION_FORM_WRONG_CATEGORY_ID"] = "РќРµ СѓРєР°Р·Р°РЅР° РєР°С‚РµРіРѕСЂРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ";
+$MESS["I_RECEPTION_FORM_WRONG_MESSAGE"] = "Р’РІРµРґРёС‚Рµ С‚РµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ";
 
 
 
-$MESS['ALTASIB_SUPPORT_ERROR_CATEGORY'] = 'Увас нет прав для создания обращения в данной категории';
-$MESS['ALTASIB_SUPPORT_TASK_PLAN'] = 'Техподдержка: Тикет №#ID# #NAME#';
-$MESS['ALTASIB_SUPPORT_TASK_PLAN_DETAIL'] = '<br><a href="#URL#">Перейти к тикету</a>';
+$MESS['ALTASIB_SUPPORT_ERROR_CATEGORY'] = 'РЈРІР°СЃ РЅРµС‚ РїСЂР°РІ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ РѕР±СЂР°С‰РµРЅРёСЏ РІ РґР°РЅРЅРѕР№ РєР°С‚РµРіРѕСЂРёРё';
+$MESS['ALTASIB_SUPPORT_TASK_PLAN'] = 'РўРµС…РїРѕРґРґРµСЂР¶РєР°: РўРёРєРµС‚ в„–#ID# #NAME#';
+$MESS['ALTASIB_SUPPORT_TASK_PLAN_DETAIL'] = '<br><a href="#URL#">РџРµСЂРµР№С‚Рё Рє С‚РёРєРµС‚Сѓ</a>';
 
 ?>

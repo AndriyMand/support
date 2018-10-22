@@ -8,8 +8,8 @@
 #################################################
 ?>
 <?
-$MESS ['altasib_support_RESPONSIBLE_USER_ID'] = "Îòâåòñòâåííûé:";
+$MESS ['altasib_support_RESPONSIBLE_USER_ID'] = "ÐžÑ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÐµÐ½Ð½Ñ‹Ð¹:";
 
-$MESS ['altasib_support_TAB'] = "Òåõíè÷åñêàÿ ïîääåðæêà";
-$MESS ['altasib_support_TAB_TITLE'] = "Ïðîôèëü ïîëüçîâàòåëÿ â òåõíè÷åñêîé ïîääåðæêå";
+$MESS ['altasib_support_TAB'] = "Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°";
+$MESS ['altasib_support_TAB_TITLE'] = "ÐŸÑ€Ð¾Ñ„Ð¸Ð»ÑŒ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ Ð² Ñ‚ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ¾Ð¹ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐµ";
 ?>

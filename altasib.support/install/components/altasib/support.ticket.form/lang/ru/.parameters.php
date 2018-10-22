@@ -1,16 +1,16 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgenió Pedan                    #
+#   Developer: EvgeniÑƒ Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
 #   Copyright (c) 2006-2015 ALTASIB             #
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_MODULE_NOT_INSTALL'] = "Ìîäóëü Òåõíè÷åñêàÿ ïîääåðæêà íå óñòàíîâëåí";
-$MESS['ALTASIB_SUPPORT_SHOW_FULL_FORM'] = 'Íå ñêðûâàòü ôîðìó äîáàâëåíèÿ ñîîáùåíèÿ';
+$MESS['ALTASIB_SUPPORT_MODULE_NOT_INSTALL'] = "ÐœÐ¾Ð´ÑƒÐ»ÑŒ Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ° Ð½Ðµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½";
+$MESS['ALTASIB_SUPPORT_SHOW_FULL_FORM'] = 'ÐÐµ ÑÐºÑ€Ñ‹Ð²Ð°Ñ‚ÑŒ Ñ„Ð¾Ñ€Ð¼Ñƒ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ñ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ';
 
-$MESS["I_RECEPTION_P_TICKET_ID"] = "ID òèêåòà";
-$MESS["I_RECEPTION_P_TICKET_LIST"] = "Ñïèñîê îáðàùåíèé";
+$MESS["I_RECEPTION_P_TICKET_ID"] = "ID Ñ‚Ð¸ÐºÐµÑ‚Ð°";
+$MESS["I_RECEPTION_P_TICKET_LIST"] = "Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ð¹";
 ?>

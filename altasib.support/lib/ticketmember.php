@@ -65,6 +65,7 @@ Class TicketMemberTable extends Entity\DataManager
         $result = new Entity\EventResult;
         $data = $event->getParameter("fields");
         $entity = static::getEntity();
+        
         if (isset($data["USER_ID"]) && isset($data['TICKET_ID'])) {
             if (self::getList(array(
                 'filter' => array(

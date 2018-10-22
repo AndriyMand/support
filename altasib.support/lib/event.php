@@ -237,6 +237,59 @@ class Event
     function changeCaregory($TICKET_ID)
     {
         if ($arEvent = self::getEventDataEx($TICKET_ID)) {
+            
+            $categoryDB = CategoryTable::getList();
+            $categoryArray = array();
+            while ($arCategory = $categoryDB->fetch()) {
+                $categoryArray[$arCategory['DESCRIPTION']][$arCategory["ID"]] = $arCategory['NAME'];
+            }
+            
+            $section = '';
+            if (!empty($arEvent['TICKET_SECTION_ID'])) {
+                switch ((int)$arEvent['TICKET_SECTION_ID']) {
+                    case 1:
+                        $section = 'IT';
+                        break;
+                    case 2:
+                        $section = 'AXO';
+                        break;
+                    case 3:
+                        $section = 'HR';
+                        break;
+                }
+            }
+            
+            $newArray = array();
+            foreach ($categoryArray[$section] as $value) {
+                $subarray = array_map('intval', explode('.', $value));
+                
+                if (is_numeric($subarray[0])) {
+                    if (!empty($subarray[1]) && is_numeric($subarray[1]) && $subarray[1] > 0) {
+                        if (!empty($subarray[2]) && is_numeric($subarray[2]) && $subarray[2] > 0) {
+                            $newArray[$subarray[0]][$subarray[1]][$subarray[2]]['header'] = trim(preg_replace('/[0-9]+./', '', $value));
+                        } else {
+                            $newArray[$subarray[0]][$subarray[1]]['header'] = trim(preg_replace('/[0-9]+./', '', $value));
+                        }
+                    } else {
+                        $newArray[$subarray[0]]['header'] = trim(preg_replace('/[0-9]+./', '', $value));
+                    }
+                    
+                }
+            }
+            
+            $categoryLevels = array_map('intval', explode('.', $arEvent['TICKET_CATEGORY']));
+            $categoryLevels = array_filter($categoryLevels);
+            $newCategoryName = '';
+            
+            $categoryTree = $newArray;
+            
+            foreach ($categoryLevels as $levelIndex) {
+                $newCategoryName .= $categoryTree[$levelIndex]['header'] . ' > ';
+                $categoryTree = $categoryTree[$levelIndex];
+            }
+            
+            $arEvent['TICKET_CATEGORY'] = rtrim(rtrim(rtrim($newCategoryName), ">"));
+            
             TicketMessageTable::add(Array(
                 'CREATED_USER_ID' => $arEvent['TICKET_MODIFIED_USER_ID'],
                 'TICKET_ID' => $TICKET_ID,
@@ -687,6 +740,8 @@ class Event
                 'TICKET_RESPONSIBLE_USER_EMAIL' => $data['RESPONSIBLE_USER_EMAIL'],
                 'TICKET_RESPONSIBLE_USER_SHORT_NAME' => $data['RESPONSIBLE_USER_SHORT_NAME'],
                 'TICKET_RESPONSIBLE_USER_LIST_NAME' => $data['RESPONSIBLE_USER_LIST_NAME'],
+                
+                'TICKET_SECTION_ID' => $data['SECTION_ID'],
 
                 'TICKET_FILES' => self::getFileTxtLine($TICKET_ID, 0, $data['SITE_ID']),
 
@@ -976,6 +1031,7 @@ class Event
     public static function setDeferred($TICKET_ID)
     {
         if ($arEvent = self::getEventDataEx($TICKET_ID)) {
+            
             TicketMessageTable::add(Array(
                 'CREATED_USER_ID' => $arEvent['TICKET_MODIFIED_USER_ID'],
                 'TICKET_ID' => $TICKET_ID,

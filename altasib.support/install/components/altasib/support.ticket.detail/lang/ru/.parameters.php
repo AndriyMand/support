@@ -1,12 +1,12 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgenió Pedan                    #
+#   Developer: EvgeniÑƒ Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
 #   Copyright (c) 2006-2014 ALTASIB             #
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_PROFILE_PATH'] = 'Ïóòü ê ïðîôàéëó ïîëüçîâàòåëÿ';
+$MESS['ALTASIB_SUPPORT_PROFILE_PATH'] = 'ÐŸÑƒÑ‚ÑŒ Ðº Ð¿Ñ€Ð¾Ñ„Ð°Ð¹Ð»Ñƒ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ';
 ?>

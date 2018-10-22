@@ -14,6 +14,14 @@ if($request['AJAX_ACTION']=='EDIT_COMMENT' && isset($request['comment']) && $arP
 {
     CUtil::JSPostUnescape();
     $result = Support\TicketTable::update($arParams["ID"],array('COMMENT'=>$_POST['comment']));
+    
+    Support\TicketMessageTable::add(Array(
+        'CREATED_USER_ID' => $GLOBALS["USER"]->GetId(),
+        'TICKET_ID' => $arParams["ID"],
+        'MESSAGE' => 'Изменен комментарий: ' . $_POST['comment'],
+        'IS_LOG' => 'Y'
+        ));
+    
     if($result->isSuccess())
         echo CUtil::PhpToJSObject(Array('status'=>true));  
     else
@@ -69,6 +77,32 @@ if($request['AJAX_ACTION']=='PRIORITY' && (int)$request['CID']>0 && $arParams['H
     }
 }
 
+if($request['AJAX_ACTION']=='SOURCE' && (int)$request['CID']>0)
+{
+	$ID = (int)$request['CID'];
+	$data = Support\TicketTable::getRow(array('filter'=>array('ID'=>$arParams["ID"]),'select'=>array('SOURCE_ID')));
+	$result = Support\TicketTable::update($arParams["ID"],array('SOURCE_ID'=>$ID,'MODIFIED_USER_ID'=>$USER->GetID()));
+	if($result->isSuccess())
+	{
+		$Priority = Support\Priority::get();
+		$strCurrent = '';
+		foreach($Priority as $IDp => $Name)
+		{
+			if($ID == $IDp)
+			{
+				$strCurrent = $Name;
+				continue;
+			}
+		}
+		Support\Event::changePriority($arParams["ID"],$data['SOURCE_ID']);
+		echo CUtil::PhpToJSObject(Array('status'=>true,'current'=>$strCurrent));
+	}
+	else
+	{
+		echo CUtil::PhpToJSObject(Array('status'=>false,'error'=>'unknown'));
+	}
+}
+
 if($request['AJAX_ACTION']=='STATUS' && (int)$request['CID']>0 && $arParams['HAVE_CHANGE_STATUS'])
 {
     $ID = (int)$request['CID'];
@@ -87,6 +121,7 @@ if($request['AJAX_ACTION']=='STATUS' && (int)$request['CID']>0 && $arParams['HAV
 if($request['AJAX_ACTION']=='RESPONSIBLE' && (int)$request['CID']>0 && $arParams['HAVE_CHANGE_RESPONSIBLE'])
 {
     $ID = (int)$request['CID'];
+    
     $result = Support\TicketTable::update($arParams["ID"],array('RESPONSIBLE_USER_ID'=>$ID,'MODIFIED_USER_ID'=>$USER->GetID()));
     if($result->isSuccess())
     {
@@ -106,6 +141,14 @@ if($request['AJAX_ACTION']=='ADD_MEMBER' && (int)$request['UID']>0 && ($arParams
     if($res->isSuccess())
     {
         $user = Support\UserTable::getByPrimary($request['UID'],array('select'=>array('SHORT_NAME')))->fetch();
+        
+        Support\TicketMessageTable::add(Array(
+            'CREATED_USER_ID' => $USER->GetID(),
+            'TICKET_ID' => $arParams["ID"],
+            'MESSAGE' => 'Добавлено наблюдателя: ' . $user['SHORT_NAME'],
+            'IS_LOG' => 'Y'
+        ));
+        
         $obRes = array('status'=>true,'error'=>'','txt'=>$user['SHORT_NAME']);
     }
     else
@@ -120,6 +163,14 @@ if($request['AJAX_ACTION']=='DELETE_MEMBER' && (int)$request['UID']>0 && $arPara
     $data = Support\TicketMemberTable::getList(array('select'=>array('ID'),'filter'=>array('USER_ID'=>$request['UID'],'TICKET_ID'=>$arParams['ID'])));
     if($member = $data->fetch())
     {
+        
+        Support\TicketMessageTable::add(Array(
+            'CREATED_USER_ID' => $USER->GetID(),
+            'TICKET_ID' => $arParams["ID"],
+            'MESSAGE' => 'Удалено наблюдателя: ' . $member['ID'],
+            'IS_LOG' => 'Y'
+            ));
+        
         Support\TicketMemberTable::delete($member['ID']);
         echo CUtil::PhpToJSObject(array('status'=>true,'error'=>''));
     }
@@ -129,14 +180,32 @@ if($request['AJAX_ACTION']=='SET_MEMBER_LIST' /*&& count($request['UID'])>0*/ &&
 {
     $allList = array();
     $data = Support\TicketMemberTable::getList(array('select'=>array('ID','USER_ID'),'filter'=>array('TICKET_ID'=>$arParams['ID'])));
+    
+    $deleteMembers      = array();
+    $deleteMembersNames = array();
+    $addMembersNames    = array();
+    $allMembers         = array();
+    $userArray          = array();
+    $addMembers         = array();
+    
     while($member = $data->fetch())
     {
         Support\TicketMemberTable::delete($member['ID']);
         $allList[$member['USER_ID']] = $member;
+        
+        if (!in_array($member['USER_ID'], $request['UID'])) {
+            $deleteMembers[] = $member['USER_ID'];
+        }
+        
+        $allMembers[] = $member['USER_ID'];
     }
-
+    
     foreach($request['UID'] as $uid)
     {
+        if (!in_array($uid, $allMembers)) {
+            $addMembers[] = $uid;
+        }
+        $allMembers[] = $uid;
         Support\TicketMemberTable::add(array('USER_ID'=>$uid,'TICKET_ID'=>$arParams["ID"]));
 
         //new, send event
@@ -144,6 +213,39 @@ if($request['AJAX_ACTION']=='SET_MEMBER_LIST' /*&& count($request['UID'])>0*/ &&
         {
             Support\Event::sendAddMember($arParams["ID"],$uid);
         }
+    }
+    
+    $filter = Array("ID" => $allMembers);
+    $usersDB = CUser::GetList(($by = "NAME"), ($order = "desc"), $filter);
+    while($user = $usersDB->fetch())
+    {
+        $userArray[$user['ID']] = ($user['NAME'] || $user['LAST_NAME']) ? $user['NAME'] . ' ' . $user['LAST_NAME'] : (($user['LOGIN']) ? $user['LOGIN'] : ((($user['EMAIL']) ? $user['EMAIL'] : 'Сотрудник#' . $user['ID'])));
+    }
+    
+    $deleteMembers = array_diff($deleteMembers, $addMembers);
+    $addMembers = array_diff($addMembers, $deleteMembers);
+    
+    foreach ($deleteMembers as $memberId) {
+        $deleteMembersNames[] = $userArray[$memberId];
+    }
+    
+    foreach ($addMembers as $memberId) {
+        $addMembersNames[] = $userArray[$memberId];
+    }
+    
+    $deleteMembersNames = implode(',',$deleteMembersNames);
+    $addMembersNames    = implode(',',$addMembersNames);
+    
+    $message = ($addMembersNames) ? "Добавлено: $addMembersNames." : '';
+    $message .= ($deleteMembersNames) ? " Удалено: $deleteMembersNames." : '';
+    
+    if ($message) {
+        Support\TicketMessageTable::add(Array(
+            'CREATED_USER_ID' => $USER->GetID(),
+            'TICKET_ID' => $arParams["ID"],
+            'MESSAGE' => 'Изменены наблюдатели. ' . $message,
+            'IS_LOG' => 'Y'
+        ));
     }
 
     echo CUtil::PhpToJSObject(array('status'=>true,'error'=>''));

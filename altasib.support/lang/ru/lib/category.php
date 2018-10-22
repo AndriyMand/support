@@ -9,10 +9,10 @@
 ?>
 <?
 //category
-$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_NAME_FIELD'] = 'Íàçâàíèå';
-$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_DESCRIPTION_FIELD'] = 'Îïèñàíèå';
-$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_RESPONSIBLE_USER_ID_FIELD'] = 'Îòâåòñòâåííûé ïî óìîë÷àíèþ';
-$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_RESPONSIBLE_USER_ID_FIELD_ERROR'] = 'Îòâåòñòâåííûé ïî óìîë÷àíèþ íå âûáðàí';
-$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_USE_DEFAULT_FIELD'] = 'Ïî óìîë÷àíèþ';
-$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_NOT_CLOSE_FIELD'] = 'Íå çàêðûâàòü (àâòîìàòè÷åñêè)';
+$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_NAME_FIELD'] = 'ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ';
+$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_DESCRIPTION_FIELD'] = 'ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ';
+$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_RESPONSIBLE_USER_ID_FIELD'] = 'ÐžÑ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÐµÐ½Ð½Ñ‹Ð¹ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ';
+$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_RESPONSIBLE_USER_ID_FIELD_ERROR'] = 'ÐžÑ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÐµÐ½Ð½Ñ‹Ð¹ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ Ð½Ðµ Ð²Ñ‹Ð±Ñ€Ð°Ð½';
+$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_USE_DEFAULT_FIELD'] = 'ÐŸÐ¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ';
+$MESS['ALTASIB_SUPPORT_CATEGORY_ENTITY_NOT_CLOSE_FIELD'] = 'ÐÐµ Ð·Ð°ÐºÑ€Ñ‹Ð²Ð°Ñ‚ÑŒ (Ð°Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸)';
 ?>

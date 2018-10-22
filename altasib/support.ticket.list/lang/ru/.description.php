@@ -1,15 +1,15 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgenió Pedan                    #
+#   Developer: EvgeniÑƒ Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
 #   Copyright (c) 2006-2010 ALTASIB             #
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT"] = "Ñïèñîê îáðàùåíèé";
+$MESS["ALTASIB_SUPPORT"] = "Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ð¹";
 $MESS["ALTASIB_SUPPORT_DESC"] = "";
 $MESS["ALTASIB_DESC_SECTION_NAME"] = "IS-MARKET.RU";
-$MESS["ALTASIB_DESC_SUPPORT_SECTION_NAME"] = "Òåõ. ïîääåðæêà";
+$MESS["ALTASIB_DESC_SUPPORT_SECTION_NAME"] = "Ð¢ÐµÑ…. Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°";
 ?>

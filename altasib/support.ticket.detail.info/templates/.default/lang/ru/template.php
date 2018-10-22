@@ -8,51 +8,51 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CATEGORY"] = "Êàòåãîðèÿ";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY"] = "Ïðèîðèòåò";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_STATUS"] = "Ñòàòóñ";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CREATED"] = "Ñîçäàíî";
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA'] = 'Óðîâåíü ïîääåðæêè';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA_TIME'] = 'Âðåìÿ ðåàêöèè';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA_TIME_h'] = '÷.';
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY_EMPTY"] = "íå óêàçàí";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_OWNER"] = "Îò êîãî";
-$MESS['ALTASIB_SUPPORT_USER_TICKET'] = 'Îáðàùåíèÿ àâòîðà';
-$MESS['ALTASIB_SUPPORT_USER_ORDERS'] = 'Èñòîðèÿ çàêàçîâ';
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CATEGORY"] = "ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY"] = "ÐŸÑ€Ð¸Ð¾Ñ€Ð¸Ñ‚ÐµÑ‚";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_STATUS"] = "Ð¡Ñ‚Ð°Ñ‚ÑƒÑ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CREATED"] = "Ð¡Ð¾Ð·Ð´Ð°Ð½Ð¾";
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA'] = 'Ð£Ñ€Ð¾Ð²ÐµÐ½ÑŒ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ¸';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA_TIME'] = 'Ð’Ñ€ÐµÐ¼Ñ Ñ€ÐµÐ°ÐºÑ†Ð¸Ð¸';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA_TIME_h'] = 'Ñ‡.';
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY_EMPTY"] = "Ð½Ðµ ÑƒÐºÐ°Ð·Ð°Ð½";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_OWNER"] = "ÐžÑ‚ ÐºÐ¾Ð³Ð¾";
+$MESS['ALTASIB_SUPPORT_USER_TICKET'] = 'ÐžÐ±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ Ð°Ð²Ñ‚Ð¾Ñ€Ð°';
+$MESS['ALTASIB_SUPPORT_USER_ORDERS'] = 'Ð˜ÑÑ‚Ð¾Ñ€Ð¸Ñ Ð·Ð°ÐºÐ°Ð·Ð¾Ð²';
 $MESS["ALTASIB_SUPPORT_EDIT_CHANGE_T"] = "...";
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_MEMBER'] = 'Ñîèñïîëíèòåëè';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_MEMBER_NONE'] = 'Íå íàçíà÷åíû';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_MEMBER'] = 'ÐÐ°Ð±Ð»ÑŽÐ´Ð°Ñ‚ÐµÐ»Ð¸';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_MEMBER_NONE'] = 'ÐÐµ Ð½Ð°Ð·Ð½Ð°Ñ‡ÐµÐ½Ñ‹';
 
 $MESS['ALTASIB_SUPPORT_EDIT_EDIT_T'] = '...';
-$MESS['ALTASIB_SUPPORT_DETAIL_CRM_CONTACT'] = 'Êîíòàêò';
-$MESS['ALTASIB_SUPPORT_DETAIL_CRM_COMPANY'] = 'Êîìïàíèÿ';
-$MESS['ALTASIB_SUPPORT_DETAIL_CRM_DEAL'] = 'Ñäåëêà';
-$MESS['ALTASIB_SUPPORT_DETAIL_CRM_ASSIGNED_BY'] = 'Îòâåòñòâåííûé';
+$MESS['ALTASIB_SUPPORT_DETAIL_CRM_CONTACT'] = 'ÐšÐ¾Ð½Ñ‚Ð°ÐºÑ‚';
+$MESS['ALTASIB_SUPPORT_DETAIL_CRM_COMPANY'] = 'ÐšÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_DETAIL_CRM_DEAL'] = 'Ð¡Ð´ÐµÐ»ÐºÐ°';
+$MESS['ALTASIB_SUPPORT_DETAIL_CRM_ASSIGNED_BY'] = 'ÐžÑ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÐµÐ½Ð½Ñ‹Ð¹';
 
-$MESS['ALTASIB_SUPPORT_FORM_REPORT'] = 'Îò÷åòû';
-$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME'] = 'Çàòðà÷åííîå âðåìÿ';
-$MESS['ALTASIB_SUPPORT_FORM_PRICE'] = 'Ñòîèìîñòü';
-$MESS['ALTASIB_SUPPORT_FORM_PRICE_RUB'] = ' ðóá.';
-$MESS['ALTASIB_SUPPORT_FORM_PRICE_DEAL'] = 'Ñòîèìîñòü ñäåëêè';
-$MESS['ALTASIB_SUPPORT_FORM_PRICE_DEAL_SPENT'] = 'Èçðàñõîäîâàíî';
-$MESS['ALTASIB_SUPPORT_FORM_PRICE_DEAL_SPENT_FROM'] = 'èç';
-$MESS['ALTASIB_SUPPORT_FORM_PRICE_DEAL_SPENT_OVERRUN'] = 'Ïåðåðàñõîä';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_COMMENT'] = 'Êîììåíòàðèé';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_BILL'] = 'Ñ÷åòà';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_BILL_UNPAY'] = 'Ñ÷åòà, îæèäàþùèå îïëàòû:';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_BILL_OK'] = 'Íåîïëà÷åííûå ñ÷åòà îòñóòñòâóþò.';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_BILL_ALL'] = 'Ïîñìîòðåòü âñå ñ÷åòà';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_SAVE'] = 'Ñîõðàíèòü';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_CANCEL'] = 'Îòìåíèòü';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT'] = 'Ïðîåêò';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_ADD'] = 'ñîçäàòü';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_ADD_INFO'] = 'Ïðîåêò íå íàéäåí, íî åãî ìîæíî ';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_EDIT_POJECTS'] = 'Ðåäàêòèðîâàíèå ïðîåêòà';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_ENTER_NAME'] = 'Ââåäèòå íàçâàíèå ïðîåêòà';
+$MESS['ALTASIB_SUPPORT_FORM_REPORT'] = 'ÐžÑ‚Ñ‡ÐµÑ‚Ñ‹';
+$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME'] = 'Ð—Ð°Ñ‚Ñ€Ð°Ñ‡ÐµÐ½Ð½Ð¾Ðµ Ð²Ñ€ÐµÐ¼Ñ';
+$MESS['ALTASIB_SUPPORT_FORM_PRICE'] = 'Ð¡Ñ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ';
+$MESS['ALTASIB_SUPPORT_FORM_PRICE_RUB'] = ' Ñ€ÑƒÐ±.';
+$MESS['ALTASIB_SUPPORT_FORM_PRICE_DEAL'] = 'Ð¡Ñ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ ÑÐ´ÐµÐ»ÐºÐ¸';
+$MESS['ALTASIB_SUPPORT_FORM_PRICE_DEAL_SPENT'] = 'Ð˜Ð·Ñ€Ð°ÑÑ…Ð¾Ð´Ð¾Ð²Ð°Ð½Ð¾';
+$MESS['ALTASIB_SUPPORT_FORM_PRICE_DEAL_SPENT_FROM'] = 'Ð¸Ð·';
+$MESS['ALTASIB_SUPPORT_FORM_PRICE_DEAL_SPENT_OVERRUN'] = 'ÐŸÐµÑ€ÐµÑ€Ð°ÑÑ…Ð¾Ð´';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_COMMENT'] = 'ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_BILL'] = 'Ð¡Ñ‡ÐµÑ‚Ð°';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_BILL_UNPAY'] = 'Ð¡Ñ‡ÐµÑ‚Ð°, Ð¾Ð¶Ð¸Ð´Ð°ÑŽÑ‰Ð¸Ðµ Ð¾Ð¿Ð»Ð°Ñ‚Ñ‹:';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_BILL_OK'] = 'ÐÐµÐ¾Ð¿Ð»Ð°Ñ‡ÐµÐ½Ð½Ñ‹Ðµ ÑÑ‡ÐµÑ‚Ð° Ð¾Ñ‚ÑÑƒÑ‚ÑÑ‚Ð²ÑƒÑŽÑ‚.';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_BILL_ALL'] = 'ÐŸÐ¾ÑÐ¼Ð¾Ñ‚Ñ€ÐµÑ‚ÑŒ Ð²ÑÐµ ÑÑ‡ÐµÑ‚Ð°';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_SAVE'] = 'Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_CANCEL'] = 'ÐžÑ‚Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT'] = 'ÐŸÑ€Ð¾ÐµÐºÑ‚';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_ADD'] = 'ÑÐ¾Ð·Ð´Ð°Ñ‚ÑŒ';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_ADD_INFO'] = 'ÐŸÑ€Ð¾ÐµÐºÑ‚ Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½, Ð½Ð¾ ÐµÐ³Ð¾ Ð¼Ð¾Ð¶Ð½Ð¾ ';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_EDIT_POJECTS'] = 'Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¿Ñ€Ð¾ÐµÐºÑ‚Ð°';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_ENTER_NAME'] = 'Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¿Ñ€Ð¾ÐµÐºÑ‚Ð°';
 
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_DELETE_PROJECTS'] = 'Óäàëèòü âûáðàííûé ïðîåêò';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_RENAME_PROJECTS'] = 'Ïåðåèìåíîâàòü ïðîåêò';
-$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_MERGE_PROJECTS'] = 'Ñëèòü ñ äðóãèì ïðîåêòîì';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_DELETE_PROJECTS'] = 'Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð½Ñ‹Ð¹ Ð¿Ñ€Ð¾ÐµÐºÑ‚';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_RENAME_PROJECTS'] = 'ÐŸÐµÑ€ÐµÐ¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¾ÐµÐºÑ‚';
+$MESS['ALTASIB_SUPPORT_DETAIL_INFO_PROJECT_MERGE_PROJECTS'] = 'Ð¡Ð»Ð¸Ñ‚ÑŒ Ñ Ð´Ñ€ÑƒÐ³Ð¸Ð¼ Ð¿Ñ€Ð¾ÐµÐºÑ‚Ð¾Ð¼';
 
 
 ?>

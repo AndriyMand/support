@@ -1,14 +1,14 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgenió Pedan                    #
+#   Developer: EvgeniÑƒ Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
 #   Copyright (c) 2006-2014 ALTASIB             #
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_TMPL_RESPONSIBLE'] = 'Îòâåòñòâåííûé';
-$MESS['ALTASIB_SUPPORT_TMPL_STATUS'] = 'Ñòàòóñ îáðàùåíèÿ';
-$MESS['ALTASIB_SUPPORT_TMPL_CATEGORY'] = 'Êàòåãîðèÿ îáðàùåíèÿ';
+$MESS['ALTASIB_SUPPORT_TMPL_RESPONSIBLE'] = 'ÐžÑ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÐµÐ½Ð½Ñ‹Ð¹';
+$MESS['ALTASIB_SUPPORT_TMPL_STATUS'] = 'Ð¡Ñ‚Ð°Ñ‚ÑƒÑ Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_TMPL_CATEGORY'] = 'ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ';
 ?>

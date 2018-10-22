@@ -8,7 +8,7 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_PRIORITY_HIGHT"] = "Âûñîêèé";
-$MESS["ALTASIB_SUPPORT_PRIORITY_NORMAL"] = "Íîðìàëüíûé";
-$MESS["ALTASIB_SUPPORT_PRIORITY_LOW"] = "Íèçêèé";
+$MESS["ALTASIB_SUPPORT_PRIORITY_HIGHT"] = "Ð’Ñ‹ÑÐ¾ÐºÐ¸Ð¹";
+$MESS["ALTASIB_SUPPORT_PRIORITY_NORMAL"] = "ÐÐ¾Ñ€Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹";
+$MESS["ALTASIB_SUPPORT_PRIORITY_LOW"] = "ÐÐ¸Ð·ÐºÐ¸Ð¹";
 ?>

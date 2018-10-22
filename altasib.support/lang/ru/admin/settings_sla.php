@@ -6,10 +6,10 @@
  * @copyright 2006-2018 ALTASIB
  */
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_LIST_NAME"] = "Название";
-$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_LIST_SORT"] = "Индекс сортировки";
+$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_LIST_NAME"] = "РќР°Р·РІР°РЅРёРµ";
+$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_LIST_SORT"] = "РРЅРґРµРєСЃ СЃРѕСЂС‚РёСЂРѕРІРєРё";
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_CONTEXT_ADD"] = "Добавить уровень";
+$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_CONTEXT_ADD"] = "Р”РѕР±Р°РІРёС‚СЊ СѓСЂРѕРІРµРЅСЊ";
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_TITLE"] = "Уровни технической поддержки";
-$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_NAV_TITLE"] = "Уровни поддержки";
+$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_TITLE"] = "РЈСЂРѕРІРЅРё С‚РµС…РЅРёС‡РµСЃРєРѕР№ РїРѕРґРґРµСЂР¶РєРё";
+$MESS["ALTASIB_SUPPORT_SETTINGS_SLA_NAV_TITLE"] = "РЈСЂРѕРІРЅРё РїРѕРґРґРµСЂР¶РєРё";

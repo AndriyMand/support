@@ -8,32 +8,32 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_TIMESTAMP_X"] = "Äàòà èçìåíåíèÿ:";
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_NAME"] = "Íàçâàíèå:";
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_DESC"] = "Îïèñàíèå:";
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_DEFAULT"] = "Ïî óìîë÷àíèþ:";
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_NOT_CLOSE"] = "Íå çàêðûâàòü (àâòîìàòè÷åñêè):";
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_RESPONSIBLE_USER_ID"] = "Îòâåòñòâåííûé ïî óìîë÷àíèþ:";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_TIMESTAMP_X"] = "Ð”Ð°Ñ‚Ð° Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ñ:";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_NAME"] = "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ:";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_DESC"] = "ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ:";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_DEFAULT"] = "ÐŸÐ¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ:";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_NOT_CLOSE"] = "ÐÐµ Ð·Ð°ÐºÑ€Ñ‹Ð²Ð°Ñ‚ÑŒ (Ð°Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸):";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_FORM_RESPONSIBLE_USER_ID"] = "ÐžÑ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÐµÐ½Ð½Ñ‹Ð¹ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ:";
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_WIDTH"] = "Øèðèíà ïîëÿ";
-$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_HEIGHT"] = "Âûñîòà ïîëÿ";
-$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_REQUIRED"] = "Ïîëå îòâåòà îáÿçàòåëüíî äëÿ çàïîëíåíèÿ:";
-$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_SORT"] = "Èíäåêñ ñîðòèðîâêè:";
-$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_CODE"] = "Ñèìâîëüíûé êîä:";
+$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_WIDTH"] = "Ð¨Ð¸Ñ€Ð¸Ð½Ð° Ð¿Ð¾Ð»Ñ";
+$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_HEIGHT"] = "Ð’Ñ‹ÑÐ¾Ñ‚Ð° Ð¿Ð¾Ð»Ñ";
+$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_REQUIRED"] = "ÐŸÐ¾Ð»Ðµ Ð¾Ñ‚Ð²ÐµÑ‚Ð° Ð¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾ Ð´Ð»Ñ Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ:";
+$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_SORT"] = "Ð˜Ð½Ð´ÐµÐºÑ ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ¸:";
+$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_EDIT_FORM_CODE"] = "Ð¡Ð¸Ð¼Ð²Ð¾Ð»ÑŒÐ½Ñ‹Ð¹ ÐºÐ¾Ð´:";
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_REQUIRED_FIELDS"] = "Ïîëÿ îòìå÷åííûå * îáÿçàòåëüíûé äëÿ çàïîëíåíèÿ";
+$MESS["ALTASIB_SUPPORT_SETTINGS_FIELD_REQUIRED_FIELDS"] = "ÐŸÐ¾Ð»Ñ Ð¾Ñ‚Ð¼ÐµÑ‡ÐµÐ½Ð½Ñ‹Ðµ * Ð¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ð¹ Ð´Ð»Ñ Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ";
 
 //context
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_CONTEXT_CATEGORY_LIST"] = "Ñïèñîê êàòåãîðèé";
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_CONTEXT_CATEGORY_ADD"] = "Äîáàâèòü êàòåãîðèþ";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_CONTEXT_CATEGORY_LIST"] = "Ð¡Ð¿Ð¸ÑÐ¾Ðº ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¹";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_CONTEXT_CATEGORY_ADD"] = "Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸ÑŽ";
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_CONTEXT_SETTINGS"] = "Íàñòðîèòü";
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_CONTEXT_SETTINGS_TITLE"] = "Íàñòðîèòü âèä ôîðìû ðåäàêòèðîâàíèÿ";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_CONTEXT_SETTINGS"] = "ÐÐ°ÑÑ‚Ñ€Ð¾Ð¸Ñ‚ÑŒ";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_CONTEXT_SETTINGS_TITLE"] = "ÐÐ°ÑÑ‚Ñ€Ð¾Ð¸Ñ‚ÑŒ Ð²Ð¸Ð´ Ñ„Ð¾Ñ€Ð¼Ñ‹ Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ";
 
 //tab
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_TAB_MAIN"] = "Îñíîâíûå ïàðàìåòðû";
-$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_TAB_MAIN_TITLE"] = "Îñíîâíûå ïàðàìåòðû êàòåãîðèè";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_TAB_MAIN"] = "ÐžÑÐ½Ð¾Ð²Ð½Ñ‹Ðµ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹";
+$MESS["ALTASIB_SUPPORT_SETTINGS_CATEGORY_EDIT_TAB_MAIN_TITLE"] = "ÐžÑÐ½Ð¾Ð²Ð½Ñ‹Ðµ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸";
 
-$MESS['ALTASIB_SUPPORT_SETTINGS_CATEGORY_TITLE'] = 'Ôîðìà ñîçäàíèÿ êàòåãîðèè';
-$MESS['ALTASIB_SUPPORT_SETTINGS_CATEGORY_TITLE_EDIT'] = 'Ôîðìà èçìåíåíèÿ êàòåãîðèè';
+$MESS['ALTASIB_SUPPORT_SETTINGS_CATEGORY_TITLE'] = 'Ð¤Ð¾Ñ€Ð¼Ð° ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸';
+$MESS['ALTASIB_SUPPORT_SETTINGS_CATEGORY_TITLE_EDIT'] = 'Ð¤Ð¾Ñ€Ð¼Ð° Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ñ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸';
 ?>

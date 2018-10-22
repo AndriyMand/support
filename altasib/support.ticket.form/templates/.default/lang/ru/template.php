@@ -8,70 +8,70 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_CREATE"] = "Создать";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT"] = "Отправить";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_AND_GO"] = "Отправить и перейти в список";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_CANCEL"] = "Отменить";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_CREATE"] = "РЎРѕР·РґР°С‚СЊ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT"] = "РћС‚РїСЂР°РІРёС‚СЊ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_AND_GO"] = "РћС‚РїСЂР°РІРёС‚СЊ Рё РїРµСЂРµР№С‚Рё РІ СЃРїРёСЃРѕРє";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_SUBMIT_CANCEL"] = "РћС‚РјРµРЅРёС‚СЊ";
 
 
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_NAME"] = "Заголовок обращения";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_MESSAGE"] = "Текст сообщения";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CATEGORY"] = "Категория";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY"] = "Приоритет";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_NAME"] = "Р—Р°РіРѕР»РѕРІРѕРє РѕР±СЂР°С‰РµРЅРёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_MESSAGE"] = "РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CATEGORY"] = "РљР°С‚РµРіРѕСЂРёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY"] = "РџСЂРёРѕСЂРёС‚РµС‚";
 
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA'] = 'Ваш уровень поддержки #SLA_NAME#. Максимальное время реакции на обращение #SLA_TIME# ч.';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_RATE'] = 'Оценка ответов';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_SLA'] = 'Р’Р°С€ СѓСЂРѕРІРµРЅСЊ РїРѕРґРґРµСЂР¶РєРё #SLA_NAME#. РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ РІСЂРµРјСЏ СЂРµР°РєС†РёРё РЅР° РѕР±СЂР°С‰РµРЅРёРµ #SLA_TIME# С‡.';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_RATE'] = 'РћС†РµРЅРєР° РѕС‚РІРµС‚РѕРІ';
 
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_ADD_MESSAGE"] = "Добавить сообщение";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_ADD_NEW_MESSAGE"] = "Создать новое обращение";
-
-
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY_EMPTY"] = "не указан";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_FILE"] = "Прикрепить файлы";
-
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CAPTCHA_TITLE"] = "Защита от автоматического заполнения";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CAPTCHA_PROMPT"] = "Введите слово с картинки";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_ADD_MESSAGE"] = "Р”РѕР±Р°РІРёС‚СЊ СЃРѕРѕР±С‰РµРЅРёРµ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_ADD_NEW_MESSAGE"] = "РЎРѕР·РґР°С‚СЊ РЅРѕРІРѕРµ РѕР±СЂР°С‰РµРЅРёРµ";
 
 
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CLOSE"] = "Закрыть обращение";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_CLOSE_EX"] = "Закрыть обращение, статус не менять";
-$MESS["ALTASIB_SUPPORT_EDIT_FORM_OPEN"] = "Открыть обращение";
-$MESS["ALTASIB_SUPPORT_EDIT_REQUIRED"] = '- Поля отмеченные <span class="starrequired">*</span> обязательны для заполнения';
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_PRIORITY_EMPTY"] = "РЅРµ СѓРєР°Р·Р°РЅ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_FILE"] = "РџСЂРёРєСЂРµРїРёС‚СЊ С„Р°Р№Р»С‹";
 
-$MESS['ALTASIB_SUPPORT_FORM_PARAM_ANSW'] = 'Параметры ответа';
-$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME'] = 'Затраченное время';
-$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_TYPE'] = 'Тип';
-$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_H'] = 'Часы';
-$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_M'] = 'Минуты';
-
-$MESS['ALTASIB_SUPPORT_PATH_TO_LIST'] = 'К списку обращений';
-$MESS['ALTASIB_SUPPORT_MESSAGE_ADD_OK'] = 'Сообщение успешно добавлено';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_HIDDEN'] = 'Скрытое сообщение';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_OWNER'] = 'Автор'; 
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_NOT_CHANGE'] = 'Не изменять статус обращения';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT'] = 'Проект';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_GROUP'] = 'Группа';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_SELECT'] = 'выбрать';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_CHANGE'] = 'сменить';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_CLOSE_TITLE'] = 'обращение можно закрыть без написания сообщения';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_GROUP_NOTE'] = 'Создать группу для проекта можно в списке групп. <br> При создании обращения в группе, оно будет автоматически привязано к ней.';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_IS_DEFERRED_TITLE'] = 'Отложить обращение';
-
-$MESS['ALTASIB_SUPPORT_EDIT_QUICK_ANSWER_TITLE'] = 'Частый ответ';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_ID'] = 'Проект';
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CAPTCHA_TITLE"] = "Р—Р°С‰РёС‚Р° РѕС‚ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРѕРіРѕ Р·Р°РїРѕР»РЅРµРЅРёСЏ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CAPTCHA_PROMPT"] = "Р’РІРµРґРёС‚Рµ СЃР»РѕРІРѕ СЃ РєР°СЂС‚РёРЅРєРё";
 
 
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_SAVE'] = 'Сохранить';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_CANCEL'] = 'Отменить';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT'] = 'Проект';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_ADD'] = 'создать';
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CLOSE"] = "Р—Р°РєСЂС‹С‚СЊ РѕР±СЂР°С‰РµРЅРёРµ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_CLOSE_EX"] = "Р—Р°РєСЂС‹С‚СЊ РѕР±СЂР°С‰РµРЅРёРµ, СЃС‚Р°С‚СѓСЃ РЅРµ РјРµРЅСЏС‚СЊ";
+$MESS["ALTASIB_SUPPORT_EDIT_FORM_OPEN"] = "РћС‚РєСЂС‹С‚СЊ РѕР±СЂР°С‰РµРЅРёРµ";
+$MESS["ALTASIB_SUPPORT_EDIT_REQUIRED"] = '- РџРѕР»СЏ РѕС‚РјРµС‡РµРЅРЅС‹Рµ <span class="starrequired">*</span> РѕР±СЏР·Р°С‚РµР»СЊРЅС‹ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ';
+
+$MESS['ALTASIB_SUPPORT_FORM_PARAM_ANSW'] = 'РџР°СЂР°РјРµС‚СЂС‹ РѕС‚РІРµС‚Р°';
+$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME'] = 'Р—Р°С‚СЂР°С‡РµРЅРЅРѕРµ РІСЂРµРјСЏ';
+$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_TYPE'] = 'РўРёРї';
+$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_H'] = 'Р§Р°СЃС‹';
+$MESS['ALTASIB_SUPPORT_FORM_ELAPSED_TIME_M'] = 'РњРёРЅСѓС‚С‹';
+
+$MESS['ALTASIB_SUPPORT_PATH_TO_LIST'] = 'Рљ СЃРїРёСЃРєСѓ РѕР±СЂР°С‰РµРЅРёР№';
+$MESS['ALTASIB_SUPPORT_MESSAGE_ADD_OK'] = 'РЎРѕРѕР±С‰РµРЅРёРµ СѓСЃРїРµС€РЅРѕ РґРѕР±Р°РІР»РµРЅРѕ';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_HIDDEN'] = 'РЎРєСЂС‹С‚РѕРµ СЃРѕРѕР±С‰РµРЅРёРµ';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_OWNER'] = 'РђРІС‚РѕСЂ'; 
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_NOT_CHANGE'] = 'РќРµ РёР·РјРµРЅСЏС‚СЊ СЃС‚Р°С‚СѓСЃ РѕР±СЂР°С‰РµРЅРёСЏ';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT'] = 'РџСЂРѕРµРєС‚';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_GROUP'] = 'Р“СЂСѓРїРїР°';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_SELECT'] = 'РІС‹Р±СЂР°С‚СЊ';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_CHANGE'] = 'СЃРјРµРЅРёС‚СЊ';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_CLOSE_TITLE'] = 'РѕР±СЂР°С‰РµРЅРёРµ РјРѕР¶РЅРѕ Р·Р°РєСЂС‹С‚СЊ Р±РµР· РЅР°РїРёСЃР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_GROUP_NOTE'] = 'РЎРѕР·РґР°С‚СЊ РіСЂСѓРїРїСѓ РґР»СЏ РїСЂРѕРµРєС‚Р° РјРѕР¶РЅРѕ РІ СЃРїРёСЃРєРµ РіСЂСѓРїРї. <br> РџСЂРё СЃРѕР·РґР°РЅРёРё РѕР±СЂР°С‰РµРЅРёСЏ РІ РіСЂСѓРїРїРµ, РѕРЅРѕ Р±СѓРґРµС‚ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РїСЂРёРІСЏР·Р°РЅРѕ Рє РЅРµР№.';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_IS_DEFERRED_TITLE'] = 'РћС‚Р»РѕР¶РёС‚СЊ РѕР±СЂР°С‰РµРЅРёРµ';
+
+$MESS['ALTASIB_SUPPORT_EDIT_QUICK_ANSWER_TITLE'] = 'Р§Р°СЃС‚С‹Р№ РѕС‚РІРµС‚';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_ID'] = 'РџСЂРѕРµРєС‚';
 
 
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_ADD_INFO'] = 'Проект не найден, но его можно ';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_EDIT_POJECTS'] = 'Редактирование проекта';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_ENTER_NAME'] = 'Введите название проекта';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_SAVE'] = 'РЎРѕС…СЂР°РЅРёС‚СЊ';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_CANCEL'] = 'РћС‚РјРµРЅРёС‚СЊ';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT'] = 'РџСЂРѕРµРєС‚';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_ADD'] = 'СЃРѕР·РґР°С‚СЊ';
 
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_DELETE_PROJECTS'] = 'Удалить выбранный проект';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_RENAME_PROJECTS'] = 'Переименовать проект';
-$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_MERGE_PROJECTS'] = 'Слить с другим проектом';
+
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_ADD_INFO'] = 'РџСЂРѕРµРєС‚ РЅРµ РЅР°Р№РґРµРЅ, РЅРѕ РµРіРѕ РјРѕР¶РЅРѕ ';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_EDIT_POJECTS'] = 'Р РµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ РїСЂРѕРµРєС‚Р°';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_ENTER_NAME'] = 'Р’РІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ РїСЂРѕРµРєС‚Р°';
+
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_DELETE_PROJECTS'] = 'РЈРґР°Р»РёС‚СЊ РІС‹Р±СЂР°РЅРЅС‹Р№ РїСЂРѕРµРєС‚';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_RENAME_PROJECTS'] = 'РџРµСЂРµРёРјРµРЅРѕРІР°С‚СЊ РїСЂРѕРµРєС‚';
+$MESS['ALTASIB_SUPPORT_EDIT_FORM_PROJECT_MERGE_PROJECTS'] = 'РЎР»РёС‚СЊ СЃ РґСЂСѓРіРёРј РїСЂРѕРµРєС‚РѕРј';
 ?>

@@ -8,40 +8,40 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_OPTIONS_MAIN"] = "Основные параметры";
-$MESS["ALTASIB_SUPPORT_OPTIONS_MAIN_TITLE"] = "Основные параметры модуля";
+$MESS["ALTASIB_SUPPORT_OPTIONS_MAIN"] = "РћСЃРЅРѕРІРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹";
+$MESS["ALTASIB_SUPPORT_OPTIONS_MAIN_TITLE"] = "РћСЃРЅРѕРІРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ РјРѕРґСѓР»СЏ";
 
-$MESS["ALTASIB_SUPPORT_OPTIONS_SUPPORT_MAIL"] = "E-main тех. поддержки";
-$MESS["ALTASIB_SUPPORT_OPTIONS_DEFAULT_STATUS"] = "Статус обращения по умолчанию";
-$MESS["ALTASIB_SUPPORT_OPTIONS_RE_STATUS"] = "Статус обращения повторный";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FINAL_STATUS"] = "Статус обращения финальный";
-$MESS['ALTASIB_SUPPORT_OPTIONS_SET_STATUS'] = 'Переводить в статус при первом ответе';
-$MESS["ALTASIB_SUPPORT_OPTIONS_AUTO_CLOSE"] = "Автозакрытие обращения через <small>(дней)</small>";
+$MESS["ALTASIB_SUPPORT_OPTIONS_SUPPORT_MAIL"] = "E-main С‚РµС…. РїРѕРґРґРµСЂР¶РєРё";
+$MESS["ALTASIB_SUPPORT_OPTIONS_DEFAULT_STATUS"] = "РЎС‚Р°С‚СѓСЃ РѕР±СЂР°С‰РµРЅРёСЏ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ";
+$MESS["ALTASIB_SUPPORT_OPTIONS_RE_STATUS"] = "РЎС‚Р°С‚СѓСЃ РѕР±СЂР°С‰РµРЅРёСЏ РїРѕРІС‚РѕСЂРЅС‹Р№";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FINAL_STATUS"] = "РЎС‚Р°С‚СѓСЃ РѕР±СЂР°С‰РµРЅРёСЏ С„РёРЅР°Р»СЊРЅС‹Р№";
+$MESS['ALTASIB_SUPPORT_OPTIONS_SET_STATUS'] = 'РџРµСЂРµРІРѕРґРёС‚СЊ РІ СЃС‚Р°С‚СѓСЃ РїСЂРё РїРµСЂРІРѕРј РѕС‚РІРµС‚Рµ';
+$MESS["ALTASIB_SUPPORT_OPTIONS_AUTO_CLOSE"] = "РђРІС‚РѕР·Р°РєСЂС‹С‚РёРµ РѕР±СЂР°С‰РµРЅРёСЏ С‡РµСЂРµР· <small>(РґРЅРµР№)</small>";
 
-$MESS["ALTASIB_SUPPORT_ALLOW_TAGS"] = "Разрешенные теги в редакторе";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_BIU"] = "позволить теги B, U, I, S <small>(&lt;b&gt; &lt;u&gt; &lt;i&gt; &lt;s&gt;)</small>";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_FONT"] = "позволить шрифты <small>(&lt;font color=...&gt;)</small>";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_QUOTE"] = "позволить цитирование <small>(&lt;quote&gt;)</small>";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_CODE"] = "позволить коды <small>(&lt;code&gt;)</small>";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_ANCHOR"] = "позволить ссылки <small>(&lt;a href=...&gt;)</small>";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_IMG"] = "позволить изображения <small>(&lt;img src=...&gt;)</small>";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_TABLE"] = "позволить таблицы <small>(&lt;table&gt;)</small>";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_LIST"] = "позволить списки <small>(&lt;ul&gt;&lt;li&gt;)</small>";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_NL2BR"] = "заменять символ перевода каретки на &lt;br&gt;";
-$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_VIDEO"] = "позволить видео";
+$MESS["ALTASIB_SUPPORT_ALLOW_TAGS"] = "Р Р°Р·СЂРµС€РµРЅРЅС‹Рµ С‚РµРіРё РІ СЂРµРґР°РєС‚РѕСЂРµ";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_BIU"] = "РїРѕР·РІРѕР»РёС‚СЊ С‚РµРіРё B, U, I, S <small>(&lt;b&gt; &lt;u&gt; &lt;i&gt; &lt;s&gt;)</small>";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_FONT"] = "РїРѕР·РІРѕР»РёС‚СЊ С€СЂРёС„С‚С‹ <small>(&lt;font color=...&gt;)</small>";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_QUOTE"] = "РїРѕР·РІРѕР»РёС‚СЊ С†РёС‚РёСЂРѕРІР°РЅРёРµ <small>(&lt;quote&gt;)</small>";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_CODE"] = "РїРѕР·РІРѕР»РёС‚СЊ РєРѕРґС‹ <small>(&lt;code&gt;)</small>";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_ANCHOR"] = "РїРѕР·РІРѕР»РёС‚СЊ СЃСЃС‹Р»РєРё <small>(&lt;a href=...&gt;)</small>";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_IMG"] = "РїРѕР·РІРѕР»РёС‚СЊ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ <small>(&lt;img src=...&gt;)</small>";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_TABLE"] = "РїРѕР·РІРѕР»РёС‚СЊ С‚Р°Р±Р»РёС†С‹ <small>(&lt;table&gt;)</small>";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_LIST"] = "РїРѕР·РІРѕР»РёС‚СЊ СЃРїРёСЃРєРё <small>(&lt;ul&gt;&lt;li&gt;)</small>";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_NL2BR"] = "Р·Р°РјРµРЅСЏС‚СЊ СЃРёРјРІРѕР» РїРµСЂРµРІРѕРґР° РєР°СЂРµС‚РєРё РЅР° &lt;br&gt;";
+$MESS["ALTASIB_SUPPORT_OPTIONS_FORM_ALLOW_VIDEO"] = "РїРѕР·РІРѕР»РёС‚СЊ РІРёРґРµРѕ";
 
-$MESS['ALTASIB_SUPPORT_OPTIONS_PATH'] = 'Детальный путь к обращению';
-$MESS['ALTASIB_SUPPORT_OPTIONS_PATH_GET_FILE'] = 'Путь для скачивания прикрепленных файлов';
+$MESS['ALTASIB_SUPPORT_OPTIONS_PATH'] = 'Р”РµС‚Р°Р»СЊРЅС‹Р№ РїСѓС‚СЊ Рє РѕР±СЂР°С‰РµРЅРёСЋ';
+$MESS['ALTASIB_SUPPORT_OPTIONS_PATH_GET_FILE'] = 'РџСѓС‚СЊ РґР»СЏ СЃРєР°С‡РёРІР°РЅРёСЏ РїСЂРёРєСЂРµРїР»РµРЅРЅС‹С… С„Р°Р№Р»РѕРІ';
 
-$MESS['ALTASIB_SUPPORT_LOAD_OLD_SUPPORT_TICKET'] = 'Импортировать тикеты с модуля 1С-Битрикс тех. поддержка';
-$MESS['ALTASIB_SUPPORT_IMPORTED'] = 'Импортировано';
+$MESS['ALTASIB_SUPPORT_LOAD_OLD_SUPPORT_TICKET'] = 'РРјРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ С‚РёРєРµС‚С‹ СЃ РјРѕРґСѓР»СЏ 1РЎ-Р‘РёС‚СЂРёРєСЃ С‚РµС…. РїРѕРґРґРµСЂР¶РєР°';
+$MESS['ALTASIB_SUPPORT_IMPORTED'] = 'РРјРїРѕСЂС‚РёСЂРѕРІР°РЅРѕ';
 
-$MESS['ALTASIB_SUPPORT_OPTIONS_PATHS'] = 'Шаблоны ссылок';
-$MESS['ALTASIB_SUPPORT_OPTIONS_SITE_SETTINGS'] = 'Настройки для сайта';
-$MESS['ALTASIB_SUPPORT_PATH_LIST'] = 'Список обращений';
-$MESS['ALTASIB_SUPPORT_PATH_DETAIL'] = 'Обращение детально';
-$MESS['ALTASIB_SUPPORT_PATH_FILE'] = 'Скачивания прикрепленных файлов';
-$MESS['ALTASIB_SUPPORT_PATH_GROUP_LIST'] = 'Список обращений в проекте(группе)';
-$MESS['ALTASIB_SUPPORT_PATH_GROUP_DETAIL'] = 'Обращение детально в проекте(группе)';
-$MESS['ALTASIB_SUPPORT_PATH_GROUP_FILE'] = 'Скачивания прикрепленных файлов в проекте(группе)';
+$MESS['ALTASIB_SUPPORT_OPTIONS_PATHS'] = 'РЁР°Р±Р»РѕРЅС‹ СЃСЃС‹Р»РѕРє';
+$MESS['ALTASIB_SUPPORT_OPTIONS_SITE_SETTINGS'] = 'РќР°СЃС‚СЂРѕР№РєРё РґР»СЏ СЃР°Р№С‚Р°';
+$MESS['ALTASIB_SUPPORT_PATH_LIST'] = 'РЎРїРёСЃРѕРє РѕР±СЂР°С‰РµРЅРёР№';
+$MESS['ALTASIB_SUPPORT_PATH_DETAIL'] = 'РћР±СЂР°С‰РµРЅРёРµ РґРµС‚Р°Р»СЊРЅРѕ';
+$MESS['ALTASIB_SUPPORT_PATH_FILE'] = 'РЎРєР°С‡РёРІР°РЅРёСЏ РїСЂРёРєСЂРµРїР»РµРЅРЅС‹С… С„Р°Р№Р»РѕРІ';
+$MESS['ALTASIB_SUPPORT_PATH_GROUP_LIST'] = 'РЎРїРёСЃРѕРє РѕР±СЂР°С‰РµРЅРёР№ РІ РїСЂРѕРµРєС‚Рµ(РіСЂСѓРїРїРµ)';
+$MESS['ALTASIB_SUPPORT_PATH_GROUP_DETAIL'] = 'РћР±СЂР°С‰РµРЅРёРµ РґРµС‚Р°Р»СЊРЅРѕ РІ РїСЂРѕРµРєС‚Рµ(РіСЂСѓРїРїРµ)';
+$MESS['ALTASIB_SUPPORT_PATH_GROUP_FILE'] = 'РЎРєР°С‡РёРІР°РЅРёСЏ РїСЂРёРєСЂРµРїР»РµРЅРЅС‹С… С„Р°Р№Р»РѕРІ РІ РїСЂРѕРµРєС‚Рµ(РіСЂСѓРїРїРµ)';
 ?>

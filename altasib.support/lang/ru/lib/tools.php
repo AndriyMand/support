@@ -8,16 +8,16 @@
 #################################################
 ?>
 <?
-$MESS['ALTASIB_SUPPORT_TOOLS_HOUR_1'] = '÷àñ';
-$MESS['ALTASIB_SUPPORT_TOOLS_HOUR_2'] = '÷àñà';
-$MESS['ALTASIB_SUPPORT_TOOLS_HOUR_3'] = '÷àñîâ';
-$MESS['ALTASIB_SUPPORT_TOOLS_MINUTE'] = 'ìèíóò';
+$MESS['ALTASIB_SUPPORT_TOOLS_HOUR_1'] = 'Ñ‡Ð°Ñ';
+$MESS['ALTASIB_SUPPORT_TOOLS_HOUR_2'] = 'Ñ‡Ð°ÑÐ°';
+$MESS['ALTASIB_SUPPORT_TOOLS_HOUR_3'] = 'Ñ‡Ð°ÑÐ¾Ð²';
+$MESS['ALTASIB_SUPPORT_TOOLS_MINUTE'] = 'Ð¼Ð¸Ð½ÑƒÑ‚';
 
-$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_MODULE'] = 'Òåõíè÷åñêàÿ ïîääåðæêà';
-$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_CREATE_TICKET'] = 'Ñîçäàíèå îáðàùåíèÿ';
-$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_EDIT'] = 'Èçìåíåíèå â îáðàùåíèè';
-$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_ADD_MESSAGE'] = 'Íîâîå ñîîáùåíèÿ';
-$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_RESP'] = 'Óâåäîìëåíèå î íàçíà÷åíèè';
+$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_MODULE'] = 'Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°';
+$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_CREATE_TICKET'] = 'Ð¡Ð¾Ð·Ð´Ð°Ð½Ð¸Ðµ Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_EDIT'] = 'Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ Ð² Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ð¸';
+$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_ADD_MESSAGE'] = 'ÐÐ¾Ð²Ð¾Ðµ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_RESP'] = 'Ð£Ð²ÐµÐ´Ð¾Ð¼Ð»ÐµÐ½Ð¸Ðµ Ð¾ Ð½Ð°Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¸';
 
-$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_ANSWER'] = 'Ñîîáùåíèå îòïðàâëåíî â òèêåò.';
+$MESS['ALTASIB_SUPPORT_TOOLS_NOTIFY_ANSWER'] = 'Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¾ Ð² Ñ‚Ð¸ÐºÐµÑ‚.';
 ?>

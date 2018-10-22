@@ -362,27 +362,30 @@ a.altasib-support-info-user-avatar
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background: url("/bitrix/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll  -50px -14px #fff;
+    background: url("/bitrix/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll  -47px -11px #7E8691;
 	
     background-clip: border-box;
 	
     background-origin: padding-box;
     background-size: auto auto;
-    border-color: #e7e9ea #e8eaeb #e8eaeb #e7e9ea!important;
+    /*border-color: #e7e9ea #e8eaeb #e8eaeb #e7e9ea!important;
     border-image: none;
     border-radius: 2px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 1px;*/
+	border: none;
+	border-radius: 25px;
+    overflow: hidden;
     box-shadow: -1px -1px 1px -1px rgba(0, 0, 0, 0.08) inset;
     margin: 0;
-    padding: 2px;
+    /*padding: 2px;*/
 
     
     display: block;
     float: left;
-    height: 30px;
+    height: 40px;
     margin: 0 11px 0 0;
-    width: 30px;	
+    width: 40px;	
 }
 div.altasib-column-support-user-info
 {
@@ -404,12 +407,30 @@ div.altasib-column-support-title  a{
 	float: right;
 	border: 0px solid #999!important;
 	padding: 0 10px 3px 10px;
-	margin-top: -7px;
-	background-color: #D5DBDF;
+	/*margin-top: -7px;
+	background-color: #D5DBDF;*/
 	height: 20px;
-	color: #fff!important;
+	/*color: #fff!important;*/
     transition: background-color 0.3s linear 0s !important;	
+	position: relative;
 }
+div.altasib-column-support-title  a:after {
+  content: '•••';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000;
+}
+.altasib-column-support-title.name_head {
+	padding: 8px 15px;
+    margin-left: -7px;
+    margin-right: -7px;
+    background: #f2f2f2;
+}
+#support-detail-info .colum-tr .colum-name {text-align: right;}
 div.altasib-column-support-title  a:hover{
 	background-color: #a5aBaF;
 }

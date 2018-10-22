@@ -8,10 +8,10 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_LIST_NAME"] = "Íàçâàíèå";
-$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_LIST_DEFAULT'] = 'Ïî óìîë÷àíèþ';
-$MESS["ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_LIST_COST"] = "Òåêóùàÿ ñòîèìîñòü ÷àñà";
-$MESS["ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_CONTEXT_ADD"] = "Äîáàâèòü òèï";
+$MESS["ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_LIST_NAME"] = "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ";
+$MESS['ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_LIST_DEFAULT'] = 'ÐŸÐ¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ';
+$MESS["ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_LIST_COST"] = "Ð¢ÐµÐºÑƒÑ‰Ð°Ñ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ Ñ‡Ð°ÑÐ°";
+$MESS["ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_CONTEXT_ADD"] = "Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ñ‚Ð¸Ð¿";
 
-$MESS["ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_TITLE"] = "Ñïèñîê òèïîâ âðåìåíè";
+$MESS["ALTASIB_SUPPORT_SETTINGS_TYPE_TIME_TITLE"] = "Ð¡Ð¿Ð¸ÑÐ¾Ðº Ñ‚Ð¸Ð¿Ð¾Ð² Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸";
 ?>

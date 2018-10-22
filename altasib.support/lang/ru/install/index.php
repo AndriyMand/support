@@ -8,31 +8,31 @@
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_MODULE_NAME"] = "Òåõíè÷åñêàÿ ïîääåðæêà";
+$MESS["ALTASIB_SUPPORT_MODULE_NAME"] = "Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°";
 $MESS["ALTASIB_SUPPORT_MODULE_DESC"] = "-";
 
-$MESS["ALTASIB_SUPPORT_INSTALL_TITLE"] = "Óñòàíîâêà ìîäóëÿ \"Òåõíè÷åñêàÿ ïîääåðæêà\"";
-$MESS["ALTASIB_SUPPORT_UNINSTALL_TITLE"] = "Óäàëåíèå ìîäóëÿ \"Òåõíè÷åñêàÿ ïîääåðæêà\"";
+$MESS["ALTASIB_SUPPORT_INSTALL_TITLE"] = "Ð£ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ° Ð¼Ð¾Ð´ÑƒÐ»Ñ \"Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°\"";
+$MESS["ALTASIB_SUPPORT_UNINSTALL_TITLE"] = "Ð£Ð´Ð°Ð»ÐµÐ½Ð¸Ðµ Ð¼Ð¾Ð´ÑƒÐ»Ñ \"Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°\"";
 
 //Right
-$MESS["ALTASIB_SUPPORT_DENIED"] = "Äîñòóï çàêðûò";
-$MESS["ALTASIB_SUPPORT_CLIENT"] = "Ïîëüçîâàòåëü";
-$MESS["ALTASIB_SUPPORT_EMPLOYEE"] = "Ñîòðóäíèê";
-$MESS["ALTASIB_SUPPORT_ADMIN"] = "Àäìèíèñòðàòîð(ïîëíûé äîñòóï)";
+$MESS["ALTASIB_SUPPORT_DENIED"] = "Ð”Ð¾ÑÑ‚ÑƒÐ¿ Ð·Ð°ÐºÑ€Ñ‹Ñ‚";
+$MESS["ALTASIB_SUPPORT_CLIENT"] = "ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒ";
+$MESS["ALTASIB_SUPPORT_EMPLOYEE"] = "Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸Ðº";
+$MESS["ALTASIB_SUPPORT_ADMIN"] = "ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€(Ð¿Ð¾Ð»Ð½Ñ‹Ð¹ Ð´Ð¾ÑÑ‚ÑƒÐ¿)";
 
-$MESS["ALTASIB_SUPPORT_GROUP_EMPLOYEE"] = "Ñîòðóäíèêè òåõíè÷åñêîé ïîääåðæêè";
-$MESS["ALTASIB_SUPPORT_GROUP_ADMIN"] = "Àäìèíèñòðàòîðû òåõíè÷åñêîé ïîääåðæêè";
+$MESS["ALTASIB_SUPPORT_GROUP_EMPLOYEE"] = "Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸ÐºÐ¸ Ñ‚ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ¾Ð¹ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ¸";
+$MESS["ALTASIB_SUPPORT_GROUP_ADMIN"] = "ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€Ñ‹ Ñ‚ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ¾Ð¹ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ¸";
 
-$MESS['ALTASIB_SUPPORT_CAREGORY'] = 'Îáùèå âîïðîñû';
+$MESS['ALTASIB_SUPPORT_CAREGORY'] = 'ÐžÐ±Ñ‰Ð¸Ðµ Ð²Ð¾Ð¿Ñ€Ð¾ÑÑ‹';
 
-$MESS['ALTASIB_SUPPORT_STATUS_1'] = 'Ïðèíÿòî ê ðàññìîòðåíèþ';
-$MESS['ALTASIB_SUPPORT_STATUS_2'] = 'Â ñòàäèè ðåøåíèÿ';
-$MESS['ALTASIB_SUPPORT_STATUS_3'] = 'Óñïåøíî ðåøåíî';
-$MESS['ALTASIB_SUPPORT_STATUS_4'] = 'Íå ïðåäñòàâëÿåòñÿ âîçìîæíûì ðåøèòü';
-$MESS['ALTASIB_SUPPORT_STATUS_5'] = 'Ïîñòàâëåíî â ïëàí ðàáîò';
+$MESS['ALTASIB_SUPPORT_STATUS_1'] = 'ÐŸÑ€Ð¸Ð½ÑÑ‚Ð¾ Ðº Ñ€Ð°ÑÑÐ¼Ð¾Ñ‚Ñ€ÐµÐ½Ð¸ÑŽ';
+$MESS['ALTASIB_SUPPORT_STATUS_2'] = 'Ð’ ÑÑ‚Ð°Ð´Ð¸Ð¸ Ñ€ÐµÑˆÐµÐ½Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_STATUS_3'] = 'Ð£ÑÐ¿ÐµÑˆÐ½Ð¾ Ñ€ÐµÑˆÐµÐ½Ð¾';
+$MESS['ALTASIB_SUPPORT_STATUS_4'] = 'ÐÐµ Ð¿Ñ€ÐµÐ´ÑÑ‚Ð°Ð²Ð»ÑÐµÑ‚ÑÑ Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ñ‹Ð¼ Ñ€ÐµÑˆÐ¸Ñ‚ÑŒ';
+$MESS['ALTASIB_SUPPORT_STATUS_5'] = 'ÐŸÐ¾ÑÑ‚Ð°Ð²Ð»ÐµÐ½Ð¾ Ð² Ð¿Ð»Ð°Ð½ Ñ€Ð°Ð±Ð¾Ñ‚';
 
-$MESS['ALTASIB_SUPPORT_INSTALL_DIR'] = 'Óñòàíîâèòü ïóáëè÷íóþ ÷àñòü äëÿ ñàéòà';
-$MESS['ALTASIB_SUPPORT_INSTALL_DIR_NAME'] = 'Êàòàëîã äëÿ óñòàíîâêè';
+$MESS['ALTASIB_SUPPORT_INSTALL_DIR'] = 'Ð£ÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ð¿ÑƒÐ±Ð»Ð¸Ñ‡Ð½ÑƒÑŽ Ñ‡Ð°ÑÑ‚ÑŒ Ð´Ð»Ñ ÑÐ°Ð¹Ñ‚Ð°';
+$MESS['ALTASIB_SUPPORT_INSTALL_DIR_NAME'] = 'ÐšÐ°Ñ‚Ð°Ð»Ð¾Ð³ Ð´Ð»Ñ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸';
 
-$MESS['ALTASIB_SUPPORT_INSTALL_SLA'] = 'Ñòàíäàðòíûé';
+$MESS['ALTASIB_SUPPORT_INSTALL_SLA'] = 'Ð¡Ñ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚Ð½Ñ‹Ð¹';
 ?>

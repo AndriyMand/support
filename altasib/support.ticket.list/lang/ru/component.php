@@ -1,19 +1,19 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgenió Pedan                    #
+#   Developer: EvgeniÑƒ Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
 #   Copyright (c) 2006-2014 ALTASIB             #
 #################################################
 ?>
 <?
-$MESS["ALTASIB_SUPPORT_MODULE_NOT_INSTALL"] = "Ìîäóëü Òåõíè÷åñêàÿ ïîääåðæêà íå óñòàíîâëåí";
-$MESS["ALTASIB_SUPPORT_TL_C_PAG_TICKETS"] = "Îáðàùåíèÿ";
+$MESS["ALTASIB_SUPPORT_MODULE_NOT_INSTALL"] = "ÐœÐ¾Ð´ÑƒÐ»ÑŒ Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ° Ð½Ðµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½";
+$MESS["ALTASIB_SUPPORT_TL_C_PAG_TICKETS"] = "ÐžÐ±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ";
 
-$MESS['ALTASIB_SUPPORT_FILTER_MESSAGE'] = 'Òåêñò ñîîáùåíèÿ';
-$MESS['ALTASIB_SUPPORT_FILTER_NO_REPLY'] = 'Òðåáóþùèå îòâåòà';
-$MESS['ALTASIB_STL_T_LIST_GROUP_ID'] = 'Ãðóïïà';
-$MESS['ALTASIB_STL_T_LIST_PROJECT_ID'] = 'Ïðîåêò';
-$MESS['ALTASIB_SUPPORT_PAGE_NAME'] = 'Òåõíè÷åñêàÿ ïîääåðæêà: ñïèñîê îáðàùåíèé';
+$MESS['ALTASIB_SUPPORT_FILTER_MESSAGE'] = 'Ð¢ÐµÐºÑÑ‚ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ';
+$MESS['ALTASIB_SUPPORT_FILTER_NO_REPLY'] = 'Ð¢Ñ€ÐµÐ±ÑƒÑŽÑ‰Ð¸Ðµ Ð¾Ñ‚Ð²ÐµÑ‚Ð°';
+$MESS['ALTASIB_STL_T_LIST_GROUP_ID'] = 'Ð“Ñ€ÑƒÐ¿Ð¿Ð°';
+$MESS['ALTASIB_STL_T_LIST_PROJECT_ID'] = 'ÐŸÑ€Ð¾ÐµÐºÑ‚';
+$MESS['ALTASIB_SUPPORT_PAGE_NAME'] = 'Ð¢ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°: ÑÐ¿Ð¸ÑÐ¾Ðº Ð¾Ð±Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ð¹';
 ?>
